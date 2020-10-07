@@ -1,6 +1,10 @@
 var Met = 0;
+var Vt = 0;
+var Mat = 0;
+    var Mar = 300;
 var Et = 0;
-var mt = 0;
+    var mt = 0;
+
 var sunX = 100;
 var sunY = 250;
 
@@ -16,6 +20,35 @@ function MercuryGo() {
         left: MenewLeft,
     }, 1, function() {
         MercuryGo();
+    });
+}
+
+function VenusGo() {
+    Vt += 0.005;
+    $('#VRing').fadeIn(1000);
+    $('#flatVenus').fadeIn(1000);
+    var Vr = 140;
+    var VnewLeft = Math.floor(sunX + (Vr * Math.cos(Vt)));
+    var VnewTop = Math.floor(sunY + (Vr * Math.sin(Vt)));
+    $('#flatVenus').animate({
+        top: VnewTop,
+        left: VnewLeft,
+    }, 1, function() {
+        VenusGo();
+    });
+}
+
+function MarsGo() {
+    Mat += 0.00375;
+    $('#MaRing').fadeIn(1000);
+    $('#flatMars').fadeIn(1000);
+    var ManewLeft = Math.floor(sunX + (Mar * Math.cos(Mat)));
+    var ManewTop = Math.floor(sunY + (Mar * Math.sin(Mat)));
+    $('#flatMars').animate({
+        top: ManewTop,
+        left: ManewLeft,
+    }, 1, function() {
+        MarsGo();
     });
 }
 
@@ -65,6 +98,8 @@ function EarthGo() {
 $(document).ready(function() {
     $('#flatSun').fadeIn(1000);
     setTimeout(MercuryGo, 500);
+    setTimeout(VenusGo, 825);
     setTimeout(EarthGo, 1250);
+    setTimeout(MarsGo, 1575);
     
 });
