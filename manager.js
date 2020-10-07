@@ -11,6 +11,12 @@ var Et = 0;
     //var astBelt = $('#astBelt')
 var Jt = 0;
     var Jr = 550;
+var St = 0;
+    var Sr = 725;
+var Ut = 0;
+    var Ur = 875;
+var Nt = 0;
+    var Nr = 1125;
 
 var sunX = 100;
 var sunY = 250;
@@ -118,6 +124,47 @@ function JupiterGo() {
     });
 }
 
+function SaturnGo() {
+    St += 0.001625;
+    $('#SRing').fadeIn(1000);
+    $('#flatSaturn').fadeIn(1000);
+    var SnewLeft = Math.floor(sunX + (Sr * Math.cos(St)));
+    var SnewTop = Math.floor(sunY + (Sr * Math.sin(St)));
+    $('#flatSaturn').animate({
+        top: SnewTop,
+        left: SnewLeft,
+    }, 1, function() {
+        SaturnGo();
+    });
+}
+
+function UranusGo() {
+    Ut += 0.00114286;
+    $('#URing').fadeIn(1000);
+    $('#flatUranus').fadeIn(1000);
+    var UnewLeft = Math.floor(sunX + (Ur * Math.cos(Ut)));
+    var UnewTop = Math.floor(sunY + (Ur * Math.sin(Ut)));
+    $('#flatUranus').animate({
+        top: UnewTop,
+        left: UnewLeft,
+    }, 1, function() {
+        UranusGo();
+    });
+}
+
+function NeptuneGo() {
+    Nt += 0.00091186;
+    $('#NRing').fadeIn(1000);
+    $('#flatNeptune').fadeIn(1000);
+    var NnewLeft = Math.floor(sunX + (Nr * Math.cos(Nt)));
+    var NnewTop = Math.floor(sunY + (Nr * Math.sin(Nt)));
+    $('#flatNeptune').animate({
+        top: NnewTop,
+        left: NnewLeft,
+    }, 1, function() {
+        NeptuneGo();
+    });
+}
 
 
 
@@ -133,5 +180,8 @@ $(document).ready(function() {
     setTimeout(MarsGo, 1575);
     setTimeout(astGo, 1900);
     setTimeout(JupiterGo, 2225);
+    setTimeout(SaturnGo, 2550);
+    setTimeout(UranusGo, 2875);
+    setTimeout(NeptuneGo, 3200);
     
 });
