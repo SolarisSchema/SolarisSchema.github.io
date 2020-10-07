@@ -1,34 +1,19 @@
 var Met = 0;
+    var Mer = 75;
 var Vt = 0;
+    var Vr = 140;
 var Mat = 0;
     var Mar = 300;
 var Et = 0;
+    var Er = 200;
     var mt = 0;
 //var abt = 0;
     //var astBelt = $('#astBelt')
+var Jt = 0;
+    var Jr = 550;
 
 var sunX = 100;
 var sunY = 250;
-
-
-//math function
-function getRotationDegrees(obj) {
-    var matrix = obj.css("-webkit-transform") ||
-    obj.css("-moz-transform")    ||
-    obj.css("-ms-transform")     ||
-    obj.css("-o-transform")      ||
-    obj.css("transform");
-    if(matrix !== 'none') {
-        var values = matrix.split('(')[1].split(')')[0].split(',');
-        var a = values[0];
-        var b = values[1];
-        var angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
-    } else { var angle = 0; }
-    //return (angle < 0) ? angle + 360 : angle;
-    return angle;
-}
-
-
 
 
 //planetary orbit functions
@@ -36,7 +21,6 @@ function MercuryGo() {
     Met += 0.01;
     $('#MeRing').fadeIn(1000);
     $('#flatMercury').fadeIn(1000);
-    var Mer = 75;
     var MenewLeft = Math.floor(sunX + (Mer * Math.cos(Met)));
     var MenewTop = Math.floor(sunY + (Mer * Math.sin(Met)));
     $('#flatMercury').animate({
@@ -51,7 +35,6 @@ function VenusGo() {
     Vt += 0.005;
     $('#VRing').fadeIn(1000);
     $('#flatVenus').fadeIn(1000);
-    var Vr = 140;
     var VnewLeft = Math.floor(sunX + (Vr * Math.cos(Vt)));
     var VnewTop = Math.floor(sunY + (Vr * Math.sin(Vt)));
     $('#flatVenus').animate({
@@ -66,7 +49,6 @@ function EarthGo() {
     Et += 0.005;
     $('#ERing').fadeIn(1000);
     $('#flatEarth').fadeIn(1000);
-    var Er = 200;
     var EcurrTop = parseInt($('#flatEarth').css("top"));
     var EcurrLeft = parseInt($('#flatEarth').css("left"));
     var EnewLeft = Math.floor(sunX + (Er * Math.cos(Et)));
@@ -122,7 +104,19 @@ function astGo() {
     });
 }
 
-
+function JupiterGo() {
+    Jt += 0.0021925;
+    $('#JRing').fadeIn(1000);
+    $('#flatJupiter').fadeIn(1000);
+    var JnewLeft = Math.floor(sunX + (Jr * Math.cos(Jt)));
+    var JnewTop = Math.floor(sunY + (Jr * Math.sin(Jt)));
+    $('#flatJupiter').animate({
+        top: JnewTop,
+        left: JnewLeft,
+    }, 1, function() {
+        JupiterGo();
+    });
+}
 
 
 
@@ -138,5 +132,6 @@ $(document).ready(function() {
     setTimeout(EarthGo, 1250);
     setTimeout(MarsGo, 1575);
     setTimeout(astGo, 1900);
+    setTimeout(JupiterGo, 2225);
     
 });
