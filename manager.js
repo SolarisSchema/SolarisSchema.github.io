@@ -1,18 +1,33 @@
+var Met = 0;
 var Et = 0;
 var mt = 0;
-var timedEntry = "";
+var sunX = 100;
+var sunY = 250;
 
+function MercuryGo() {
+    Met += 0.01;
+    $('#MeRing').fadeIn(1000);
+    $('#flatMercury').fadeIn(1000);
+    var Mer = 75;
+    var MenewLeft = Math.floor(sunX + (Mer * Math.cos(Met)));
+    var MenewTop = Math.floor(sunY + (Mer * Math.sin(Met)));
+    $('#flatMercury').animate({
+        top: MenewTop,
+        left: MenewLeft,
+    }, 1, function() {
+        MercuryGo();
+    });
+}
 
 function EarthGo() {
     Et += 0.005;
+    $('#ERing').fadeIn(1000);
     $('#flatEarth').fadeIn(1000);
     var Er = 200;
-    var Excenter = 100;
-    var Eycenter = 250;
     var EcurrTop = parseInt($('#flatEarth').css("top"));
     var EcurrLeft = parseInt($('#flatEarth').css("left"));
-    var EnewLeft = Math.floor(Excenter + (Er * Math.cos(Et)));
-    var EnewTop = Math.floor(Eycenter + (Er * Math.sin(Et)));
+    var EnewLeft = Math.floor(sunX + (Er * Math.cos(Et)));
+    var EnewTop = Math.floor(sunY + (Er * Math.sin(Et)));
     $('#flatEarth').animate({
         top: EnewTop,
         left: EnewLeft,
@@ -49,6 +64,7 @@ function EarthGo() {
 //call function once page is ready
 $(document).ready(function() {
     $('#flatSun').fadeIn(1000);
-    timedEntry = setTimeout(EarthGo, 1250);
+    setTimeout(MercuryGo, 500);
+    setTimeout(EarthGo, 1250);
     
 });

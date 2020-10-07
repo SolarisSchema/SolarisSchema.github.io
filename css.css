@@ -1,17 +1,39 @@
 body {
-	background-color: rgb(34, 8, 64);	
+    background-color: rgb(34, 8, 64);
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #flatSun {
     position: absolute; 
-    left: 100px;
-    top: 250px;
+    left: 75px;
+    top: 225px;
     height: 50px;
     width: 50px;
     display: none;
 }
 
 /* planets on overview page */
+#flatMercury {
+    position: absolute; 
+    left: 175px;
+    top: 250px;
+    height: 5px;
+    width: 5px;
+    display: none;
+}
+
+    #MeRing {
+        position: absolute; 
+        left: 27.5px;
+        top: 177.5px;
+        height: 150px;
+        width: 150px;
+        display: none;
+        opacity: 0.25;
+        z-index: -1;
+    }
+
 #flatEarth {
      position: absolute; 
      left: 300px;
@@ -20,6 +42,17 @@ body {
      width: 20px;
      display: none;
 }
+
+    #ERing {
+        position: absolute; 
+        left: -90px;
+        top: 60px;
+        height: 400px;
+        width: 400px;
+        display: none;
+        opacity: 0.25;
+        z-index: -1;
+    }
 
 /*moon on overview page */
 #flatMoon {
