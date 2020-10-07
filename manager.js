@@ -98,7 +98,7 @@ function astGo() {
     //var abnewDeg = (getRotationDegrees(astBelt) + abt) + "deg";
     //console.log(abnewDeg);
     $('#astBelt').transition({
-        rotate: '+=0.003'
+        rotate: '+=0.005'
     }, 1, function() {
         astGo();
     });
