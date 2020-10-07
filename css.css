@@ -94,6 +94,15 @@ body {
         z-index: -1;
     }
 
+#astBelt {
+    position: absolute; 
+    left: -375px;
+    top: -225px;
+    height: 950px;
+    width: 950px;
+    display: none;
+}
+
 /*moon on overview page */
 #flatMoon {
     position: absolute; 

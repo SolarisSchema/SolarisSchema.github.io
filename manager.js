@@ -4,10 +4,34 @@ var Mat = 0;
     var Mar = 300;
 var Et = 0;
     var mt = 0;
+//var abt = 0;
+    //var astBelt = $('#astBelt')
 
 var sunX = 100;
 var sunY = 250;
 
+
+//math function
+function getRotationDegrees(obj) {
+    var matrix = obj.css("-webkit-transform") ||
+    obj.css("-moz-transform")    ||
+    obj.css("-ms-transform")     ||
+    obj.css("-o-transform")      ||
+    obj.css("transform");
+    if(matrix !== 'none') {
+        var values = matrix.split('(')[1].split(')')[0].split(',');
+        var a = values[0];
+        var b = values[1];
+        var angle = Math.round(Math.atan2(b, a) * (180/Math.PI));
+    } else { var angle = 0; }
+    //return (angle < 0) ? angle + 360 : angle;
+    return angle;
+}
+
+
+
+
+//planetary orbit functions
 function MercuryGo() {
     Met += 0.01;
     $('#MeRing').fadeIn(1000);
@@ -35,20 +59,6 @@ function VenusGo() {
         left: VnewLeft,
     }, 1, function() {
         VenusGo();
-    });
-}
-
-function MarsGo() {
-    Mat += 0.00375;
-    $('#MaRing').fadeIn(1000);
-    $('#flatMars').fadeIn(1000);
-    var ManewLeft = Math.floor(sunX + (Mar * Math.cos(Mat)));
-    var ManewTop = Math.floor(sunY + (Mar * Math.sin(Mat)));
-    $('#flatMars').animate({
-        top: ManewTop,
-        left: ManewLeft,
-    }, 1, function() {
-        MarsGo();
     });
 }
 
@@ -86,6 +96,32 @@ function EarthGo() {
     }
 }
 
+function MarsGo() {
+    Mat += 0.00375;
+    $('#MaRing').fadeIn(1000);
+    $('#flatMars').fadeIn(1000);
+    var ManewLeft = Math.floor(sunX + (Mar * Math.cos(Mat)));
+    var ManewTop = Math.floor(sunY + (Mar * Math.sin(Mat)));
+    $('#flatMars').animate({
+        top: ManewTop,
+        left: ManewLeft,
+    }, 1, function() {
+        MarsGo();
+    });
+}
+
+function astGo() {
+    //abt += 0.002;
+    $('#astBelt').fadeIn(1000);
+    //var abnewDeg = (getRotationDegrees(astBelt) + abt) + "deg";
+    //console.log(abnewDeg);
+    $('#astBelt').transition({
+        rotate: '+=0.003'
+    }, 1, function() {
+        astGo();
+    });
+}
+
 
 
 
@@ -101,5 +137,6 @@ $(document).ready(function() {
     setTimeout(VenusGo, 825);
     setTimeout(EarthGo, 1250);
     setTimeout(MarsGo, 1575);
+    setTimeout(astGo, 1900);
     
 });
