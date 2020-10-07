@@ -2,7 +2,7 @@ var t = 0;
 
 function EarthGo() {
     t += 0.005;
-
+    $('#flatEarth').fadeIn(1000);
     var r = 100;
     var xcenter = 100;
     var ycenter = 100;
@@ -12,7 +12,7 @@ function EarthGo() {
         top: newTop,
         left: newLeft,
     }, 1, function() {
-        moveit();
+        EarthGo();
     });
 }
 

@@ -3,4 +3,11 @@ body {
 }
 
 /* planets on overview page */
-#flatEarth { position: absolute; }
+#flatEarth {
+     position: absolute; 
+     left: 200px;
+     top: 100px;
+     height: 20px;
+     width: 20px;
+     display: none;
+}
