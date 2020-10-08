@@ -188,6 +188,9 @@ function mouseOverBtn1() {
         top: newT,
     }, 1, function() {
     });
+    $('#sunPanel').animate({
+        color: "rgb()"
+    }, 1, function () {});
 }
 
 function mouseLeaveBtn1() {
@@ -214,7 +217,7 @@ function mouseLeaveBtn1() {
 //call function once page is ready
 $(document).ready(function() {
     $("#sunPanel").hover(mouseOverBtn1, mouseLeaveBtn1);
-    
+
     $('#flatSun').fadeIn(1000);
     setTimeout(MercuryGo, 500);
     setTimeout(VenusGo, 825);
