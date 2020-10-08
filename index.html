@@ -8,6 +8,7 @@
 <script src='jquery.transit.js'></script>
 <link rel=stylesheet href="css.css" type="text/css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
 <title>Solaris Schema</title>
 
 </head>
@@ -18,38 +19,54 @@
 <div id="solarOverview" class="page1">
     <img src="images/flatSun.png" type="image/png" class="page1" id="flatSun">
 
+    <!--Mercury image and orbit-->
     <img src="images/planets/flatMercury.png" type="image/png" class="page1" id="flatMercury">
         <img src="images/orbitRing.png" type="image/png" class="page1" id="MeRing">
 
+    <!--Venus image and orbit-->
     <img src="images/planets/flatVenus.png" type="image/png" class="page1" id="flatVenus">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="VRing">
 
+    <!--Earth image and orbit-->
     <img src="images/planets/flatEarth.png" type="image/png" class="page1" id="flatEarth">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="ERing">
-
+            <!--Moon image-->
             <img src="images/moons/flatMoon.png" type="image/png" class="page1" id="flatMoon">
     
+    <!--Mars image and orbit-->
     <img src="images/planets/flatMars.png" type="image/png" class="page1" id="flatMars">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="MaRing">
     
+    <!--asteroid belt image and orbit-->    
     <img src="images/flatAsteroidB.png" type="image/png" class="page1" id="astBelt">
 
+    <!--Jupiter image and orbit-->
     <img src="images/planets/flatJupiter.png" type="image/png" class="page1" id="flatJupiter">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="JRing">
 
+    <!--Saturn image and orbit-->
     <img src="images/planets/flatSaturn.png" type="image/png" class="page1" id="flatSaturn">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="SRing">
 
+    <!--Uranus image and orbit-->
     <img src="images/planets/flatUranus.png" type="image/png" class="page1" id="flatUranus">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="URing"> 
     
+    <!--Neptune image and orbit-->
     <img src="images/planets/flatNeptune.png" type="image/png" class="page1" id="flatNeptune">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="NRing"> 
+
+    <!--in case elements need to be inserted later-->
     <div id="placeholder1" class="page1"></div>
 </div>
 
 <!--create div for initial button panels-->
-<div id="startingPanels" class="page1"></div>
+<div id="startingPanels" class="page1">
+    <div id="sunPanel" class="page1">
+        <img src="images/flatSun.png" type="image/png" class="page1" id="panelSun">
+        <p id="sunPanelText" class="page1"><b>SUN</b></p>
+    </div>
+</div>
 
 
 <script type="text/javascript" src="manager.js"></script>

@@ -191,3 +191,39 @@ body {
     width: 3.33px;
     display: none;
 }
+
+/*pag1 selection panels*/
+#startingPanels {
+    background-color: rgb(34, 19, 94);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100px;
+}
+
+    #sunPanel {
+        background-color: rgb(76, 11, 138);
+        border-radius: 25px;
+        position: absolute;
+        height: 23%;
+        right: 2.5px;
+        top: 1%;
+        width: 95px;
+    }
+        #panelSun {
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            right: 22.5px;
+            top: 30%;
+        }
+        #sunPanelText {
+            position: absolute;
+            font-family: 'Dosis', sans-serif;
+            color: rgb(237, 229, 187);
+            height: 70px;
+            width: 35px;
+            right: 27.5px;
+            top: 60%;
+        }
