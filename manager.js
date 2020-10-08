@@ -170,38 +170,26 @@ function NeptuneGo() {
 }
 
 //panel functions
-function mouseOver() {
-    var body = ''
-    if (elem == $('#sunPanel')){
-        body = $('#flatSun');
-        console.log(body);
-    }
-    console.log(body)
-    var currW = parseInt(body.css('width'));
-    var currH = parseInt(body.css('height'));
-    console.log(currW + ', ' + currH);
+function mouseOverBtn1() {
+    var currW = parseInt($('#flatSun').css('width'));
+    var currH = parseInt($('#flatSun').css('height'));
     var newW = currW + 10 + 'px';
     var newH = currH + 10 + 'px';
     console.log(newW + ', ' + newH);
-    body.animate({
+    $('#flatSun').animate({
         width: newW,
         height: newH,
     }, 1, function() {
     });
 }
 
-function mouseLeave() {
-    var body = ''
-    if (elem == $('#sunPanel')){
-        body = $('#flatSun');
-    }
-    var currW = parseInt(body.css('width'));
-    var currH = parseInt(body.css('height'));
-    console.log(currW + ', ' + currH);
+function mouseLeaveBtn1() {
+    var currW = parseInt($('#flatSun').css('width'));
+    var currH = parseInt($('#flatSun').css('height'));
     var newW = currW - 10 + 'px';
     var newH = currH - 10 + 'px';
     console.log(newW + ', ' + newH);
-    body.animate({
+    $('#flatSun').animate({
         width: newW,
         height: newH,
     }, 1, function() {
