@@ -291,7 +291,7 @@ body {
         top: 60%;
     }
     /*this is for the midget planets*/
-    #midgetPanel {
+    #dwarfPanel {
         background-color: rgb(76, 11, 138);
         border-radius: 25px;
         position: absolute;
@@ -300,17 +300,17 @@ body {
         top: 76%;
         width: 95px;
     }
-    #midgetPanel:hover {
+    #dwarfPanel:hover {
         background-color: rgb(48, 17, 88);
     }
-        #panelmidget {
+        #paneldwarf {
             position: absolute;
             height: 50px;
             width: 50px;
             right: 22.5px;
             top: 30%;
         }
-        #midgetPanelText {
+        #dwarfPanelText {
             position: absolute;
             font-family: 'Dosis', sans-serif;
             color: rgb(237, 229, 187);
