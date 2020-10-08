@@ -175,10 +175,15 @@ function mouseOverBtn1() {
     var currH = parseInt($('#flatSun').css('height'));
     var newW = currW + 10 + 'px';
     var newH = currH + 10 + 'px';
-    console.log(newW + ', ' + newH);
+    var currL = parseInt($('#flatSun').css('left'));
+    var currT = parseInt($('#flatSun').css('top'));
+    var newL = currL - 5 + 'px';
+    var newT = currT - 5 + 'px';
     $('#flatSun').animate({
         width: newW,
         height: newH,
+        left: newL,
+        top: newT,
     }, 1, function() {
     });
 }
@@ -188,10 +193,15 @@ function mouseLeaveBtn1() {
     var currH = parseInt($('#flatSun').css('height'));
     var newW = currW - 10 + 'px';
     var newH = currH - 10 + 'px';
-    console.log(newW + ', ' + newH);
+    var currL = parseInt($('#flatSun').css('left'));
+    var currT = parseInt($('#flatSun').css('top'));
+    var newL = currL + 5 + 'px';
+    var newT = currT + 5 + 'px';
     $('#flatSun').animate({
         width: newW,
         height: newH,
+        left: newL,
+        top: newT,
     }, 1, function() {
     });
 }
