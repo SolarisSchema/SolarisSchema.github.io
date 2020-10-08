@@ -211,6 +211,9 @@ body {
         top: 1%;
         width: 95px;
     }
+    #sunPanel:hover {
+        background-color: rgb(48, 17, 88);
+    }
         #panelSun {
             position: absolute;
             height: 50px;
@@ -239,6 +242,9 @@ body {
         top: 26%;
         width: 95px;
     }
+    #planetsPanel:hover {
+        background-color: rgb(48, 17, 88);
+    }
         #panelPlanets {
             position: absolute;
             height: 50px;
@@ -265,6 +271,9 @@ body {
         top: 51%;
         width: 95px;
     }
+    #moonsPanel:hover {
+        background-color: rgb(48, 17, 88);
+    }
     #panelmoons {
         position: absolute;
         height: 50px;
@@ -290,6 +299,9 @@ body {
         right: 2.5px;
         top: 76%;
         width: 95px;
+    }
+    #midgetPanel:hover {
+        background-color: rgb(48, 17, 88);
     }
         #panelmidget {
             position: absolute;

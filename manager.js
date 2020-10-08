@@ -188,9 +188,6 @@ function mouseOverBtn1() {
         top: newT,
     }, 1, function() {
     });
-    $('#sunPanel').animate({
-        color: "rgb()"
-    }, 1, function () {});
 }
 
 function mouseLeaveBtn1() {
