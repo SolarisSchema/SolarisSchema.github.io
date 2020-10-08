@@ -101,6 +101,7 @@ body {
     height: 950px;
     width: 950px;
     display: none;
+    z-index: -2;
 }
 
 #flatJupiter {
