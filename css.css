@@ -255,3 +255,29 @@ body {
             right: 27.5px;
             top: 60%;
         }
+  /*i had to place this here to split this while i copy and paste the code beacuse it looks so similar i was getting confused*/
+  #moonsPanel {
+    background-color: rgb(76, 11, 138);
+    border-radius: 25px;
+    position: absolute;
+    height: 23%;
+    right: 2.5px;
+    top: 51%;
+    width: 95px;
+}
+    #panelmoons {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        right: 22.5px;
+        top: 30%;
+    }
+    #moonsPanelText {
+        position: absolute;
+        font-family: 'Dosis', sans-serif;
+        color: rgb(237, 229, 187);
+        height: 70px;
+        width: 35px;
+        right: 27.5px;
+        top: 60%;
+    }
