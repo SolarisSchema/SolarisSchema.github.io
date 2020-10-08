@@ -170,6 +170,8 @@ function NeptuneGo() {
 }
 
 //panel functions
+
+//sun panel hover button
 function mouseOverBtn1() {
     var currW = parseInt($('#flatSun').css('width'));
     var currH = parseInt($('#flatSun').css('height'));
@@ -212,6 +214,7 @@ function mouseLeaveBtn1() {
 //call function once page is ready
 $(document).ready(function() {
     $("#sunPanel").hover(mouseOverBtn1, mouseLeaveBtn1);
+    
     $('#flatSun').fadeIn(1000);
     setTimeout(MercuryGo, 500);
     setTimeout(VenusGo, 825);
