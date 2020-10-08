@@ -21,6 +21,9 @@ var Nt = 0;
 var sunX = 100;
 var sunY = 250;
 
+//panel buttons
+var sunBtn = $("#sunPanel");
+
 
 //planetary orbit functions
 function MercuryGo() {
@@ -166,13 +169,51 @@ function NeptuneGo() {
     });
 }
 
+//panel functions
+function mouseOver() {
+    var body = ''
+    if (elem == $('#sunPanel')){
+        body = $('#flatSun');
+        console.log(body);
+    }
+    console.log(body)
+    var currW = parseInt(body.css('width'));
+    var currH = parseInt(body.css('height'));
+    console.log(currW + ', ' + currH);
+    var newW = currW + 10 + 'px';
+    var newH = currH + 10 + 'px';
+    console.log(newW + ', ' + newH);
+    body.animate({
+        width: newW,
+        height: newH,
+    }, 1, function() {
+    });
+}
 
+function mouseLeave() {
+    var body = ''
+    if (elem == $('#sunPanel')){
+        body = $('#flatSun');
+    }
+    var currW = parseInt(body.css('width'));
+    var currH = parseInt(body.css('height'));
+    console.log(currW + ', ' + currH);
+    var newW = currW - 10 + 'px';
+    var newH = currH - 10 + 'px';
+    console.log(newW + ', ' + newH);
+    body.animate({
+        width: newW,
+        height: newH,
+    }, 1, function() {
+    });
+}
 
 
 
 
 //call function once page is ready
 $(document).ready(function() {
+    $("#sunPanel").hover(mouseOverBtn1, mouseLeaveBtn1);
     $('#flatSun').fadeIn(1000);
     setTimeout(MercuryGo, 500);
     setTimeout(VenusGo, 825);
