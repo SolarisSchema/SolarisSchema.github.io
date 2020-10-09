@@ -239,10 +239,15 @@ function statPage(body) {
     var SArea = body.surfaceArea;
     var Dist = body.distance;
     var Img = body.img;
+    var Hrings = body.Hrings;
     //debug check
     //console.log(Moons + ", " + Dia + ", " + Mass + ", " + Orbit + ", " + SArea + ", " + Dist);
     setTimeout(function () {
-        $('<img class="statPage" src="images/' + Img + '" type="image/png" id="bodyImage">').appendTo("body").fadeIn(1000);
+        if (Hrings == true ) {
+            $('<img class="statPage" src="images/' + Img + '" type="image/png" id="bodyImage" style="left:0%;">').appendTo("body").fadeIn(1000);
+        } else {
+            $('<img class="statPage" src="images/' + Img + '" type="image/png" id="bodyImage">').appendTo("body").fadeIn(1000);
+        }
         $('<div class="statPage" id="statsDiv"></div>').appendTo("body").fadeIn(1000);
         $('<p class="statPage" id="inputStats1"><b>' + Moons + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="inputStats2"><b>' + Dia + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
