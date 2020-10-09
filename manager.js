@@ -303,8 +303,8 @@ function panelGen(topic, host) {
     } else if (topic == "moon2") {
         $('.btn').remove();
         $('.page2').remove();
-        list = Object.keys(dataSet.moons.host);
         key = 'dataSet.moons.' + host;
+        list = Object.keys(key);
     
         $('<div class="page2" id="dropDown" style="display:none;"></div>').appendTo("body").fadeIn(500);
         for(let i = 0; i < list.length; i++){ 
