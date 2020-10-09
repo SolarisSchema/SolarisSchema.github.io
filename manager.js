@@ -285,9 +285,9 @@ function panelGen(topic) {
 }
 
 function panelDel() {
-    $('.btn').detach('#dropDown');
-    $('.page2').detach('body');
-    
+    $('.btn').remove();
+    $('.page2').remove();
+    console.log('ran');
 }
 
 
