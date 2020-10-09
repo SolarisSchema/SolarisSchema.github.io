@@ -287,6 +287,7 @@ function panelGen(topic) {
 function panelDel() {
     $('.btn').detach('#dropDown');
     $('.page2').detach('body');
+    
 }
 
 
