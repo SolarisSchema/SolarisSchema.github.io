@@ -50,5 +50,14 @@ var dataSet = {
             distance: "1.523679 AU",
             img: "planets/flatMars.png",
         },
+    Jupiter: {
+            moons: "79",
+            diameter: "139,822 km",
+            mass: "1.8982×10 ^ 27 kg",
+            orbit: "4,332.59 days",
+            surfaceArea: "6.1419×10 ^ 10 km^2",
+            distance: "5.2044 AU",
+            img: "planets/flatJupiter.png",
     },
+   
 }
