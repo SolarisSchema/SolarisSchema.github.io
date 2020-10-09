@@ -246,7 +246,7 @@ function statPage(body) {
         if (Hrings == true ) {
             $('<img class="statPage" src="images/' + Img + '" type="image/png" id="bodyImage" style="left:0%;">').appendTo("body").fadeIn(1000);
         } else {
-            $('<img class="statPage" src="images/' + Img + '" type="image/png" id="bodyImage">').appendTo("body").fadeIn(1000);
+            $('<img class="statPage" src="images/' + Img + '" type="image/png" id="bodyImage" style="left:15%">').appendTo("body").fadeIn(1000);
         }
         $('<div class="statPage" id="statsDiv"></div>').appendTo("body").fadeIn(1000);
         $('<p class="statPage" id="inputStats1"><b>' + Moons + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
