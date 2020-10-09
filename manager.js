@@ -226,7 +226,7 @@ function page1Start() {
     }, 3500);
     setTimeout(function () {
         $("#flatSun").prepend('#solarOverview').fadeIn(1000);
-    }, 3500);
+    }, 325);
 }
 
 function statPage(body) {
