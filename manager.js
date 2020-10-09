@@ -267,6 +267,7 @@ function statPage(body) {
 }
 
 function panelGen(topic, host) {
+    console.log(topic, host);
     var list = 0;
     var listTop = 5;
     var key = '';
