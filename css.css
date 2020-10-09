@@ -496,18 +496,25 @@ body {
     position: absolute;
     font-family: 'Dosis', sans-serif;
     text-align: center;
-    bottom: 5%;
-    margin-left: auto;
+    bottom: 2%;
     display: none;
     width: 75%;
-    height: 7%;
+    height: 4%;
 }
 
 #closeSub:hover {
     background-color: rgb(147, 207, 225);
 }
 
-.btnTxt {
+/*.btnTxt {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    display: none;
+}*/
+
+#closeSub.btnTxt {
     color: rgb(0, 0, 0);
     position: absolute;
     font-family: 'Dosis', sans-serif;
