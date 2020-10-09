@@ -212,6 +212,7 @@ function page1Start() {
     $("#sunPanel").hover(mouseOverBtn1, mouseLeaveBtn1);
 
     $('#flatSun').fadeIn(1000);
+    $('#flatSun').fadeIn(1000);
     setTimeout(MercuryGo, 500);
     setTimeout(VenusGo, 825);
     setTimeout(EarthGo, 1250);
