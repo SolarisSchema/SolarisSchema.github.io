@@ -40,6 +40,15 @@ var dataSet = {
             surfaceArea: "510072000 km^2",
             distance: "1 AU",
             img: "planets/flatEarth.png",
-        }
+        },
+        Mars: {
+            moons: "2",
+            diameter: "6779.0 km",
+            mass: "6.4171×10^23 kg",
+            orbit: "686.971 days",
+            surfaceArea: "144798500 km^2",
+            distance: "1.523679 AU",
+            img: "planets/flatMars.png",
+        },
     },
 }
