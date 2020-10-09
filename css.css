@@ -333,6 +333,10 @@ body {
         }
 
 /*universal body alignment code for stats pages*/
+.statPage {
+    display: none;
+}
+
 #bodyImage {
     position: absolute;
     height: 80%;

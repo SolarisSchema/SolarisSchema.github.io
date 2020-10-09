@@ -237,21 +237,23 @@ function statPage(body) {
     var Img = body.img;
     //debug check
     //console.log(Moons + ", " + Dia + ", " + Mass + ", " + Orbit + ", " + SArea + ", " + Dist);
-    $('<img src="images/' + Img + '" type="image/png" id="bodyImage">').appendTo("body").fadeIn(1000);
-    $('<div id="statsDiv"></div>').appendTo("body").fadeIn(1000);
-    $('<p id="inputStats1"><b>' + Moons + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
-    $('<p id="inputStats2"><b>' + Dia + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
-    $('<p id="inputStats3"><b>' + Mass + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
-    $('<p id="inputStats4"><b>' + Orbit + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
-    $('<p id="inputStats5"><b>' + SArea + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
-    $('<p id="inputStats6"><b>' + Dist + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
-    $('<p id="labelText1"><b>MOONS:</b></p>').appendTo("#statsDiv").fadeIn(1000);
-    $('<p id="labelText2"><b>DIAMETER:</b></p>').appendTo("#statsDiv").fadeIn(1000);
-    $('<p id="labelText3"><b>MASS:</b></p>').appendTo("#statsDiv").fadeIn(1000);
-    $('<p id="labelText4"><b>ORBITAL PERIOD:</b></p>').appendTo("#statsDiv").fadeIn(1000);
-    $('<p id="labelText5"><b>SURFACE AREA:</b></p>').appendTo("#statsDiv").fadeIn(1000);
-    $('<p id="labelText6"><b>DISTANCE FROM SUN:</b></p>').appendTo("#statsDiv").fadeIn(1000);
-    $('<a href="https://solarisschema.github.io" id="returnLink">&gt RETURN TO OVERVIEW &lt</a>').appendTo("#statsDiv").fadeIn(1000);
+    setTimeout(function () {
+        $('<img class="statPage" src="images/' + Img + '" type="image/png" id="bodyImage">').appendTo("body").fadeIn(1000);
+        $('<div class="statPage" id="statsDiv"></div>').appendTo("body").fadeIn(1000);
+        $('<p class="statPage" id="inputStats1"><b>' + Moons + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<p class="statPage" id="inputStats2"><b>' + Dia + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<p class="statPage" id="inputStats3"><b>' + Mass + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<p class="statPage" id="inputStats4"><b>' + Orbit + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<p class="statPage" id="inputStats5"><b>' + SArea + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<p class="statPage" id="inputStats6"><b>' + Dist + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<p class="statPage" id="labelText1"><b>MOONS:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<p class="statPage" id="labelText2"><b>DIAMETER:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<p class="statPage" id="labelText3"><b>MASS:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<p class="statPage" id="labelText4"><b>ORBITAL PERIOD:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<p class="statPage" id="labelText5"><b>SURFACE AREA:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<p class="statPage" id="labelText6"><b>DISTANCE FROM SUN:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<a class="statPage" href="https://solarisschema.github.io" id="returnLink">&gt RETURN TO OVERVIEW &lt</a>').appendTo("#statsDiv").fadeIn(1000);
+    }, 1500);
 }
 
 
