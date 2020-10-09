@@ -262,6 +262,7 @@ function statPage(body) {
         $('<p class="statPage" id="labelText5"><b>SURFACE AREA:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="labelText6"><b>DISTANCE FROM SUN:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<a class="statPage" href="https://solarisschema.github.io" id="returnLink">&gt RETURN TO OVERVIEW &lt</a>').appendTo("#statsDiv").fadeIn(1000);
+        $('<div class="statPage" id="textShift"></div>').prependTo("#statsDiv").fadeIn(1000);
     }, 1500);
 }
 
