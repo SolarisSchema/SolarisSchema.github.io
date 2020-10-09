@@ -31,6 +31,15 @@ var dataSet = {
             surfaceArea: "4.6023 × 10^8 km^2",
             distance: "0.723332 AU",
             img: "planets/flatVenus.png",
+        },
+        Earth: {
+            moons: "1",
+            diameter: "12756.2 km",
+            mass: "5.97237 x 10^24 kg",
+            orbit: "365 days",
+            surfaceArea: "510072000 km^2",
+            distance: "1 AU",
+            img: "planets/flatEarth.png",
         }
     },
 }
