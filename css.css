@@ -206,6 +206,7 @@ body {
 /*pag1 selection panels*/
 #startingPanels {
     background-color: rgb(34, 19, 94);
+    border-radius: 25px;
     position: absolute;
     right: 0%;
     top: 0%;
