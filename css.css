@@ -331,3 +331,122 @@ body {
             right: 39px;
             top: 60%;
         }
+
+/*universal body alignment code for stats pages*/
+#bodyImage {
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    left: 15%;
+
+}
+
+#statsDiv {
+    background-color: rgb(0, 0, 0);
+    color: rgb(237, 229, 187);
+    position: absolute;
+    height: 99%;
+    width: 30%;
+    right: 0px;
+    top: 0px;
+    border-radius: 25px;
+    border-style: outset;
+    border-color: rgb(237, 229, 187);
+
+}
+
+#inputStats1 {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    left: 60%;
+    top: 15%;
+}
+
+#inputStats2 {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    left: 60%;
+    top: 20%;
+}
+
+#inputStats3 {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    left: 60%;
+    top: 25%;
+}
+
+#inputStats4 {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    left: 60%;
+    top: 30%;
+}
+
+#inputStats5 {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    left: 60%;
+    top: 35%;
+}
+
+#inputStats6 {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    left: 60%;
+    top: 40%;
+}
+
+#labelText1 {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    left: 10%;
+    top: 15%;
+}
+
+#labelText2 {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    left: 10%;
+    top: 20%;
+}
+
+#labelText3 {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    left: 10%;
+    top: 25%;
+}
+
+#labelText4 {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    left: 10%;
+    top: 30%;
+}
+
+#labelText5 {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    left: 10%;
+    top: 35%;
+}
+
+#labelText6 {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    left: 10%;
+    top: 40%;
+}

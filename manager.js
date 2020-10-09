@@ -208,11 +208,7 @@ function mouseLeaveBtn1() {
     });
 }
 
-
-
-
-//call function once page is ready
-$(document).ready(function() {
+function page1Start() {
     $("#sunPanel").hover(mouseOverBtn1, mouseLeaveBtn1);
 
     $('#flatSun').fadeIn(1000);
@@ -228,5 +224,39 @@ $(document).ready(function() {
     setTimeout(function () {
         $('#startingPanels').fadeIn(1500);
     }, 3500);
-    
+}
+
+function statPage(body) {
+    $('.page1').fadeOut(1000);
+    var Moons = body.moons;
+    var Dia = body.diameter;
+    var Mass = body.mass;
+    var Orbit = body.orbit;
+    var SArea = body.surfaceArea;
+    var Dist = body.distance;
+    var Img = body.img;
+    //debug check
+    //console.log(Moons + ", " + Dia + ", " + Mass + ", " + Orbit + ", " + SArea + ", " + Dist);
+    $('<img src="images/' + Img + '" type="image/png" id="bodyImage">').appendTo("body").fadeIn(1000);
+    $('<div id="statsDiv"></div>').appendTo("body").fadeIn(1000);
+    $('<p id="inputStats1"><b>' + Moons + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+    $('<p id="inputStats2"><b>' + Dia + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+    $('<p id="inputStats3"><b>' + Mass + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+    $('<p id="inputStats4"><b>' + Orbit + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+    $('<p id="inputStats5"><b>' + SArea + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+    $('<p id="inputStats6"><b>' + Dist + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+    $('<p id="labelText1"><b>MOONS:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+    $('<p id="labelText2"><b>DIAMETER:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+    $('<p id="labelText3"><b>MASS:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+    $('<p id="labelText4"><b>ORBITAL PERIOD:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+    $('<p id="labelText5"><b>SURFACE AREA:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+    $('<p id="labelText6"><b>DISTANCE FROM SUN:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+}
+
+
+
+
+//call function once page is ready
+$(document).ready(function() {
+    page1Start();
 });
