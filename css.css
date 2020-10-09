@@ -509,6 +509,7 @@ body {
 
 .btnTxt {
     color: rgb(0, 0, 0);
+    top: 0%;
 }
 
 #closeSub.btnTxt {
@@ -517,4 +518,5 @@ body {
     font-family: 'Dosis', sans-serif;
     text-align: center;
     display: none;
+    top: 0%;
 }
