@@ -11,6 +11,7 @@ body {
     height: 50px;
     width: 50px;
     display: none;
+    z-index: 9;
 }
 
 /* planets on overview page */
@@ -21,6 +22,7 @@ body {
     height: 5px;
     width: 5px;
     display: none;
+    z-index: 8;
 }
 
     #MeRing {
@@ -41,6 +43,7 @@ body {
     height: 20px;
     width: 20px;
     display: none;
+    z-index: 7;
 }
 
     #VRing {
@@ -61,6 +64,7 @@ body {
      height: 20px;
      width: 20px;
      display: none;
+     z-index: 6;
 }
 
     #ERing {
@@ -81,6 +85,7 @@ body {
     height: 6.6px;
     width: 6.6px;
     display: none;
+    z-index: 5;
 }
    
     #MaRing {
@@ -101,6 +106,7 @@ body {
     height: 950px;
     width: 950px;
     display: none;
+    z-index: 4;
 }
 
 #flatJupiter {
@@ -110,6 +116,7 @@ body {
     height: 30px;
     width: 30px;
     display: none;
+    z-index: 3;
 }
    
     #JRing {
@@ -130,6 +137,7 @@ body {
     height: 32px;
     width: 40px;
     display: none;
+    z-index: 2;
 }
     
     #SRing {
@@ -150,6 +158,7 @@ body {
     height: 22px;
     width: 22px;
     display: none;
+    z-index: 1;
 }
     
     #URing {
@@ -170,6 +179,7 @@ body {
     height: 22px;
     width: 22px;
     display: none;
+    z-index: 0;
 }
     
     #NRing {
@@ -190,6 +200,7 @@ body {
     height: 3.33px;
     width: 3.33px;
     display: none;
+    z-index: 6;
 }
 
 /*pag1 selection panels*/
