@@ -25,12 +25,12 @@ var dataSet = {
         },
         Venus: {
             moons: "0",
-            diameter: "4880 km",
-            mass: "3.3011 × 10^23 kg",
-            orbit: "87.9691 DAYS",
-            surfaceArea: "7.48 × 10^7 km^2",
-            distance: "~0.387098 AU",
-            img: "planets/flatMercury.png",
+            diameter: "12103.6±2.0 km",
+            mass: "4.8675 × 10^24 kg",
+            orbit: "224.701 DAYS",
+            surfaceArea: "4.6023 × 10^8 km^2",
+            distance: "0.723332 AU",
+            img: "planets/flatVenus.png",
         }
     },
 }
