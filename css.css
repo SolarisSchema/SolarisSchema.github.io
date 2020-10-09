@@ -462,3 +462,29 @@ body {
     left: 10%;
     bottom: 10%;
 }
+
+/*drop down generation rules*/
+#dropDown {
+    background-color: rgb(0, 0, 0);
+    color: rgb(237, 229, 187);
+    position: absolute;
+    height: 99%;
+    width: 20%;
+    right: 0px;
+    top: 0px;
+    border-radius: 25px;
+    border-style: outset;
+    border-color: rgb(237, 229, 187);
+    z-index: 10;
+    text-align: center;
+}
+
+#dropDown.dropText {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    top: 5%;
+    overflow-y: auto;
+}

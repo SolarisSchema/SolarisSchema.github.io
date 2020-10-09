@@ -14,14 +14,23 @@ var dataSet = {
         }
     },
     planets: {
-        mercury: {
+        Mercury: {
             moons: "0",
             diameter: "4880 km",
             mass: "3.3011 × 10^23 kg",
             orbit: "87.9691 DAYS",
             surfaceArea: "7.48 × 10^7 km^2",
             distance: "~0.387098 AU",
-            img: "images/planets/flatMercury.png",
+            img: "planets/flatMercury.png",
+        },
+        Venus: {
+            moons: "0",
+            diameter: "4880 km",
+            mass: "3.3011 × 10^23 kg",
+            orbit: "87.9691 DAYS",
+            surfaceArea: "7.48 × 10^7 km^2",
+            distance: "~0.387098 AU",
+            img: "planets/flatMercury.png",
         }
-    }
+    },
 }

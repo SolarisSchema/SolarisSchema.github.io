@@ -228,6 +228,7 @@ function page1Start() {
 
 function statPage(body) {
     $('.page1').fadeOut(1000);
+    $('.page2').fadeOut(1000);
     var Moons = body.moons;
     var Dia = body.diameter;
     var Mass = body.mass;
@@ -254,6 +255,25 @@ function statPage(body) {
         $('<p class="statPage" id="labelText6"><b>DISTANCE FROM SUN:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<a class="statPage" href="https://solarisschema.github.io" id="returnLink">&gt RETURN TO OVERVIEW &lt</a>').appendTo("#statsDiv").fadeIn(1000);
     }, 1500);
+}
+
+function panelGen(topic) {
+    var list = 0;
+    var listTop = 5;
+    var key = '';
+    if (topic == 'planet') {
+        list = Object.keys(dataSet.planets);
+        key = 'dataSet.planets';
+    }
+
+    $('<div class="page2" id="dropDown" style="display:none;"></div>').appendTo("body").fadeIn(500);
+    for(let i = 0; i < list.length; i++){ 
+        var currBody = list[i];
+        listTop += 7 * i;
+        //console.log("'" + currBody + ", " + list[i] + "'");
+
+        $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ')" style="display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+    }
 }
 
 
