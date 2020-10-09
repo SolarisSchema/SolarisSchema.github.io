@@ -287,7 +287,7 @@ function panelGen(topic) {
 function panelDel() {
     $('.btn').remove();
     $('.page2').remove();
-    console.log('ran');
+    //console.log('ran');
 }
 
 
