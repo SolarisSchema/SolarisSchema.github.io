@@ -198,7 +198,7 @@ body {
     left: 320px;
     top: 250px;
     height: 3.33px;
-    width: 3.33px;
+    width: 3.75px;
     display: none;
     z-index: 6;
 }
@@ -290,8 +290,8 @@ body {
     #panelmoons {
         position: absolute;
         height: 50px;
-        width: 50px;
-        right: 22.5px;
+        width: 56.25px;
+        right: 19.325px;
         top: 30%;
     }
     #moonsPanelText {
