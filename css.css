@@ -506,13 +506,9 @@ body {
     background-color: rgb(147, 207, 225);
 }
 
-/*.btnTxt {
+.btnTxt {
     color: rgb(0, 0, 0);
-    position: absolute;
-    font-family: 'Dosis', sans-serif;
-    text-align: center;
-    display: none;
-}*/
+}
 
 #closeSub.btnTxt {
     color: rgb(0, 0, 0);
