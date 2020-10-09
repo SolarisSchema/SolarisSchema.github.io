@@ -70,7 +70,7 @@ var dataSet = {
         },
          Uranus: {
              moons: "27",
-             diameter: "50724±14",
+             diameter: "50724±14 km",
              mass: "(8.6810±0.0013)x10 ^ 25 kg",
              orbit: "30,688.5 days",
              surfaceArea: "8.1156×10 ^ 9 km^2",
