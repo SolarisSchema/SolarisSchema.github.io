@@ -16,7 +16,7 @@ var St = 0;
 var Ut = 0;
     var Ur = 875;
 var Nt = 0;
-    var Nr = 1125;
+    var Nr = 1025;
 
 var sunX = 100;
 var sunY = 250;
@@ -225,5 +225,8 @@ $(document).ready(function() {
     setTimeout(SaturnGo, 2550);
     setTimeout(UranusGo, 2875);
     setTimeout(NeptuneGo, 3200);
+    setTimeout(function () {
+        $('#startingPanels').fadeIn(1500);
+    }, 3500);
     
 });

@@ -174,7 +174,7 @@ body {
 
 #flatNeptune {
     position: absolute; 
-    left: 1225px;
+    left: 1125px;
     top: 250px;
     height: 22px;
     width: 22px;
@@ -184,10 +184,10 @@ body {
     
     #NRing {
         position: absolute; 
-        left: -1014px;
-        top: -864px;
-        height: 2250px;
-        width: 2250px;
+        left: -914px;
+        top: -764px;
+        height: 2050px;
+        width: 2050px;
         display: none;
         opacity: 0.40;
         z-index: -1;
@@ -211,6 +211,7 @@ body {
     top: 0px;
     height: 100%;
     width: 100px;
+    display: none;
 }
 
     #sunPanel {
