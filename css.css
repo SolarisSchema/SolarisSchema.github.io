@@ -269,7 +269,7 @@ body {
             color: rgb(237, 229, 187);
             height: 70px;
             width: 35px;
-            right: 37px;
+            right: 40px;
             top: 60%;
         }
 
@@ -298,11 +298,11 @@ body {
         color: rgb(237, 229, 187);
         height: 70px;
         width: 35px;
-        right: 27.5px;
+        right: 37px;
         top: 60%;
     }
-    /*this is for the midget planets*/
-    #midgetPanel {
+    /*this is for the dwarf planets*/
+    #dwarfPanel {
         background-color: rgb(76, 11, 138);
         border-radius: 25px;
         position: absolute;
@@ -311,22 +311,22 @@ body {
         top: 76%;
         width: 95px;
     }
-    #midgetPanel:hover {
+    #dwarfPanel:hover {
         background-color: rgb(48, 17, 88);
     }
-        #panelmidget {
+        #paneldwarf {
             position: absolute;
             height: 50px;
             width: 50px;
             right: 22.5px;
             top: 30%;
         }
-        #midgetPanelText {
+        #dwarfPanelText {
             position: absolute;
             font-family: 'Dosis', sans-serif;
             color: rgb(237, 229, 187);
             height: 70px;
-            width: 35px;
-            right: 37px;
+            width: 40px;
+            right: 39px;
             top: 60%;
         }
