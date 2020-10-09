@@ -77,7 +77,15 @@ var dataSet = {
              distance: "19.2184 AU",
              img: "planets/flatUranus.png",
         },
-        
+              Neptune: {
+             moons: "14",
+             diameter: "49244±38",
+             mass: "1.02413×10 ^ 26 kg",
+             orbit: "60,182 days",
+             surfaceArea: "7.6183×10 ^ 9 km^2",
+             distance: "30.07 AU",
+             img: "planets/flatNeptune.png",
+        },
  }
    
 }
