@@ -59,16 +59,25 @@ var dataSet = {
                 distance: "5.2044 AU",
                 img: "planets/flatJupiter.png",
         },
-        Saturn: {
+         Saturn: {
                 moons: "82",
                 diameter: "116,464 km",
                 mass: "5.6834×10 ^ 26 kg",
                 orbit: "10,759.22 days",
                 surfaceArea: "4.27×10 ^ 10 km^2",
                 distance: "9.5826 AU",
-                img: "planets/zoomSaturn.png",
+                img: "planets/flatSaturn.png",
+        },
+         Uranus: {
+             moons: "27",
+             diameter: "50724±14",
+             mass: "(8.6810±0.0013)x10 ^ 25 kg",
+             orbit: "30,688.5 days",
+             surfaceArea: "8.1156×10 ^ 9 km^2",
+             distance: "19.2184 AU",
+             img: "planets/flatUranus.png",
         },
         
-    }
+ }
    
 }
