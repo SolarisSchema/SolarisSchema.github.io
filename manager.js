@@ -224,6 +224,9 @@ function page1Start() {
     setTimeout(function () {
         $('#startingPanels').fadeIn(1500);
     }, 3500);
+    setTimeout(function () {
+        $("#flatSun").fadeIn(1000);
+    }, 3500);
 }
 
 function statPage(body) {
