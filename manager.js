@@ -244,9 +244,9 @@ function statPage(body) {
     //console.log(Moons + ", " + Dia + ", " + Mass + ", " + Orbit + ", " + SArea + ", " + Dist);
     setTimeout(function () {
         if (Hrings == true ) {
-            $('<img class="statPage" src="images/' + Img + '" type="image/png" id="bodyImage" style="left:0%; height:60%">').appendTo("body").fadeIn(1000);
+            $('<img class="statPage" src="images/' + Img + '" type="image/png" id="bodyImage" style="left:0%; height:60%; top:20%">').appendTo("body").fadeIn(1000);
         } else {
-            $('<img class="statPage" src="images/' + Img + '" type="image/png" id="bodyImage" style="left:15%; height:80%">').appendTo("body").fadeIn(1000);
+            $('<img class="statPage" src="images/' + Img + '" type="image/png" id="bodyImage" style="left:15%; height:80%; top:10%">').appendTo("body").fadeIn(1000);
         }
         $('<div class="statPage" id="statsDiv"></div>').appendTo("body").fadeIn(1000);
         $('<p class="statPage" id="inputStats1"><b>' + Moons + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
