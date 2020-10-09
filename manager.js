@@ -305,6 +305,7 @@ function panelGen(topic, host) {
         $('.page2').remove();
         key = 'dataSet.moons.' + host;
         list = Object.keys(key);
+        console.log(list);
     
         $('<div class="page2" id="dropDown" style="display:none;"></div>').appendTo("body").fadeIn(500);
         for(let i = 0; i < list.length; i++){ 
