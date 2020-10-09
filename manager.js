@@ -266,23 +266,55 @@ function statPage(body) {
     }, 1500);
 }
 
-function panelGen(topic) {
+function panelGen(topic, host) {
     var list = 0;
     var listTop = 5;
     var key = '';
     if (topic == 'planet') {
+        $('.btn').remove();
+        $('.page2').remove();
         list = Object.keys(dataSet.planets);
         key = 'dataSet.planets';
-    }
+    
+        $('<div class="page2" id="dropDown" style="display:none;"></div>').appendTo("body").fadeIn(500);
+        for(let i = 0; i < list.length; i++){ 
+            var currBody = list[i];
+            listTop += 7 * i;
+            //console.log("'" + currBody + ", " + list[i] + "'");
 
-    $('<div class="page2" id="dropDown" style="display:none;"></div>').appendTo("body").fadeIn(500);
-    for(let i = 0; i < list.length; i++){ 
-        var currBody = list[i];
-        listTop += 7 * i;
-        //console.log("'" + currBody + ", " + list[i] + "'");
+            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ')" style="display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
+        }
+    } else if (topic == 'moon') {
+        $('.btn').remove();
+        $('.page2').remove();
+        list = Object.keys(dataSet.moons);
+        key = 'moon2';
+    
+        $('<div class="page2" id="dropDown" style="display:none;"></div>').appendTo("body").fadeIn(500);
+        for(let i = 0; i < list.length; i++){ 
+            var currBody = list[i];
+            listTop += 7 * i;
+            //console.log("'" + currBody + ", " + list[i] + "'");
 
-        $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ')" style="display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
-        $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
+            $('<p class="page2 dropText" id="' + list[i] + '" onclick="panelGen(' + key + ', ' + currBody + ')" style="display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
+        }
+    } else if (topic == 'moon2') {
+        $('.btn').remove();
+        $('.page2').remove();
+        list = Object.keys(dataSet.moons.host);
+        key = 'dataSet.moons.' + host;
+    
+        $('<div class="page2" id="dropDown" style="display:none;"></div>').appendTo("body").fadeIn(500);
+        for(let i = 0; i < list.length; i++){ 
+            var currBody = list[i];
+            listTop += 7 * i;
+            //console.log("'" + currBody + ", " + list[i] + "'");
+
+            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ')" style="display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
+        }
     }
     
     
