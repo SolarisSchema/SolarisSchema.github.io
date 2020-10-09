@@ -207,7 +207,6 @@ body {
 #startingPanels {
     background-color: rgb(34, 19, 94);
     position: absolute;
-    margin-left: 20px;
     right: 0px;
     top: 0px;
     height: 100%;
