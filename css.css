@@ -492,10 +492,12 @@ body {
 
 #closeSub {
     background-color: rgb(237, 229, 187);
+    border-radius: 25px;
     position: absolute;
     font-family: 'Dosis', sans-serif;
     text-align: center;
     bottom: 5%;
+    margin-left: auto;
     display: none;
     width: 75%;
     height: 7%;
@@ -505,7 +507,7 @@ body {
     background-color: rgb(147, 207, 225);
 }
 
-#closeSub.btnTxt {
+.btnTxt {
     color: rgb(0, 0, 0);
     position: absolute;
     font-family: 'Dosis', sans-serif;
