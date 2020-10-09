@@ -279,10 +279,13 @@ function panelGen(topic) {
         $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
     }
     
-    $('<p class="page2 btnTxt" id="closeText"><b>&gt CLOSE &lt</b></p>').appendTo('#closeSub').fadeIn(1000);
+    
+    $('<div class="btn" id="closeSub" onclick="panelDel()"></div>').appendTo('#dropDown').fadeIn(1000);
+    $('<p class="btn btnTxt" id="closeText"><b>&gt CLOSE &lt</b></p>').appendTo('#closeSub').fadeIn(1000);
 }
 
 function panelDel() {
+    $('.btn').detach('#dropDown');
     $('.page2').detach('body');
 }
 
