@@ -489,3 +489,26 @@ body {
     top: 5%;
     overflow-y: auto;
 }
+
+#closeSub {
+    background-color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    bottom: 5%;
+    display: none;
+    width: 75%;
+    height: 7%;
+}
+
+#closeSub:hover {
+    background-color: rgb(147, 207, 225);
+}
+
+#closeSub.btnTxt {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    display: none;
+}
