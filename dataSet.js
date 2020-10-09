@@ -87,6 +87,6 @@ var dataSet = {
              distance: "30.07 AU",
              img: "planets/flatNeptune.png",
         },
- }
+    },
    
 }
