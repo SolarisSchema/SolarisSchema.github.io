@@ -279,8 +279,12 @@ function panelGen(topic) {
         $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
     }
     
+    $('<p class="page2 btnTxt" id="closeText"><b>&gt CLOSE &lt</b></p>').appendTo('#closeSub').fadeIn(1000);
 }
 
+function panelDel() {
+    $('.page2').detach('body');
+}
 
 
 
