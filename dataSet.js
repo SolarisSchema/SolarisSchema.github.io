@@ -66,7 +66,7 @@ var dataSet = {
                 orbit: "10,759.22 days",
                 surfaceArea: "4.27×10 ^ 10 km^2",
                 distance: "9.5826 AU",
-                img: "planets/flatSaturn.png",
+                img: "planets/zoomSaturn.png",    //the only exception, do not change
         },
          Uranus: {
              moons: "27",
