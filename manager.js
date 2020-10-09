@@ -297,7 +297,7 @@ function panelGen(topic, host) {
             listTop += 7 * i;
             //console.log("'" + currBody + ", " + list[i] + "'");
 
-            $('<p class="page2 dropText" id="' + list[i] + '" onclick="panelGen("moon2", ' + currBody + ')" style="display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $('<p class="page2 dropText" id="' + list[i] + '" onclick="panelGen(' + "'moon2'" + ', ' + currBody + ')" style="display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
             $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
         }
     } else if (topic == "moon2") {
