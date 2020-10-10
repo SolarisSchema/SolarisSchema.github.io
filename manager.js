@@ -318,6 +318,22 @@ function panelGen(topic, host) {
             $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
             console.log(key + '.' + currBody);
         }
+    } else if (topic == 'dwarfPlanets') {
+        $('.btn').remove();
+        $('.page2').remove();
+        list = Object.keys(dataSet.dwarfPlanets);
+        key = 'dataSet.dwarfPlanets';
+    
+        $('<div class="page2" id="dropDown" style="display:none;"></div>').appendTo("body").fadeIn(500);
+        for(let i = 0; i < list.length; i++){ 
+            var currBody = list[i];
+            listTop += 7 * i;
+            //console.log("'" + currBody + ", " + list[i] + "'");
+
+            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ')" style="display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
+            console.log(key + '.' + currBody);
+        }
     }
     
     
