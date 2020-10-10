@@ -168,7 +168,7 @@ var dataSet = {
                 orbit: "0.61299 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "139,000 km",
-                img: "moons/flatAtlas.png" 
+                img: "moons/flatPrometheus.png" 
             },
         }
     }
