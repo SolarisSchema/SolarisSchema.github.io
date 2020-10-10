@@ -340,10 +340,6 @@ body {
 
 #bodyImage {
     position: absolute;
-    height: 80%;
-    top: 10%;
-    left: 15%;
-
 }
 
 #statsDiv {
@@ -520,3 +516,4 @@ body {
     display: none;
     top: 0%;
 }
+

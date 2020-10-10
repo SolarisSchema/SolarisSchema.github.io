@@ -44,7 +44,7 @@ var dataSet = {
         Mars: {
             moons: "2",
             diameter: "6779.0 km",
-            mass: "6.4171×10^23 kg",
+            mass: "6.4171 × 10^23 kg",
             orbit: "686.971 days",
             surfaceArea: "144798500 km^2",
             distance: "1.523679 AU",
@@ -53,22 +53,73 @@ var dataSet = {
         Jupiter: {
                 moons: "79",
                 diameter: "139,822 km",
-                mass: "1.8982×10 ^ 27 kg",
+                mass: "1.8982 × 10^27 kg",
                 orbit: "4,332.59 days",
-                surfaceArea: "6.1419×10 ^ 10 km^2",
+                surfaceArea: "6.1419 × 10^10 km^2",
                 distance: "5.2044 AU",
                 img: "planets/flatJupiter.png",
         },
         Saturn: {
                 moons: "82",
                 diameter: "116,464 km",
-                mass: "5.6834×10 ^ 26 kg",
+                mass: "5.6834 × 10^26 kg",
                 orbit: "10,759.22 days",
-                surfaceArea: "4.27×10 ^ 10 km^2",
+                surfaceArea: "4.27 × 10^10 km^2",
                 distance: "9.5826 AU",
                 img: "planets/zoomSaturn.png",
+                Hrings: true,           //the only exception, do not change
         },
-        
+        Uranus: {
+             moons: "27",
+             diameter: "50724±14 km",
+             mass: "(8.6810±0.0013) x 10^25 kg",
+             orbit: "30,688.5 days",
+             surfaceArea: "8.1156 × 10^9 km^2",
+             distance: "19.2184 AU",
+             img: "planets/flatUranus.png",
+        },
+        Neptune: {
+             moons: "14",
+             diameter: "49244±38 km",
+             mass: "1.02413 × 10^26 kg",
+             orbit: "60,182 days",
+             surfaceArea: "7.6183 × 10^9 km^2",
+             distance: "30.07 AU",
+             img: "planets/flatNeptune.png",
+        },
+    },
+    moons: {
+        Earth: {
+            Moon: {
+                moons: "N/A",
+                diameter: "3474.3 km",
+                mass: "7.342 × 10^22 kg",
+                orbit: "27 days",
+                surfaceArea: "3.793 × 10^7 km^2",
+                distance: "384400 km",
+                img: "moons/flatMoon.png",
+            }
+        },
+        Mars: {
+            Phobos: {
+                moons: "N/A",
+                diameter: "22.2 km",
+                mass: "1.08 × 10^16 kg",
+                orbit: "7.66 hours",
+                surfaceArea: "1,548 km^2",
+                distance: "9377 km",
+                img: "moons/flatPhobos.png",
+            },
+            Deimos: {
+                moons: "N/A",
+                diameter: "12.6 km",
+                mass: "2 × 10^15kg",
+                orbit: "30.35 hours",
+                surfaceArea: "483 km^2",
+                distance: "23,460 km",
+                img: "moons/flatDeimos.png",
+            }
+        }
     }
    
 }
