@@ -140,8 +140,35 @@ var dataSet = {
                 orbit: "0.57505 days",
                 surfaceArea: "1552.3732 km^2",
                 distance: "134,000 km",
-                img: "moons/flatDeimos.png"
+                img: "moons/flatPan.png"
 
+            },
+            Daphnis:{
+                moons: "N/A",
+                diameter: "7.6 km",
+                mass: "0.084 x 10 ^ 15 kg",
+                orbit: "0.59408 days",
+                surfaceArea: "181.46 km^2",
+                distance: "136,500 km",
+                img: "moons/flatDaphnis.png" 
+            },
+            Atlas:{
+                moons: "N/A",
+                diameter: "30.2 km",
+                mass: "6.6 x 10 ^ 15 kg",
+                orbit: "0.60169 days",
+                surfaceArea: "2,865.26 km^2",
+                distance: "139,006 km",
+                img: "moons/flatAtlas.png" 
+            },
+            Prometheus :{
+                moons: "N/A",
+                diameter: "86.2 km",
+                mass: "159.5 x 10 ^ 15 kg",
+                orbit: "0.61299 days",
+                surfaceArea: "23,343.42 km^2",
+                distance: "139,000 km",
+                img: "moons/flatAtlas.png" 
             },
         }
     }
