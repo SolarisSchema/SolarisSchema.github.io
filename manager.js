@@ -277,13 +277,13 @@ function panelGen(topic, host) {
         list = Object.keys(dataSet.planets);
         key = 'dataSet.planets';
     
-        $('<div class="page2" id="dropDown" style="display:none;"></div>').appendTo("body").fadeIn(500);
+        $('<div class="page2" id="dropDown" style="z-index:-1; display:none;"></div>').appendTo("body").fadeIn(500);
         for(let i = 0; i < list.length; i++){ 
             var currBody = list[i];
             listTop += 7 * i;
             //console.log("'" + currBody + ", " + list[i] + "'");
 
-            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ')" style="display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
             $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
             console.log(key + '.' + currBody);
         }
@@ -293,13 +293,13 @@ function panelGen(topic, host) {
         list = Object.keys(dataSet.moons);
         key = 'moon2';
     
-        $('<div class="page2" id="dropDown" style="display:none;"></div>').appendTo("body").fadeIn(500);
+        $('<div class="page2" id="dropDown" style="z-index:-1; display:none;"></div>').appendTo("body").fadeIn(500);
         for(let i = 0; i < list.length; i++){ 
             var currBody = "'" + list[i] + "'";
             listTop += 7 * i;
             //console.log("'" + currBody + ", " + list[i] + "'");
 
-            $('<p class="page2 dropText" id="' + list[i] + '" onclick="panelGen(' + "'moon2'" + ', ' + currBody + ')" style="display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $('<p class="page2 dropText" id="' + list[i] + '" onclick="panelGen(' + "'moon2'" + ', ' + currBody + ')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
             $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
         }
     } else if (topic == "moon2") {
@@ -308,15 +308,15 @@ function panelGen(topic, host) {
         list = Object.keys(dataSet.moons[host]);
         key = 'dataSet.moons.' + host;
     
-        $('<div class="page2" id="dropDown" style="display:none;"></div>').appendTo("body").fadeIn(500);
+        $('<div class="page2" id="dropDown" style="z-index:-1; display:none; overflow-y:auto;"></div>').appendTo("body").fadeIn(500);
         for(let i = 0; i < list.length; i++){ 
             var currBody = list[i];
             listTop += 7 * i;
             //console.log("'" + currBody + ", " + list[i] + "'");
 
-            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ')" style="display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
-            $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
-            console.log(key + '.' + currBody);
+            $('<p class="page2 dropText" id="' + host + i + '" onclick="statPage(' + key + '[\'' + currBody + '\'])" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + currBody + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $("#" + host + i).hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
+            //console.log(key + '.' + currBody);
         }
     } else if (topic == 'dwarfPlanets') {
         $('.btn').remove();
@@ -324,20 +324,20 @@ function panelGen(topic, host) {
         list = Object.keys(dataSet.dwarfPlanets);
         key = 'dataSet.dwarfPlanets';
     
-        $('<div class="page2" id="dropDown" style="display:none;"></div>').appendTo("body").fadeIn(500);
+        $('<div class="page2" id="dropDown" style="z-index:-1; display:none;"></div>').appendTo("body").fadeIn(500);
         for(let i = 0; i < list.length; i++){ 
             var currBody = list[i];
             listTop += 7 * i;
             //console.log("'" + currBody + ", " + list[i] + "'");
 
-            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ')" style="display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
             $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
             console.log(key + '.' + currBody);
         }
     }
     
-    
-    $('<div class="btn" id="closeSub" onclick="panelDel()"></div>').appendTo('#dropDown').fadeIn(1000);
+    $('<div class="page2" id="dropPlace" style="height:15%; display:none; z-index:-1;"></div>').appendTo("#dropDown").fadeIn(750);
+    $('<div class="btn" id="closeSub" onclick="panelDel()"></div>').appendTo('body').fadeIn(1000);
     $('<p class="btn btnTxt" id="closeText"><b>&gt CLOSE &lt</b></p>').appendTo('#closeSub').fadeIn(1000);
 }
 

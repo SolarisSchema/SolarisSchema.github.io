@@ -179,7 +179,7 @@ body {
     height: 22px;
     width: 22px;
     display: none;
-    z-index: 0;
+    z-index: -2;
 }
     
     #NRing {
@@ -190,7 +190,7 @@ body {
         width: 2050px;
         display: none;
         opacity: 0.40;
-        z-index: -1;
+        z-index: -3;
     }
 /*moon on overview page */
 #flatMoon {
@@ -213,6 +213,7 @@ body {
     height: 100%;
     width: 100px;
     display: none;
+    z-index:-1; 
 }
 
     #sunPanel {
@@ -223,6 +224,7 @@ body {
         right: 2.5px;
         top: 1%;
         width: 95px;
+        z-index:-1; 
     }
     #sunPanel:hover {
         background-color: rgb(48, 17, 88);
@@ -233,6 +235,7 @@ body {
             width: 50px;
             right: 22.5px;
             top: 30%;
+            z-index:-1; 
         }
         #sunPanelText {
             position: absolute;
@@ -242,6 +245,7 @@ body {
             width: 35px;
             right: 27.5px;
             top: 60%;
+            z-index:-1; 
         }
 
         /*i had to place this here to split this while i copy and paste the code beacuse it looks so similar i was getting confused*/
@@ -254,6 +258,7 @@ body {
         right: 2.5px;
         top: 26%;
         width: 95px;
+        z-index:-1; 
     }
     #planetsPanel:hover {
         background-color: rgb(48, 17, 88);
@@ -264,6 +269,7 @@ body {
             width: 50px;
             right: 22.5px;
             top: 30%;
+            z-index:-1; 
         }
         #planetPanelText {
             position: absolute;
@@ -273,6 +279,7 @@ body {
             width: 35px;
             right: 40px;
             top: 60%;
+            z-index:-1; 
         }
 
     #moonsPanel {
@@ -283,6 +290,7 @@ body {
         right: 2.5px;
         top: 51%;
         width: 95px;
+        z-index:-1; 
     }
     #moonsPanel:hover {
         background-color: rgb(48, 17, 88);
@@ -293,6 +301,7 @@ body {
         width: 56.25px;
         right: 19.325px;
         top: 30%;
+        z-index:-1; 
     }
     #moonsPanelText {
         position: absolute;
@@ -302,6 +311,7 @@ body {
         width: 35px;
         right: 37px;
         top: 60%;
+        z-index:-1; 
     }
     /*this is for the dwarf planets*/
     #dwarfPanel {
@@ -312,6 +322,7 @@ body {
         right: 2.5px;
         top: 76%;
         width: 95px;
+        z-index:-1; 
     }
     #dwarfPanel:hover {
         background-color: rgb(48, 17, 88);
@@ -322,6 +333,7 @@ body {
             width: 50px;
             right: 22.5px;
             top: 30%;
+            z-index:-1; 
         }
         #dwarfPanelText {
             position: absolute;
@@ -331,6 +343,7 @@ body {
             width: 40px;
             right: 39px;
             top: 60%;
+            z-index:-1; 
         }
 
 /*universal body alignment code for stats pages*/
@@ -493,10 +506,11 @@ body {
     font-family: 'Dosis', sans-serif;
     text-align: center;
     bottom: 2%;
-    left: 12.5%;
+    right: 2.5%;
     display: none;
-    width: 75%;
+    width: 15%;
     height: 7%;
+    z-index: 4;
 }
 
 #closeSub:hover {
@@ -515,5 +529,6 @@ body {
     text-align: center;
     display: none;
     top: 0%;
+    z-index: 5;
 }
 
