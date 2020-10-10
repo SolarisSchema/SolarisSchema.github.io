@@ -113,24 +113,22 @@ var dataSet = {
             Deimos: {
                 moons: "N/A",
                 diameter: "12.6 km",
-                mass: "2 × 10^15kg",
+                mass: "2 × 10^15 kg",
                 orbit: "30.35 hours",
                 surfaceArea: "483 km^2",
                 distance: "23,460 km",
                 img: "moons/flatDeimos.png",
             }
-        }
-    },
-    dwarfPlanets: {
-        Pluto: {
-            moons: "5",
-            diameter: "2376.6±1.6 km",
-            mass: "(1.303±0.003) × 10^22 kg",
-            orbit: "90,560 days",
-            surfaceArea: "1.779 × 10^7 km^2",
-            distance: "49.305 AU",
-            img: "moons/flatPluto.png",
-        }
+        },
+        Jupiter: {
+            Metis: {
+                moons: "N/A",
+                diameter: "43.0 km",
+                mass: "3.6 x 10^16 kg",
+                orbit: "7.2552 hours",
+                surfaceArea: "5800 km^2",
+                distance: "23,463.2 km",
+                img: "moons/flatDeimos.png"
     }
    
 }
