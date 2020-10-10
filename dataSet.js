@@ -133,7 +133,7 @@ var dataSet = {
 //saturn moon time
         },
         Saturn:{
-            "S/2009s1":{
+            "S/2009 S 1":{
                 moons: "N/A",
                 diameter: "28.2 km",
                 mass: "4.95 x 10 ^ 15 kg",
@@ -396,7 +396,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S37" :{
+            "S/2004 S 37" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -405,7 +405,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2007S2" :{
+            "S/2007 S 2" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -432,7 +432,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S29" :{
+            "S/2004 S 29" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -450,7 +450,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S31" :{
+            "S/2004 S 31" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -486,7 +486,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S13" :{
+            "S/2004 S 13" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -522,7 +522,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2006S1" :{
+            "S/2006 S 1" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -558,7 +558,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S17" :{
+            "S/2004 S 17" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -576,7 +576,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S20" :{
+            "S/2004 S 20" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -603,7 +603,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S12" :{
+            "S/2004 S 12" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -621,7 +621,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S27" :{
+            "S/2004 S 27" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -639,7 +639,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2007S3" :{
+            "S/2007 S 3" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -657,7 +657,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S7" :{
+            "S/2004 S 7" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -666,7 +666,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S22" :{
+            "S/2004 S 22" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -684,7 +684,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S30" :{
+            "S/2004 S 30" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -693,7 +693,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S23" :{
+            "S/2004 S 23" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -702,7 +702,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S25" :{
+            "S/2004 S 25" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -711,7 +711,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S32" :{
+            "S/2004 S 32" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -720,7 +720,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2006S3" :{
+            "S/2006 S 3" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -729,7 +729,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S38" :{
+            "S/2004 S 38" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -747,7 +747,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S28" :{
+            "S/2004 S 28" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -765,7 +765,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S35" :{
+            "S/2004 S 35" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -774,7 +774,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S21" :{
+            "S/2004 S 21" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -783,7 +783,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S24" :{
+            "S/2004 S 24" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -810,7 +810,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S36" :{
+            "S/2004 S 36" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -828,7 +828,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S39" :{
+            "S/2004 S 39" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -837,7 +837,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S33" :{
+            "S/2004 S 33" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -855,7 +855,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S34" :{
+            "S/2004 S 34" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
@@ -864,7 +864,7 @@ var dataSet = {
                 distance: "139,000 km",
                 img: "moons/flatPrometheus.png" 
             },
-            "S/2004S26" :{
+            "S/2004 S 26" :{
                 moons: "N/A",
                 diameter: "86.2 km",
                 mass: "159.5 x 10 ^ 15 kg",
