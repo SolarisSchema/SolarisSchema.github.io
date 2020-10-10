@@ -232,6 +232,7 @@ function page1Start() {
 function statPage(body) {
     $('.page1').fadeOut(1000);
     $('.page2').fadeOut(1000);
+    $('.btn').remove();
     var Moons = body.moons;
     var Dia = body.diameter;
     var Mass = body.mass;
