@@ -129,6 +129,8 @@ var dataSet = {
                 surfaceArea: "5800 km^2",
                 distance: "23,463.2 km",
                 img: "moons/flatDeimos.png"
+            },
+        }
     }
    
 }
