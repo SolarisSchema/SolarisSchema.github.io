@@ -128,7 +128,7 @@ var dataSet = {
                 orbit: "7.2552 hours",
                 surfaceArea: "5800 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png"
+                img: "moons/flatMetis.png"
             }
 //saturn moon time
         },
