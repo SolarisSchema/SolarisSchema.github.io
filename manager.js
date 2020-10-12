@@ -307,17 +307,13 @@ function panelGen(topic, host) {
         $('.btn').remove();
         $('.page2').remove();
         list = Object.keys(dataSet.moons[host]);
-        key = 'dataSet.moons[' + host + ']';
+        key = 'dataSet.moons.' + host;
     
         $('<div class="page2" id="dropDown" style="z-index:-1; display:none; overflow-y:auto;"></div>').appendTo("body").fadeIn(500);
         for(let i = 0; i < list.length; i++){ 
             var currBody = list[i];
             listTop += 7 * i;
             //console.log("'" + currBody + ", " + list[i] + "'");
-
-            if (host == "That's no moon..") {
-                host = "deathStar";
-            }
 
             $('<p class="page2 dropText" id="' + host + i + '" onclick="statPage(' + key + '[\'' + currBody + '\'])" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + currBody + '</b></p>').appendTo("#dropDown").fadeIn(750);
             $("#" + host + i).hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
