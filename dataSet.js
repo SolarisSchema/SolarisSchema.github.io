@@ -212,7 +212,7 @@ var dataSet = {
                 mass: "≈ 0.0001 x 10 ^ 15 kg",
                 orbit: "0.80812 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "167,500 km",
                 img: "moons/flatAegaeon.png" 
             },
             Mimas :{
@@ -221,7 +221,7 @@ var dataSet = {
                 mass: "37493 x 10 ^ 15 kg",
                 orbit: "0.942422 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "185,404 km",
                 img: "moons/flatMimas.png" 
             },
             Methone :{
@@ -230,7 +230,7 @@ var dataSet = {
                 mass: "≈ 0.02 x 10 ^ 15 kg",
                 orbit: "1.00957 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "194,440 km",
                 img: "moons/flatMethone.png" 
             },
             Anthe :{
@@ -239,7 +239,7 @@ var dataSet = {
                 mass: "≈ 0.0015 x 10 ^ 15 kg",
                 orbit: "1.05089 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "197,700 km",
                 img: "moons/flatAnthe.png" 
             },
             Pallene :{
@@ -248,7 +248,7 @@ var dataSet = {
                 mass: "≈ 0.05 x 10 ^ 15 kg",
                 orbit: "1.15375 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "212,280 km",
                 img: "moons/flatPallene.png" 
             },
             Enceladus :{
@@ -257,7 +257,7 @@ var dataSet = {
                 mass: "108022 x 10 ^ 15 kg",
                 orbit: "1.370218 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "237,950 km",
                 img: "moons/flatEnceladus.png" 
             },
             Tethys :{
@@ -266,7 +266,7 @@ var dataSet = {
                 mass: "617449 x 10 ^ 15 kg",
                 orbit: "1.887802 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "294,619 km",
                 img: "moons/flatTethys.png" 
             },
             Telesto :{
@@ -275,7 +275,7 @@ var dataSet = {
                 mass: "≈ 9.41 x 10 ^ 15 kg",
                 orbit: "1.887802 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "294,619 km",
                 img: "moons/flatTelesto.png" 
             },
             Calypso :{
@@ -284,7 +284,7 @@ var dataSet = {
                 mass: "≈ 6.3 x 10 ^ 15 kg",
                 orbit: "1.887802 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "294,619 km",
                 img: "moons/flatCalypso.png" 
             },
             Dione :{
@@ -293,7 +293,7 @@ var dataSet = {
                 mass: "1095452 x 10 ^ 15 kg",
                 orbit: "2.736915 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "377,396 km",
                 img: "moons/flatDione.png" 
             },
             Helene :{
@@ -302,7 +302,7 @@ var dataSet = {
                 mass: "≈ 24.5 x 10 ^ 15 kg",
                 orbit: "2.736915 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "377,396 km",
                 img: "moons/flatHelene.png" 
             },
             Polydeuces :{
@@ -311,7 +311,7 @@ var dataSet = {
                 mass: "≈ 0.03 x 10 ^ 15 kg",
                 orbit: "2.736915 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "377,396 km",
                 img: "moons/flatPolydeuces.png" 
             },
             Rhea :{
@@ -320,7 +320,7 @@ var dataSet = {
                 mass: "2306518 x 10 ^ 15 kg",
                 orbit: "4.518212 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "527,108 km",
                 img: "moons/flatRhea.png" 
             },
             Titan :{
@@ -329,7 +329,7 @@ var dataSet = {
                 mass: "134520000 x 10 ^ 15 kg",
                 orbit: "15.94542 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "1,221,930 km",
                 img: "moons/flatTitan.png" 
             },
             Hyperion :{
@@ -338,7 +338,7 @@ var dataSet = {
                 mass: "5619.9 x 10 ^ 15 kg",
                 orbit: "21.27661 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "1,481,010 km",
                 img: "moons/flatHyperion.png" 
 
             },
@@ -348,7 +348,7 @@ var dataSet = {
                 mass: "1805635 x 10 ^ 15 kg",
                 orbit: "79.3215 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "3,560,820 km",
                 img: "moons/flatIapetus.png" 
             },
             Kiviuq :{
@@ -357,7 +357,7 @@ var dataSet = {
                 mass: "≈ 2.79 x 10 ^ 15 kg",
                 orbit: "446.87 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "	11,273,000 km",
                 img: "moons/flatKiviuq.png" 
             },
             Ijiraq :{
@@ -366,7 +366,7 @@ var dataSet = {
                 mass: "≈ 1.18 x 10 ^ 15 kg",
                 orbit: "450.99 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "11,342,300 km",
                 img: "moons/flatIjiraq.png" 
             },
             Phoebe :{
@@ -375,7 +375,7 @@ var dataSet = {
                 mass: "8292 x 10 ^ 15 kg",
                 orbit: "−547.76 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "	12,911,700 km",
                 img: "moons/flatPhoebe.png" 
             },
             Paaliaq :{
@@ -384,7 +384,7 @@ var dataSet = {
                 mass: "≈ 7.25 x 10 ^ 15 kg",
                 orbit: "690.34 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "15,065,000 km",
                 img: "moons/flatPaaliaq.png" 
             },
             Skathi :{
@@ -393,7 +393,7 @@ var dataSet = {
                 mass: "≈ 0.35 x 10 ^ 15 kg",
                 orbit: "−728.08 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "	15,609,000 km",
                 img: "moons/flatSkathi.png" 
             },
             "S/2004 S 37" :{
@@ -402,7 +402,7 @@ var dataSet = {
                 mass: "≈ 0.05 x 10 ^ 15 kg",
                 orbit: "−747.95 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "	15,892,000 km",
                 img: "moons/flatS2004S37.png" 
             },
             "S/2007 S 2" :{
@@ -411,7 +411,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−759.47 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "	15,892,000 km",
                 img: "moons/flatS2007S2.png" 
             },
             Albiorix :{
@@ -420,7 +420,7 @@ var dataSet = {
                 mass: "≈ 22.3 x 10 ^ 15 kg",
                 orbit: "786.4 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "	15,892,000 km",
                 img: "moons/flatAlbiorix.png" 
             },
             Bebhionn :{
@@ -429,7 +429,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "814.56 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "16,822,000 km",
                 img: "moons/flatBebhionn.png" 
             },
             "S/2004 S 29" :{
@@ -438,7 +438,7 @@ var dataSet = {
                 mass: "≈ 0.05 x 10 ^ 15 kg",
                 orbit: "826.19 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "16,981,000 km",
                 img: "moons/flatS2004S29.png" 
             },
             Erriapus :{
@@ -447,7 +447,7 @@ var dataSet = {
                 mass: "≈ 0.68 x 10 ^ 15 kg",
                 orbit: "865.8 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "17,520,000 km",
                 img: "moons/flatErriapus.png" 
             },
             "S/2004 S 31" :{
@@ -456,7 +456,7 @@ var dataSet = {
                 mass: "≈ 0.05 x 10 ^ 15 kg",
                 orbit: "869.38 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "17,568,000 km",
                 img: "moons/flatS2004S31.png" 
             },
             Skoll :{
@@ -465,7 +465,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−870.02 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "17,576,900 km",
                 img: "moons/flatSkoll.png" 
             },
             Siarnaq :{
@@ -474,7 +474,7 @@ var dataSet = {
                 mass: "≈ 43.5 x 10 ^ 15 kg",
                 orbit: "884.88 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "17,937,000 km",
                 img: "moons/flatSiarnaq.png" 
             },
             Tarqeq :{
@@ -483,7 +483,7 @@ var dataSet = {
                 mass: "≈ 0.23 x 10 ^ 15 kg",
                 orbit: "892.55 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "	17,879,000 km",
                 img: "moons/flatTarqeq.png" 
             },
             "S/2004 S 13" :{
@@ -492,7 +492,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−905.85 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "18,056,300 km",
                 img: "moons/flatS2004S13.png" 
             },
             Hyrrokkin :{
@@ -501,7 +501,7 @@ var dataSet = {
                 mass: "≈ 0.35 x 10 ^ 15 kg",
                 orbit: "−927.85 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "18,347,400 km",
                 img: "moons/flatHyrrokkin.png" 
             },
             Tarvos :{
@@ -510,7 +510,7 @@ var dataSet = {
                 mass: "≈ 2.3 x 10 ^ 15 kg",
                 orbit: "944.23 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "	18,562,800 km",
                 img: "moons/flatTarvos.png" 
             },
             Mundilfari :{
@@ -519,7 +519,7 @@ var dataSet = {
                 mass: "≈ 0.23 x 10 ^ 15 kg",
                 orbit: "−946.30 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "18,590,000 km",
                 img: "moons/flatMundilfari.png" 
             },
             "S/2006 S 1" :{
@@ -528,7 +528,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−951.10 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "18,652,700 km",
                 img: "moons/flatS2006S1.png" 
             },
             Greip :{
@@ -537,7 +537,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−951.20 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "18,654,000 km",
                 img: "moons/flatGreip.png" 
             },
             Jarnsaxa :{
@@ -546,7 +546,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−980.85 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "19,039,700 km",
                 img: "moons/flatJarnsaxa.png" 
             },
             Bergelmir :{
@@ -555,7 +555,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−982.52 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "19,061,300 km",
                 img: "moons/flatBergelmir.png" 
             },
             "S/2004 S 17" :{
@@ -564,7 +564,7 @@ var dataSet = {
                 mass: "≈ 0.05 x 10 ^ 15 kg",
                 orbit: "−985.45 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "19,099,200 km",
                 img: "moons/flatS2004S17.png" 
             },
             Narvi :{
@@ -573,7 +573,7 @@ var dataSet = {
                 mass: "≈ 0.23 x 10 ^ 15 kg",
                 orbit: "−987.51 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "19,126,000 km",
                 img: "moons/flatNarvi.png" 
             },
             "S/2004 S 20" :{
@@ -582,7 +582,7 @@ var dataSet = {
                 mass: "≈ 0.05 x 10 ^ 15 kg",
                 orbit: "−1010.24 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "19,418,000 km",
                 img: "moons/flatS2004S20.png" 
             },
             Suttungr :{
@@ -591,7 +591,7 @@ var dataSet = {
                 mass: "≈ 0.23 x 10 ^ 15 kg",
                 orbit: "−1026.83 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "19,630,200 km",
                 img: "moons/flatSuttungr.png" 
             },
             Hati :{
@@ -600,7 +600,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−1033.05 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "19,709,300 km",
                 img: "moons/flatHati.png" 
             },
             "S/2004 S 12" :{
@@ -609,7 +609,7 @@ var dataSet = {
                 mass: "≈ 0.09 x 10 ^ 15 kg",
                 orbit: "−1048.54 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "19,905,900 km",
                 img: "moons/S2004S12.png" 
             },
             Farbauti :{
@@ -618,7 +618,7 @@ var dataSet = {
                 mass: "≈ 0.09 x 10 ^ 15 kg",
                 orbit: " −1052.03 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "19,950,000 km",
                 img: "moons/flatFarbauti.png" 
             },
             "S/2004 S 27" :{
@@ -627,7 +627,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−1054.12 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "19,976,000 km",
                 img: "moons/flatS2004S27.png" 
             },
             Bestla :{
@@ -636,7 +636,7 @@ var dataSet = {
                 mass: "≈ 0.23 x 10 ^ 15 kg",
                 orbit: "−1082.96 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "20,339,000 km",
                 img: "moons/flatBestla.png" 
             },
             "S/2007 S 3" :{
@@ -645,7 +645,7 @@ var dataSet = {
                 mass: "≈ 0.09 x 10 ^ 15 kg",
                 orbit: "−1092.85 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "20,463,000 km",
                 img: "moons/flatS2007S3.png" 
             },
             Aegir :{
@@ -654,7 +654,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−1094.46 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "20,483,000 km",
                 img: "moons/flategir.png" 
             },
             "S/2004 S 7" :{
@@ -663,7 +663,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−1101.99 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "20,576,700 km",
                 img: "moons/flatPrometheus.png" 
             },
             "S/2004 S 22" :{
@@ -672,7 +672,7 @@ var dataSet = {
                 mass: "≈ 0.03 x 10 ^ 15 kg",
                 orbit: "−1106.79 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "20,636,000 km",
                 img: "moons/flatS2004S22.png" 
             },
             Thrymr :{
@@ -681,7 +681,7 @@ var dataSet = {
                 mass: "≈ 0.23 x 10 ^ 15 kg",
                 orbit: "−1113.24 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "20,716,500 km",
                 img: "moons/flatThrymr.png" 
             },
             "S/2004 S 30" :{
@@ -690,7 +690,7 @@ var dataSet = {
                 mass: "≈ 0.03 x 10 ^ 15 kg",
                 orbit: "−1121.69 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "20,821,000 km",
                 img: "moons/flatS2004S30.png" 
             },
             "S/2004 S 23" :{
@@ -699,7 +699,7 @@ var dataSet = {
                 mass: "≈ 0.05 x 10 ^ 15 kg",
                 orbit: "−1149.46 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "21,163,000 km",
                 img: "moons/flatS2004S23.png" 
             },
             "S/2004 S 25" :{
@@ -708,7 +708,7 @@ var dataSet = {
                 mass: "≈ 0.05 x 10 ^ 15 kg",
                 orbit: "−1150.33 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "21,174,000 km",
                 img: "moons/flatS2004S25.png" 
             },
             "S/2004 S 32" :{
@@ -717,7 +717,7 @@ var dataSet = {
                 mass: "≈ 0.05 x 10 ^ 15 kg",
                 orbit: "−1153.60 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "	21,214,000 km",
                 img: "moons/flatS2004S32.png" 
             },
             "S/2006 S 3" :{
@@ -726,7 +726,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−1161.29 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "21,308,000 km",
                 img: "moons/flatS2006S3.png" 
             },
             "S/2004 S 38" :{
@@ -735,7 +735,7 @@ var dataSet = {
                 mass: "≈ 0.05 x 10 ^ 15 kg",
                 orbit: "−1210.65 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "21,908,000 km",
                 img: "moons/flatS2004S38.png" 
             },
             "S/2004 S 28" :{
@@ -744,7 +744,7 @@ var dataSet = {
                 mass: "≈ 0.05 x 10 ^ 15 kg",
                 orbit: "−1219.93 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "22,020,000 km",
                 img: "moons/flatS2004S28.png" 
             },
             Kari :{
@@ -753,7 +753,7 @@ var dataSet = {
                 mass: "≈ 0.23 x 10 ^ 15 kg",
                 orbit: "−1238.30 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "22,240,400 km",
                 img: "moons/flatKari.png" 
             },
             "S/2004 S 35" :{
@@ -762,7 +762,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−1252.69 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "22,412,000 km",
                 img: "moons/flatS2004S35.png" 
             },
             Fenrir :{
@@ -771,7 +771,7 @@ var dataSet = {
                 mass: "≈ 0.05 x 10 ^ 15 kg",
                 orbit: "−1268.35 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "22,599,000 km",
                 img: "moons/flatFenrir.png" 
             },
             "S/2004 S 21" :{
@@ -780,7 +780,7 @@ var dataSet = {
                 mass: "≈ 0.03 x 10 ^ 15 kg",
                 orbit: "−1272.21 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "22,645,000 km",
                 img: "moons/flatS2004S21.png" 
             },
             "S/2004 S 24" :{
@@ -789,7 +789,7 @@ var dataSet = {
                 mass: "≈ 0.03 x 10 ^ 15 kg",
                 orbit: "1293.85 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "22,901,000 km",
                 img: "moons/flatS2004S24.png" 
             },
             "S/2004 S 36" :{
@@ -798,7 +798,7 @@ var dataSet = {
                 mass: "≈ 0.03 x 10 ^ 15 kg",
                 orbit: "−1318.65 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "23,192,000 km",
                 img: "moons/flatS2004S36.png" 
             },
             Loge :{
@@ -807,7 +807,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−1319.86 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "23,206,500 km",
                 img: "moons/flatLoge.png" 
             },
             Surtur :{
@@ -816,7 +816,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−1329.27 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "23,316,600 km",
                 img: "moons/flatSurtur.png" 
                 
             },
@@ -826,7 +826,7 @@ var dataSet = {
                 mass: "≈ 0.03 x 10 ^ 15 kg",
                 orbit: "−1351.41 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "23,575,000 km",
                 img: "moons/flatS2004S39.png" 
             },
             Ymir :{
@@ -835,7 +835,7 @@ var dataSet = {
                 mass: "≈ 3.97 x 10 ^ 15 kg",
                 orbit: "−1356.98 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "23,639,600 km",
                 img: "moons/flatYmir.png" 
             },
 
@@ -845,7 +845,7 @@ var dataSet = {
                 mass: "≈ 0.05 x 10 ^ 15 kg",
                 orbit: "−1402.74 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "24,168,000 km",
                 img: "moons/flatS2004S33.png" 
             },
             "S/2004 S 34" :{
@@ -854,7 +854,7 @@ var dataSet = {
                 mass: "≈ 0.03 x 10 ^ 15 kg",
                 orbit: "−1414.15 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "24,299,000 km",
                 img: "moons/flatS2004S34.png" 
             },
             Fornjot :{
@@ -863,7 +863,7 @@ var dataSet = {
                 mass: "≈ 0.15 x 10 ^ 15 kg",
                 orbit: "−1464.03 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "24,867,000 km",
                 img: "moons/flatFornjot.png" 
             },
             "S/2004 S 26" :{
@@ -872,7 +872,7 @@ var dataSet = {
                 mass: "4.95 x 10 ^ 16 kg",
                 orbit: "−1626.67 days",
                 surfaceArea: "23,343.42 km^2",
-                distance: "139,000 km",
+                distance: "26,676,000 km",
                 img: "moons/flatS2004S26.png" 
             },
             
