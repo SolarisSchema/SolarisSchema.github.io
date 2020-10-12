@@ -127,7 +127,7 @@ var dataSet = {
                 mass: "≈ 3.6 x 10^16 kg",
                 orbit: "0.2988 days",
                 surfaceArea: "5800 km^2",
-                distance: "23,463.2 km",
+                distance: "128852 km",
                 img: "moons/flatMetis.png",
             },
             Adrastea: {
@@ -136,7 +136,7 @@ var dataSet = {
                     mass: "≈ 0.2 x 10^16 kg",
                     orbit: "0.3023 days",
                     surfaceArea: "N/A",
-                    distance: "x km",
+                    distance: "129000 km km",
                     img: "moons/flatDeimos.png",
                 },
             Amalthea: {
@@ -145,7 +145,7 @@ var dataSet = {
                     mass: "208 x 10^16 kg",
                     orbit: "0.5012 days",
                     surfaceArea: "≈ 1200 km",
-                    distance: "x km",
+                    distance: "181366 km",
                     img: "moons/flatAmalthea.png",
                 },
             Thebe: {
@@ -154,7 +154,7 @@ var dataSet = {
                     mass: "≈ 43 x 10^16 kg",
                     orbit: "0.6778 days",
                     surfaceArea: "≈ 45,000 km^2",
-                    distance: "x km",
+                    distance: "222452 km",
                     img: "moons/flatThebe.png",
                 },
             Io: {
@@ -163,7 +163,7 @@ var dataSet = {
                     mass: "8931900 x 10^16 kg",
                     orbit: "1.7691 days",
                     surfaceArea: "41910000 km^2",
-                    distance: "x km",
+                    distance: "421700 km",
                     img: "moons/flatDeimos.png",
                 },
             Europa: {
@@ -172,7 +172,7 @@ var dataSet = {
                     mass: "4800000 x 10^16 kg",
                     orbit: "3.5512 days",
                     surfaceArea: "3.09 x 10^7 km^2",
-                    distance: "x km",
+                    distance: "671034 km",
                     img: "moons/flatDeimos.png",
                 },
             Ganymede: {
@@ -181,7 +181,7 @@ var dataSet = {
                     mass: "14819000 x 10^16 kg",
                     orbit: "7.1546",
                     surfaceArea: "8.72 × 10^7 km^2",
-                    distance: "x km",
+                    distance: "1070412 km",
                     img: "moons/flatDeimos.png",
                 },
             Callisto: {
@@ -190,7 +190,7 @@ var dataSet = {
                     mass: "10759000 x 10^16 kg",
                     orbit: "16.689",
                     surfaceArea: "7.30 × 10^7 km^2",
-                    distance: "x km",
+                    distance: "1882709 km",
                     img: "moons/flatDeimos.png",
                 },
             Themisto: {
@@ -199,7 +199,7 @@ var dataSet = {
                     mass: "≈ 0.069 x 10^16 kg",
                     orbit: "129.95",
                     surfaceArea: "≈ 290 km^2",
-                    distance: "23,463.2 km",
+                    distance: "7396100 km",
                     img: "moons/flatDeimos.png",
                 },
             Leda: {
@@ -208,7 +208,7 @@ var dataSet = {
                     mass: "≈ 0.6 x 10^16 kg",
                     orbit: "241.33 days",
                     surfaceArea: "1250 km^2",
-                    distance: "23,463.2 km",
+                    distance: "11174800 km",
                     img: "moons/flatDeimos.png",
                 },
             Himalia: {
@@ -217,7 +217,7 @@ var dataSet = {
                     mass: "420 x 10^16 kg",
                     orbit: "248.47 days",
                     surfaceArea: "91000 km^2",
-                    distance: "23,463.2 km",
+                    distance: "11394100 km",
                     img: "moons/flatDeimos.png",
                 },
             Ersa: {
@@ -226,7 +226,7 @@ var dataSet = {
                     mass: "≈ 0.0045 x 10^16 kg",
                     orbit: "250.4 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "11453000  km",
                     img: "moons/flatDeimos.png",
                 },
             Pandia: {
@@ -235,7 +235,7 @@ var dataSet = {
                     mass: "≈ 0.0045 x 10^16 kg",
                     orbit: "251.77 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "11494800 km",
                     img: "moons/flatDeimos.png",
                 },
             Elara: {
@@ -244,7 +244,7 @@ var dataSet = {
                     mass: "≈ 87 x 10^16 kg",
                     orbit: "258.58 days",
                     surfaceArea: "23,235.22 km^2",
-                    distance: "23,463.2 km",
+                    distance: "11698000 km",
                     img: "moons/flatDeimos.png",
                 },
             Lysithea: {
@@ -253,7 +253,7 @@ var dataSet = {
                     mass: "≈ 6.3 x 10^16 kg",
                     orbit: "258.58 days",
                     surfaceArea: "4,071.50 km^2",
-                    distance: "23,463.2 km",
+                    distance: "11701100 km",
                     img: "moons/flatDeimos.png",
                 },
             Dia: {
@@ -262,7 +262,7 @@ var dataSet = {
                     mass: "≈ 0.009 x 10^16 kg",
                     orbit: "276 days",
                     surfaceArea: "50.27 km^2",
-                    distance: "23,463.2 km",
+                    distance: "12221000 km",
                     img: "moons/flatDeimos.png",
                 },
             Carpo: {
@@ -271,7 +271,7 @@ var dataSet = {
                     mass: "≈ 0.0045 x 10^16 kg",
                     orbit: "440.91 days",
                     surfaceArea: "28.27 km^2",
-                    distance: "23,463.2 km",
+                    distance: "16700600 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2003 J 12": {
@@ -280,7 +280,7 @@ var dataSet = {
                     mass: "≈ 0.00015 x 10^16 kg",
                     orbit: "−482.69 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "17740000 km",
                     img: "moons/flatDeimos.png",
                 },
             Valetudo: {
@@ -289,7 +289,7 @@ var dataSet = {
                     mass: "≈ 0.00015 x 10^16 kg",
                     orbit: "532.01 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "18928100 km",
                     img: "moons/flatDeimos.png",
                 },
             Euporire: {
@@ -298,7 +298,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−542.65 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "19179700 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2003 J 18": {
@@ -307,7 +307,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−587.38 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "20219700   km",
                     img: "moons/flatDeimos.png",
                 },
             Harpalyke: {
@@ -316,7 +316,7 @@ var dataSet = {
                     mass: "≈ 0.009 x 10^16 kg",
                     orbit: "−596.56 days",
                     surfaceArea: "60.82 km^2",
-                    distance: "23,463.2 km",
+                    distance: "20429800 km",
                     img: "moons/flatDeimos.png",
                 },
             Hermippe: {
@@ -325,7 +325,7 @@ var dataSet = {
                     mass: "≈ 0.009 x 10^16 kg",
                     orbit: "−602.48 days",
                     surfaceArea: "50.27 km^2",
-                    distance: "23,463.2 km",
+                    distance: "20564800 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2017 J 18": {
@@ -334,7 +334,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16",
                     orbit: "−602.77 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "20571500 km",
                     img: "moons/flatDeimos.png",
                 },
             Euanthe: {
@@ -343,7 +343,7 @@ var dataSet = {
                     mass: "≈ 0.0045 x 10^16 kg",
                     orbit: "−602.81 days",
                     surfaceArea: "28.27 km^2",
-                    distance: "23,463.2 km",
+                    distance: "20572300 km",
                     img: "moons/flatDeimos.png",
                 },
             Thyone: {
@@ -352,7 +352,7 @@ var dataSet = {
                     mass: "≈ 0.009 x 10^16 kg",
                     orbit: "−603.58 days",
                     surfaceArea: "50.27 km^2",
-                    distance: "23,463.2 km",
+                    distance: "20589800 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2016 J 1": {
@@ -361,7 +361,7 @@ var dataSet = {
                     mass: "≈ 0.00015 x 10^16 kg",
                     orbit: "−603.81 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "20595000 km",
                     img: "moons/flatDeimos.png",
                 },
             Mneme: {
@@ -370,7 +370,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−603.95 days",
                     surfaceArea: "12.57 km^2",
-                    distance: "23,463.2 km",
+                    distance: "20598300 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2017 J 3": {
@@ -379,7 +379,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−605.76 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "20639300 km",
                     img: "moons/flatDeimos.png",
                 },
             Iocaste: {
@@ -388,7 +388,7 @@ var dataSet = {
                     mass: "≈ 0.019 x 10^16 kg",
                     orbit: "−605.96 days",
                     surfaceArea: "84.95 km^2",
-                    distance: "23,463.2 km",
+                    distance: "20644000 km",
                     img: "moons/flatDeimos.png",
                 },
             Praxidike: {
@@ -397,7 +397,7 @@ var dataSet = {
                     mass: "≈ 0.043 x 10^16 kg",
                     orbit: "−609.25 days",
                     surfaceArea: "145.27 km^2",
-                    distance: "23,463.2 km",
+                    distance: "20669000 km",
                     img: "moons/flatDeimos.png",
                 },
             Anake: {
@@ -406,7 +406,7 @@ var dataSet = {
                     mass: "≈ 3.0 x 10^16 kg",
                     orbit: "−610.22 days",
                     surfaceArea: "2,463.01 km^2",
-                    distance: "23,463.2 km",
+                    distance: "20718600 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2003 J 16": {
@@ -415,7 +415,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−610.36 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "20740600 km",
                     img: "moons/flatDeimos.png",
                 },
             Thelxinoe: {
@@ -424,7 +424,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−621.90 days",
                     surfaceArea: "12.57 km^2",
-                    distance: "23,463.2 km",
+                    distance: "21004500 km",
                     img: "moons/flatDeimos.png",
                 },
             Orthosie: {
@@ -433,7 +433,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−625.07 days",
                     surfaceArea: "12.57 km^2",
-                    distance: "23,463.2 km",
+                    distance: "21075700 km",
                     img: "moons/flatDeimos.png",
                 },
             Helike: {
@@ -442,7 +442,7 @@ var dataSet = {
                     mass: "≈ 0.009 x 10^16 kg",
                     orbit: "−626.33 days",
                     surfaceArea: "50.27 km^2",
-                    distance: "23,463.2 km",
+                    distance: "21103900 km",
                     img: "moons/flatDeimos.png",
                 },
             Eupheme: {
@@ -451,7 +451,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−628.06 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "21142900 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2010 J 2": {
@@ -460,7 +460,7 @@ var dataSet = {
                     mass: "≈ 0.00015 x 10^16 kg",
                     orbit: "−630.39 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "21195100 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2017 J 9": {
@@ -469,7 +469,7 @@ var dataSet = {
                     mass: "≈ 0.0045 x 10^16 kg",
                     orbit: "−640.90 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "21430000 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2017 J 6": {
@@ -478,7 +478,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−684.66 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "22394700 km",
                     img: "moons/flatDeimos.png",
                 },
 
@@ -488,7 +488,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−684.98 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "22401800 km",
                     img: "moons/flatDeimos.png",
                 },
             Kale: {
@@ -497,7 +497,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−685.07 days",
                     surfaceArea: "12.57 km^2",
-                    distance: "23,463.2 km",
+                    distance: "22403600 km",
                     img: "moons/flatDeimos.png",
                 },
             Chaldene: {
@@ -506,7 +506,7 @@ var dataSet = {
                     mass: "≈ 0.009 x 10^16 kg",
                     orbit: "−691.25 days",
                     surfaceArea: "45.36 km^2",
-                    distance: "23,463.2 km",
+                    distance: "22538200 km",
                     img: "moons/flatDeimos.png",
                 },
             Taygete: {
@@ -515,7 +515,7 @@ var dataSet = {
                     mass: "≈ 0.016 x 10^16 kg",
                     orbit: "−691.62 days",
                     surfaceArea: "78.54 km^2",
-                    distance: "23,463.2 km",
+                    distance: "22546200 km",
                     img: "moons/flatDeimos.png",
                 },
             Herse: {
@@ -524,7 +524,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−692.16 days",
                     surfaceArea: "12.57 km^2",
-                    distance: "23,463.2 km",
+                    distance: "22557900  km",
                     img: "moons/flatDeimos.png",
                 },
             Kallichore: {
@@ -533,7 +533,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−695.01 days",
                     surfaceArea: "12.57 km^2",
-                    distance: "23,463.2 km",
+                    distance: "22619900 km",
                     img: "moons/flatDeimos.png",
                 },
             Kalyke: {
@@ -542,7 +542,7 @@ var dataSet = {
                     mass: "≈ 0.04 x 10^16 kg",
                     orbit: "−697.41 days",
                     surfaceArea: "84.95 km^2",
-                    distance: "23,463.2 km",
+                    distance: "22671900 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2003 J 19": {
@@ -551,7 +551,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−698.56 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "22696700 km",
                     img: "moons/flatDeimos.png",
                 },
             Pasithee: {
@@ -560,7 +560,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−699.28 days",
                     surfaceArea: "12.57 km^2",
-                    distance: "23,463.2 km",
+                    distance: "22712500 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2003 J 10": {
@@ -569,7 +569,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−700.13 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "22731000 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2003 J 23": {
@@ -578,7 +578,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−700.54 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "22740000 km",
                     img: "moons/flatDeimos.png",
                 },
             Philophrosyne: {
@@ -587,7 +587,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−701.42 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "22758800 km",
                     img: "moons/flatDeimos.png",
                 },
             Cyllene: {
@@ -596,7 +596,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−703.93 days",
                     surfaceArea: "12.57 km^2",
-                    distance: "23,463.2 km",
+                    distance: "22813100 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2010 J 1": {
@@ -605,7 +605,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−707.61 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "22892400 km",
                     img: "moons/flatDeimos.png",
                 },
             Autonoe: {
@@ -614,7 +614,7 @@ var dataSet = {
                     mass: "≈ 0.009 x 10^16 kg",
                     orbit: "−711.10 days",
                     surfaceArea: "50.27 km^2",
-                    distance: "23,463.2 km",
+                    distance: "22967700 km",
                     img: "moons/flatDeimos.png",
                 },
             Megaclite: {
@@ -623,7 +623,7 @@ var dataSet = {
                     mass: "≈ 0.021 x 10^16 kg",
                     orbit: "−717.14 days",
                     surfaceArea: "591.61 km^2",
-                    distance: "23,463.2 km",
+                    distance: "23097500 km",
                     img: "moons/flatDeimos.png",
                 },
             Eurydome: {
@@ -632,7 +632,7 @@ var dataSet = {
                     mass: "≈ 0.0045 x 10^16 kg",
                     orbit: "−719.53 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "23148700  km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2017 J 5": {
@@ -641,7 +641,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−720.49 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "23169400 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2017 J 8": {
@@ -650,7 +650,7 @@ var dataSet = {
                     mass: "≈ 0.00015 x 10^16 kg",
                     orbit: "−720.73 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "23174400 km",
                     img: "moons/flatDeimos.png",
                 },
             Pasiphae: {
@@ -659,7 +659,7 @@ var dataSet = {
                     mass: "≈ 30 x 10^16 kg",
                     orbit: "−722.34 days",
                     surfaceArea: "11,309.73 km^2",
-                    distance: "23,463.2 km",
+                    distance: "23208900  km",
                     img: "moons/flatDeimos.png",
                 },
             Callirrhoe: {
@@ -668,7 +668,7 @@ var dataSet = {
                     mass: "≈ 0.087 x 10^16 kg",
                     orbit: "−722.53 days",
                     surfaceArea: "232.35 km^2",
-                    distance: "23,463.2 km",
+                    distance: "23213100 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2011 J 2": {
@@ -677,7 +677,7 @@ var dataSet = {
                     mass: "≈ 0.00015 x 10^16 kg",
                     orbit: "−722.55 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "23213600 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2017 J 2": {
@@ -686,7 +686,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−723.83 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "23241000 km",
                     img: "moons/flatDeimos.png",
                 },
             Isonoe: {
@@ -695,7 +695,7 @@ var dataSet = {
                     mass: "≈ 0.009 x 10^16 kg",
                     orbit: "−727.65 days",
                     surfaceArea: "45.36 km^2",
-                    distance: "23,463.2 km",
+                    distance: "23322700 km",
                     img: "moons/flatDeimos.png",
                 },
             Aitne: {
@@ -704,7 +704,7 @@ var dataSet = {
                     mass: "0.0045 x 10^16 kg",
                     orbit: "−727.95 days",
                     surfaceArea: "28.27 km^2",
-                    distance: "23,463.2 km",
+                    distance: "23329000 km",
                     img: "moons/flatDeimos.png",
                 },
             Hegemone: {
@@ -713,7 +713,7 @@ var dataSet = {
                     mass: "≈ 0.0045 x 10^16 kg",
                     orbit: "−733.24 days",
                     surfaceArea: "28.27 km^2",
-                    distance: "23,463.2 km",
+                    distance: "23441900 km",
                     img: "moons/flatDeimos.png",
                 },
             Sponde: {
@@ -722,7 +722,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−734.89 days",
                     surfaceArea: "12.57 km^2",
-                    distance: "23,463.2 km",
+                    distance: "23477000 km",
                     img: "moons/flatDeimos.png",
                 },
             Eukelade: {
@@ -731,7 +731,7 @@ var dataSet = {
                     mass: "≈ 0.009 x 10^16 kg",
                     orbit: "−735.03 days",
                     surfaceArea: "50.27 km^2",
-                    distance: "23,463.2 km",
+                    distance: "23480100 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2003 J 4": {
@@ -740,7 +740,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−739.29 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "23571000 km",
                     img: "moons/flatDeimos.png",
                 },
             Erinome: {
@@ -749,7 +749,7 @@ var dataSet = {
                     mass: "≈ 0.0045 x 10^16 kg",
                     orbit: "−739.53 days",
                     surfaceArea: "32.17 km^2",
-                    distance: "23,463.2 km",
+                    distance: "23575700 km",
                     img: "moons/flatDeimos.png",
                 },
             Archae: {
@@ -758,7 +758,7 @@ var dataSet = {
                     mass: "≈ 0.0045 x 10^16 kg",
                     orbit: "−743.00 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "23649500 km",
                     img: "moons/flatDeimos.png",
                 },
             Eirene: {
@@ -767,7 +767,7 @@ var dataSet = {
                     mass: "≈ 0.009 x 10^16 kg",
                     orbit: "−743.88 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "23668100 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2003 J 9": {
@@ -776,7 +776,7 @@ var dataSet = {
                     mass: "≈ 0.00015 x 10^16 kg",
                     orbit: "−752.84 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "23858000 km",
                     img: "moons/flatDeimos.png",
                 },
             Carme: {
@@ -785,7 +785,7 @@ var dataSet = {
                     mass: "≈ 13 x 10^16 kg",
                     orbit: "−756.09 days",
                     surfaceArea: "6,647.61 km^2",
-                    distance: "23,463.2 km",
+                    distance: "23926500 km",
                     img: "moons/flatDeimos.png",
                 },
             Aoede: {
@@ -794,7 +794,7 @@ var dataSet = {
                     mass: "≈ 0.009 x 10^16 kg",
                     orbit: "−760.14 days",
                     surfaceArea: "50.27 km^2",
-                    distance: "23,463.2 km",
+                    distance: "24011900 km",
                     img: "moons/flatDeimos.png",
                 },
             Kore: {
@@ -803,7 +803,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−776.02 days",
                     surfaceArea: "12.57 km^2",
-                    distance: "23,463.2 km",
+                    distance: "24345100 km",
                     img: "moons/flatDeimos.png",
                 },
             Sinope: {
@@ -812,7 +812,7 @@ var dataSet = {
                     mass: "≈ 7.5 x 10^16 kg",
                     orbit: "−777.29 days",
                     surfaceArea: "4,536.46 km^2",
-                    distance: "23,463.2 km",
+                    distance: "24371600 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2017 J 1": {
@@ -821,7 +821,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−780.63 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "24441400 km",
                     img: "moons/flatDeimos.png",
                 },
             "S/2003 J 2": {
@@ -830,7 +830,7 @@ var dataSet = {
                     mass: "≈ 0.0015 x 10^16 kg",
                     orbit: "−1077.02 days",
                     surfaceArea: "N/A km^2",
-                    distance: "23,463.2 km",
+                    distance: "30291000 km",
                     img: "moons/flatDeimos.png",
                 },
             },
