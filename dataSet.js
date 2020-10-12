@@ -136,7 +136,7 @@ var dataSet = {
             "S/2009 S 1":{
                 moons: "N/A",
                 diameter: "≈ 0.3 km",
-                mass: "<0.0001 x 10 ^ 15 kg",
+                mass: "<0.0001 x 10^15 kg",
                 orbit: "≈ 0.47 days",
                 surfaceArea: "N/A",
                 distance: "296,000 km",
@@ -145,7 +145,7 @@ var dataSet = {
             Pan:{
                 moons: "N/A",
                 diameter: "28.2 km",
-                mass: "4.95 x 10 ^ 15 kg",
+                mass: "4.95 x 10^15 kg",
                 orbit: "0.57505 days",
                 surfaceArea: "1552.3732 km^2",
                 distance: "134,000 km",
@@ -155,7 +155,7 @@ var dataSet = {
             Daphnis:{
                 moons: "N/A",
                 diameter: "7.6 km",
-                mass: "0.084 x 10 ^ 15 kg",
+                mass: "0.084 x 10^15 kg",
                 orbit: "0.59408 days",
                 surfaceArea: "181.46 km^2",
                 distance: "136,500 km",
@@ -164,7 +164,7 @@ var dataSet = {
             Atlas:{
                 moons: "N/A",
                 diameter: "30.2 km",
-                mass: "6.6 x 10 ^ 15 kg",
+                mass: "6.6 x 10^15 kg",
                 orbit: "0.60169 days",
                 surfaceArea: "2,865.26 km^2",
                 distance: "139,006 km",
@@ -173,7 +173,7 @@ var dataSet = {
             Prometheus :{
                 moons: "N/A",
                 diameter: "86.2 km",
-                mass: "159.5 x 10 ^ 15 kg",
+                mass: "159.5 x 10^15 kg",
                 orbit: "0.61299 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "139,000 km",
@@ -182,7 +182,7 @@ var dataSet = {
             Pandora :{
                 moons: "N/A",
                 diameter: "81.4 km",
-                mass: "137.1 x 10 ^ 15 kg",
+                mass: "137.1 x 10^15 kg",
                 orbit: "0.6285 days",
                 surfaceArea: "12934.490849 km^2",
                 distance: "142,000 km",
@@ -191,7 +191,7 @@ var dataSet = {
             Epimetheus :{
                 moons: "N/A",
                 diameter: "116.2 km",
-                mass: "526.6 x 10 ^ 15 kg",
+                mass: "526.6 x 10^15 kg",
                 orbit: "0.69433 days",
                 surfaceArea: "N/A",
                 distance: "151,000 km",
@@ -200,7 +200,7 @@ var dataSet = {
             Janus :{
                 moons: "N/A",
                 diameter: "179 km",
-                mass: "1897.5 x 10 ^ 15 kg",
+                mass: "1897.5 x 10^15 kg",
                 orbit: "0.69466 days",
                 surfaceArea: "100,659.77 km^2",
                 distance: "151,472 km",
@@ -209,7 +209,7 @@ var dataSet = {
             Aegaeon :{
                 moons: "N/A",
                 diameter: "0.66 km",
-                mass: "≈ 0.0001 x 10 ^ 15 kg",
+                mass: "≈ 0.0001 x 10^15 kg",
                 orbit: "0.80812 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "167,500 km",
@@ -218,7 +218,7 @@ var dataSet = {
             Mimas :{
                 moons: "N/A",
                 diameter: "396.4 km",
-                mass: "37493 x 10 ^ 15 kg",
+                mass: "37493 x 10^15 kg",
                 orbit: "0.942422 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "185,404 km",
@@ -227,7 +227,7 @@ var dataSet = {
             Methone :{
                 moons: "N/A",
                 diameter: "2.9 km",
-                mass: "≈ 0.02 x 10 ^ 15 kg",
+                mass: "≈ 0.02 x 10^15 kg",
                 orbit: "1.00957 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "194,440 km",
@@ -236,7 +236,7 @@ var dataSet = {
             Anthe :{
                 moons: "N/A",
                 diameter: "1.8 km",
-                mass: "≈ 0.0015 x 10 ^ 15 kg",
+                mass: "≈ 0.0015 x 10^15 kg",
                 orbit: "1.05089 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "197,700 km",
@@ -245,7 +245,7 @@ var dataSet = {
             Pallene :{
                 moons: "N/A",
                 diameter: "4.44 km",
-                mass: "≈ 0.05 x 10 ^ 15 kg",
+                mass: "≈ 0.05 x 10^15 kg",
                 orbit: "1.15375 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "212,280 km",
@@ -254,7 +254,7 @@ var dataSet = {
             Enceladus :{
                 moons: "N/A",
                 diameter: "504.2 km",
-                mass: "108022 x 10 ^ 15 kg",
+                mass: "108022 x 10^15 kg",
                 orbit: "1.370218 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "237,950 km",
@@ -263,7 +263,7 @@ var dataSet = {
             Tethys :{
                 moons: "N/A",
                 diameter: "1062.2 km",
-                mass: "617449 x 10 ^ 15 kg",
+                mass: "617449 x 10^15 kg",
                 orbit: "1.887802 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "294,619 km",
@@ -272,7 +272,7 @@ var dataSet = {
             Telesto :{
                 moons: "N/A",
                 diameter: "24.8 km",
-                mass: "≈ 9.41 x 10 ^ 15 kg",
+                mass: "≈ 9.41 x 10^15 kg",
                 orbit: "1.887802 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "294,619 km",
@@ -281,7 +281,7 @@ var dataSet = {
             Calypso :{
                 moons: "N/A",
                 diameter: "21.4 km",
-                mass: "≈ 6.3 x 10 ^ 15 kg",
+                mass: "≈ 6.3 x 10^15 kg",
                 orbit: "1.887802 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "294,619 km",
@@ -290,7 +290,7 @@ var dataSet = {
             Dione :{
                 moons: "N/A",
                 diameter: "1122.8 km",
-                mass: "1095452 x 10 ^ 15 kg",
+                mass: "1095452 x 10^15 kg",
                 orbit: "2.736915 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "377,396 km",
@@ -299,7 +299,7 @@ var dataSet = {
             Helene :{
                 moons: "N/A",
                 diameter: "35.2 km",
-                mass: "≈ 24.5 x 10 ^ 15 kg",
+                mass: "≈ 24.5 x 10^15 kg",
                 orbit: "2.736915 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "377,396 km",
@@ -308,7 +308,7 @@ var dataSet = {
             Polydeuces :{
                 moons: "N/A",
                 diameter: "2.6 km",
-                mass: "≈ 0.03 x 10 ^ 15 kg",
+                mass: "≈ 0.03 x 10^15 kg",
                 orbit: "2.736915 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "377,396 km",
@@ -317,7 +317,7 @@ var dataSet = {
             Rhea :{
                 moons: "N/A",
                 diameter: "1527.6 km",
-                mass: "2306518 x 10 ^ 15 kg",
+                mass: "2306518 x 10^15 kg",
                 orbit: "4.518212 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "527,108 km",
@@ -326,7 +326,7 @@ var dataSet = {
             Titan :{
                 moons: "N/A",
                 diameter: "5149.46 km",
-                mass: "134520000 x 10 ^ 15 kg",
+                mass: "134520000 x 10^15 kg",
                 orbit: "15.94542 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "1,221,930 km",
@@ -335,7 +335,7 @@ var dataSet = {
             Hyperion :{
                 moons: "N/A",
                 diameter: "270 km",
-                mass: "5619.9 x 10 ^ 15 kg",
+                mass: "5619.9 x 10^15 kg",
                 orbit: "21.27661 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "1,481,010 km",
@@ -345,7 +345,7 @@ var dataSet = {
             Iapetus :{
                 moons: "N/A",
                 diameter: "1468.6 km",
-                mass: "1805635 x 10 ^ 15 kg",
+                mass: "1805635 x 10^15 kg",
                 orbit: "79.3215 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "3,560,820 km",
@@ -354,7 +354,7 @@ var dataSet = {
             Kiviuq :{
                 moons: "N/A",
                 diameter: "≈ 17 km",
-                mass: "≈ 2.79 x 10 ^ 15 kg",
+                mass: "≈ 2.79 x 10^15 kg",
                 orbit: "446.87 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "	11,273,000 km",
@@ -363,7 +363,7 @@ var dataSet = {
             Ijiraq :{
                 moons: "N/A",
                 diameter: "≈ 13 km",
-                mass: "≈ 1.18 x 10 ^ 15 kg",
+                mass: "≈ 1.18 x 10^15 kg",
                 orbit: "450.99 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "11,342,300 km",
@@ -372,7 +372,7 @@ var dataSet = {
             Phoebe :{
                 moons: "N/A",
                 diameter: "213 km",
-                mass: "8292 x 10 ^ 15 kg",
+                mass: "8292 x 10^15 kg",
                 orbit: "−547.76 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "	12,911,700 km",
@@ -381,7 +381,7 @@ var dataSet = {
             Paaliaq :{
                 moons: "N/A",
                 diameter: "≈ 25 km",
-                mass: "≈ 7.25 x 10 ^ 15 kg",
+                mass: "≈ 7.25 x 10^15 kg",
                 orbit: "690.34 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "15,065,000 km",
@@ -390,7 +390,7 @@ var dataSet = {
             Skathi :{
                 moons: "N/A",
                 diameter: "≈ 8 km",
-                mass: "≈ 0.35 x 10 ^ 15 kg",
+                mass: "≈ 0.35 x 10^15 kg",
                 orbit: "−728.08 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "	15,609,000 km",
@@ -399,7 +399,7 @@ var dataSet = {
             "S/2004 S 37" :{
                 moons: "N/A",
                 diameter: "≈ 4 km",
-                mass: "≈ 0.05 x 10 ^ 15 kg",
+                mass: "≈ 0.05 x 10^15 kg",
                 orbit: "−747.95 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "	15,892,000 km",
@@ -408,7 +408,7 @@ var dataSet = {
             "S/2007 S 2" :{
                 moons: "N/A",
                 diameter: "≈ 6 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−759.47 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "	15,892,000 km",
@@ -417,7 +417,7 @@ var dataSet = {
             Albiorix :{
                 moons: "N/A",
                 diameter: "28.6 km",
-                mass: "≈ 22.3 x 10 ^ 15 kg",
+                mass: "≈ 22.3 x 10^15 kg",
                 orbit: "786.4 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "	15,892,000 km",
@@ -426,7 +426,7 @@ var dataSet = {
             Bebhionn :{
                 moons: "N/A",
                 diameter: "≈ 6 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "814.56 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "16,822,000 km",
@@ -435,7 +435,7 @@ var dataSet = {
             "S/2004 S 29" :{
                 moons: "N/A",
                 diameter: "≈ 4 km",
-                mass: "≈ 0.05 x 10 ^ 15 kg",
+                mass: "≈ 0.05 x 10^15 kg",
                 orbit: "826.19 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "16,981,000 km",
@@ -444,7 +444,7 @@ var dataSet = {
             Erriapus :{
                 moons: "N/A",
                 diameter: "≈ 10 km",
-                mass: "≈ 0.68 x 10 ^ 15 kg",
+                mass: "≈ 0.68 x 10^15 kg",
                 orbit: "865.8 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "17,520,000 km",
@@ -453,7 +453,7 @@ var dataSet = {
             "S/2004 S 31" :{
                 moons: "N/A",
                 diameter: "≈ 4 km",
-                mass: "≈ 0.05 x 10 ^ 15 kg",
+                mass: "≈ 0.05 x 10^15 kg",
                 orbit: "869.38 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "17,568,000 km",
@@ -462,7 +462,7 @@ var dataSet = {
             Skoll :{
                 moons: "N/A",
                 diameter: "≈ 5 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−870.02 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "17,576,900 km",
@@ -471,7 +471,7 @@ var dataSet = {
             Siarnaq :{
                 moons: "N/A",
                 diameter: "39.3 km",
-                mass: "≈ 43.5 x 10 ^ 15 kg",
+                mass: "≈ 43.5 x 10^15 kg",
                 orbit: "884.88 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "17,937,000 km",
@@ -480,7 +480,7 @@ var dataSet = {
             Tarqeq :{
                 moons: "N/A",
                 diameter: "≈ 7 km",
-                mass: "≈ 0.23 x 10 ^ 15 kg",
+                mass: "≈ 0.23 x 10^15 kg",
                 orbit: "892.55 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "	17,879,000 km",
@@ -489,7 +489,7 @@ var dataSet = {
             "S/2004 S 13" :{
                 moons: "N/A",
                 diameter: "≈ 6 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−905.85 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "18,056,300 km",
@@ -498,7 +498,7 @@ var dataSet = {
             Hyrrokkin :{
                 moons: "N/A",
                 diameter: "≈ 8  km",
-                mass: "≈ 0.35 x 10 ^ 15 kg",
+                mass: "≈ 0.35 x 10^15 kg",
                 orbit: "−927.85 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "18,347,400 km",
@@ -507,7 +507,7 @@ var dataSet = {
             Tarvos :{
                 moons: "N/A",
                 diameter: "≈ 15 km",
-                mass: "≈ 2.3 x 10 ^ 15 kg",
+                mass: "≈ 2.3 x 10^15 kg",
                 orbit: "944.23 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "	18,562,800 km",
@@ -516,7 +516,7 @@ var dataSet = {
             Mundilfari :{
                 moons: "N/A",
                 diameter: "≈ 7 km",
-                mass: "≈ 0.23 x 10 ^ 15 kg",
+                mass: "≈ 0.23 x 10^15 kg",
                 orbit: "−946.30 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "18,590,000 km",
@@ -525,7 +525,7 @@ var dataSet = {
             "S/2006 S 1" :{
                 moons: "N/A",
                 diameter: "≈ 5 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−951.10 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "18,652,700 km",
@@ -534,7 +534,7 @@ var dataSet = {
             Greip :{
                 moons: "N/A",
                 diameter: "≈ 5 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−951.20 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "18,654,000 km",
@@ -543,7 +543,7 @@ var dataSet = {
             Jarnsaxa :{
                 moons: "N/A",
                 diameter: "≈ 6 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−980.85 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "19,039,700 km",
@@ -552,7 +552,7 @@ var dataSet = {
             Bergelmir :{
                 moons: "N/A",
                 diameter: "≈ 5 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−982.52 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "19,061,300 km",
@@ -561,7 +561,7 @@ var dataSet = {
             "S/2004 S 17" :{
                 moons: "N/A",
                 diameter: "≈ 4 km",
-                mass: "≈ 0.05 x 10 ^ 15 kg",
+                mass: "≈ 0.05 x 10^15 kg",
                 orbit: "−985.45 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "19,099,200 km",
@@ -570,7 +570,7 @@ var dataSet = {
             Narvi :{
                 moons: "N/A",
                 diameter: "≈ 7 km",
-                mass: "≈ 0.23 x 10 ^ 15 kg",
+                mass: "≈ 0.23 x 10^15 kg",
                 orbit: "−987.51 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "19,126,000 km",
@@ -579,7 +579,7 @@ var dataSet = {
             "S/2004 S 20" :{
                 moons: "N/A",
                 diameter: "≈ 4 km",
-                mass: "≈ 0.05 x 10 ^ 15 kg",
+                mass: "≈ 0.05 x 10^15 kg",
                 orbit: "−1010.24 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "19,418,000 km",
@@ -588,7 +588,7 @@ var dataSet = {
             Suttungr :{
                 moons: "N/A",
                 diameter: "≈ 7 km",
-                mass: "≈ 0.23 x 10 ^ 15 kg",
+                mass: "≈ 0.23 x 10^15 kg",
                 orbit: "−1026.83 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "19,630,200 km",
@@ -597,7 +597,7 @@ var dataSet = {
             Hati :{
                 moons: "N/A",
                 diameter: "≈ 5 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−1033.05 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "19,709,300 km",
@@ -606,7 +606,7 @@ var dataSet = {
             "S/2004 S 12" :{
                 moons: "N/A",
                 diameter: "≈ 5 km",
-                mass: "≈ 0.09 x 10 ^ 15 kg",
+                mass: "≈ 0.09 x 10^15 kg",
                 orbit: "−1048.54 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "19,905,900 km",
@@ -615,7 +615,7 @@ var dataSet = {
             Farbauti :{
                 moons: "N/A",
                 diameter: "≈ 5 km",
-                mass: "≈ 0.09 x 10 ^ 15 kg",
+                mass: "≈ 0.09 x 10^15 kg",
                 orbit: " −1052.03 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "19,950,000 km",
@@ -624,7 +624,7 @@ var dataSet = {
             "S/2004 S 27" :{
                 moons: "N/A",
                 diameter: "≈ 6 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−1054.12 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "19,976,000 km",
@@ -633,7 +633,7 @@ var dataSet = {
             Bestla :{
                 moons: "N/A",
                 diameter: "≈ 7 km",
-                mass: "≈ 0.23 x 10 ^ 15 kg",
+                mass: "≈ 0.23 x 10^15 kg",
                 orbit: "−1082.96 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "20,339,000 km",
@@ -642,7 +642,7 @@ var dataSet = {
             "S/2007 S 3" :{
                 moons: "N/A",
                 diameter: "≈ 5 km",
-                mass: "≈ 0.09 x 10 ^ 15 kg",
+                mass: "≈ 0.09 x 10^15 kg",
                 orbit: "−1092.85 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "20,463,000 km",
@@ -651,7 +651,7 @@ var dataSet = {
             Aegir :{
                 moons: "N/A",
                 diameter: "≈ 6 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−1094.46 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "20,483,000 km",
@@ -660,7 +660,7 @@ var dataSet = {
             "S/2004 S 7" :{
                 moons: "N/A",
                 diameter: "≈ 6 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−1101.99 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "20,576,700 km",
@@ -669,7 +669,7 @@ var dataSet = {
             "S/2004 S 22" :{
                 moons: "N/A",
                 diameter: "≈ 3 km",
-                mass: "≈ 0.03 x 10 ^ 15 kg",
+                mass: "≈ 0.03 x 10^15 kg",
                 orbit: "−1106.79 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "20,636,000 km",
@@ -678,7 +678,7 @@ var dataSet = {
             Thrymr :{
                 moons: "N/A",
                 diameter: "≈ 8 km",
-                mass: "≈ 0.23 x 10 ^ 15 kg",
+                mass: "≈ 0.23 x 10^15 kg",
                 orbit: "−1113.24 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "20,716,500 km",
@@ -687,7 +687,7 @@ var dataSet = {
             "S/2004 S 30" :{
                 moons: "N/A",
                 diameter: "≈ 3 km",
-                mass: "≈ 0.03 x 10 ^ 15 kg",
+                mass: "≈ 0.03 x 10^15 kg",
                 orbit: "−1121.69 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "20,821,000 km",
@@ -696,7 +696,7 @@ var dataSet = {
             "S/2004 S 23" :{
                 moons: "N/A",
                 diameter: "≈ 4 km",
-                mass: "≈ 0.05 x 10 ^ 15 kg",
+                mass: "≈ 0.05 x 10^15 kg",
                 orbit: "−1149.46 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "21,163,000 km",
@@ -705,7 +705,7 @@ var dataSet = {
             "S/2004 S 25" :{
                 moons: "N/A",
                 diameter: "≈ 4 km",
-                mass: "≈ 0.05 x 10 ^ 15 kg",
+                mass: "≈ 0.05 x 10^15 kg",
                 orbit: "−1150.33 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "21,174,000 km",
@@ -714,7 +714,7 @@ var dataSet = {
             "S/2004 S 32" :{
                 moons: "N/A",
                 diameter: "≈ 4 km",
-                mass: "≈ 0.05 x 10 ^ 15 kg",
+                mass: "≈ 0.05 x 10^15 kg",
                 orbit: "−1153.60 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "	21,214,000 km",
@@ -723,7 +723,7 @@ var dataSet = {
             "S/2006 S 3" :{
                 moons: "N/A",
                 diameter: "≈ 6 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−1161.29 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "21,308,000 km",
@@ -732,7 +732,7 @@ var dataSet = {
             "S/2004 S 38" :{
                 moons: "N/A",
                 diameter: "≈ 4 km",
-                mass: "≈ 0.05 x 10 ^ 15 kg",
+                mass: "≈ 0.05 x 10^15 kg",
                 orbit: "−1210.65 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "21,908,000 km",
@@ -741,7 +741,7 @@ var dataSet = {
             "S/2004 S 28" :{
                 moons: "N/A",
                 diameter: "≈ 4 km",
-                mass: "≈ 0.05 x 10 ^ 15 kg",
+                mass: "≈ 0.05 x 10^15 kg",
                 orbit: "−1219.93 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "22,020,000 km",
@@ -750,7 +750,7 @@ var dataSet = {
             Kari :{
                 moons: "N/A",
                 diameter: "≈ 6 km",
-                mass: "≈ 0.23 x 10 ^ 15 kg",
+                mass: "≈ 0.23 x 10^15 kg",
                 orbit: "−1238.30 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "22,240,400 km",
@@ -759,7 +759,7 @@ var dataSet = {
             "S/2004 S 35" :{
                 moons: "N/A",
                 diameter: "≈ 6 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−1252.69 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "22,412,000 km",
@@ -768,7 +768,7 @@ var dataSet = {
             Fenrir :{
                 moons: "N/A",
                 diameter: "≈ 4 km",
-                mass: "≈ 0.05 x 10 ^ 15 kg",
+                mass: "≈ 0.05 x 10^15 kg",
                 orbit: "−1268.35 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "22,599,000 km",
@@ -777,7 +777,7 @@ var dataSet = {
             "S/2004 S 21" :{
                 moons: "N/A",
                 diameter: "≈ 3 km",
-                mass: "≈ 0.03 x 10 ^ 15 kg",
+                mass: "≈ 0.03 x 10^15 kg",
                 orbit: "−1272.21 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "22,645,000 km",
@@ -786,7 +786,7 @@ var dataSet = {
             "S/2004 S 24" :{
                 moons: "N/A",
                 diameter: "≈ 3 km",
-                mass: "≈ 0.03 x 10 ^ 15 kg",
+                mass: "≈ 0.03 x 10^15 kg",
                 orbit: "1293.85 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "22,901,000 km",
@@ -795,7 +795,7 @@ var dataSet = {
             "S/2004 S 36" :{
                 moons: "N/A",
                 diameter: "≈ 3 km",
-                mass: "≈ 0.03 x 10 ^ 15 kg",
+                mass: "≈ 0.03 x 10^15 kg",
                 orbit: "−1318.65 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "23,192,000 km",
@@ -804,7 +804,7 @@ var dataSet = {
             Loge :{
                 moons: "N/A",
                 diameter: "≈ 5 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−1319.86 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "23,206,500 km",
@@ -813,7 +813,7 @@ var dataSet = {
             Surtur :{
                 moons: "N/A",
                 diameter: "≈ 6 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−1329.27 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "23,316,600 km",
@@ -823,7 +823,7 @@ var dataSet = {
             "S/2004 S 39" :{
                 moons: "N/A",
                 diameter: "≈ 3 km",
-                mass: "≈ 0.03 x 10 ^ 15 kg",
+                mass: "≈ 0.03 x 10^15 kg",
                 orbit: "−1351.41 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "23,575,000 km",
@@ -832,7 +832,7 @@ var dataSet = {
             Ymir :{
                 moons: "N/A",
                 diameter: "≈ 19 km",
-                mass: "≈ 3.97 x 10 ^ 15 kg",
+                mass: "≈ 3.97 x 10^15 kg",
                 orbit: "−1356.98 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "23,639,600 km",
@@ -842,7 +842,7 @@ var dataSet = {
             "S/2004 S 33" :{
                 moons: "N/A",
                 diameter: "≈ 4 km",
-                mass: "≈ 0.05 x 10 ^ 15 kg",
+                mass: "≈ 0.05 x 10^15 kg",
                 orbit: "−1402.74 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "24,168,000 km",
@@ -851,7 +851,7 @@ var dataSet = {
             "S/2004 S 34" :{
                 moons: "N/A",
                 diameter: "≈ 3 km",
-                mass: "≈ 0.03 x 10 ^ 15 kg",
+                mass: "≈ 0.03 x 10^15 kg",
                 orbit: "−1414.15 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "24,299,000 km",
@@ -860,7 +860,7 @@ var dataSet = {
             Fornjot :{
                 moons: "N/A",
                 diameter: "≈ 6 km",
-                mass: "≈ 0.15 x 10 ^ 15 kg",
+                mass: "≈ 0.15 x 10^15 kg",
                 orbit: "−1464.03 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "24,867,000 km",
@@ -869,7 +869,7 @@ var dataSet = {
             "S/2004 S 26" :{
                 moons: "N/A",
                 diameter: "≈ 4 km",
-                mass: "4.95 x 10 ^ 16 kg",
+                mass: "4.95 x 10^16 kg",
                 orbit: "−1626.67 days",
                 surfaceArea: "23,343.42 km^2",
                 distance: "26,676,000 km",
