@@ -232,9 +232,10 @@ function page1Start() {
 }
 
 function panelZoom() {
-    $('#startingPanels').transition({
-        x: -100,
-    });
+    $('#startingPanels').css({left: "100%"})
+    .transition({
+        x: -100}, 500, 'ease'
+    );
 }
 
 function statPage(body, orbtBody) {
