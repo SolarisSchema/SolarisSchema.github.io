@@ -1588,6 +1588,24 @@ var dataSet = {
                 img: "moons/flatS2004S26.png" 
             },             
         },
+        Uranus:{
+            Cordelia:{
+                moons:"N/A",
+                diameter: "40 ± 6",
+                mass: "4.4 x 10^16 kg",
+                orbit: "0.335 days",
+                img: "moons/flatDeimos.png"
+            },
+        },
+        Neptune:{
+            Naiad:{
+                moons: "N/A",
+                diameter: "60.4",
+                mass: "19 x 10^16 kg",
+                orbit: "0.2944",
+                img: "moons/flatDeimos.png"
+            }
+        }
     },
     dwarfPlanets: {
         Pluto: {
