@@ -1596,9 +1596,192 @@ var dataSet = {
                 moons:"N/A",
                 diameter: "40 ± 6",
                 mass: "4.4 x 10^16 kg",
-                orbit: "0.335 days",
+                orbit: "0.33503 days",
+                img: "moons/flatCordelia.png"
+            },
+            Ophelia:{
+                moons:"N/A",
+                diameter: "43 ± 8",
+                mass: "≈ 5.3 x 10 ^ 16 kg",
+                orbit: "0.3764 days",
+                img: "moons/flatOphilia.png"
+            },
+            Bianca:{
+                moons:"N/A",
+                diameter: "51 ± 4 ",
+                mass: "≈ 9.2 x 10 ^ 16 kg",
+                orbit: "0.43458 days",
+                img: "moons/flatBianca.png"
+            },
+            Cressida:{
+                moons:"N/A",
+                diameter: "80 ± 4 ",
+                mass: "≈ 34 x 10 ^ 16 kg",
+                orbit: "0.46357 days",
+                img: "moons/flatCressida.png"
+            },
+            Desdemona:{
+                moons:"N/A",
+                diameter: "64 ± 8 ",
+                mass: "≈ 18 x 10 ^ 16 kg",
+                orbit: "0.47365 days",
+                img: "moons/flatDesdemona.png"
+            },
+            Juliet:{
+                moons:"N/A",
+                diameter: "94 ± 8 ",
+                mass: "≈ 56 x 10 ^ 16 kg",
+                orbit: "0.49307 days",
+                img: "moons/flatJuliet.png"
+            },
+            Portia:{
+                moons:"N/A",
+                diameter: "135 ± 8 ",
+                mass: "≈ 170 x 10 ^ 16 kg",
+                orbit: "0.5132 days",
+                img: "moons/flatPortia.png"
+            },
+            Rosalind:{
+                moons:"N/A",
+                diameter: "72 ± 12 ",
+                mass: "≈ 25 x 10 ^ 16 kg",
+                orbit: "0.55846 days",
+                img: "moons/flatRosalind.png"
+            },
+            Cupid:{
+                moons:"N/A",
+                diameter: "≈ 18 ",
+                mass: "≈ 0.38 x 10 ^ 16 kg",
+                orbit: "0.618days",
+                img: "moons/flatCupid.png"
+            },
+            Belinda:{
+                moons:"N/A",
+                diameter: "≈ 49 x 10 ^ 16 ",
+                mass: "≈ 49 x 10 ^ 16 kg",
+                orbit: "0.62353 days",
+                img: "moons/flatBelinda.png"
+            },
+            Perdita:{
+                moons:"N/A",
+                diameter: "30 ± 6 ",
+                mass: "≈ 1.8 x 10 ^ 16 kg",
+                orbit: "0.638 days",
+                img: "moons/flatPerdita.png"
+            },
+            Puck:{
+                moons:"N/A",
+                diameter: "162 ± 4 ",
+                mass: "≈ 290 x 10 ^ 16 kg",
+                orbit: "0.76183 days",
+                img: "moons/flatPuck.png"
+            },
+            Mab:{
+                moons:"N/A",
+                diameter: "≈ 25 6",
+                mass: "≈ 1.0 x 10 ^ 16 kg",
+                orbit: "0.923 days",
+                img: "moons/flatMab.png"
+            },
+            Miranda:{
+                moons:"N/A",
+                diameter: "471.6 ± 1.4 ",
+                mass: "6590±750 x 10 ^ 16 kg",
+                orbit: "1.41348 days",
+                img: "moons/flatMiranda.png"
+            },
+            Ariel:{
+                moons:"N/A",
+                diameter: "1157.8±1.2 ",
+                mass: "135300±12000 x 10^16 kg",
+                orbit: "2.52038 days",
+                img: "moons/flatAriel.png"
+            },
+            Umbriel:{
+                moons:"N/A",
+                diameter: "1169.4±5.6",
+                mass: "117200±13500 x 10^16 kg",
+                orbit: "4.14418 days",
+                img: "moons/flatUmbriel.png"
+            },
+            Titania:{
+                moons:"N/A",
+                diameter: "1576.8±1.2 ",
+                mass: "352700±9000 x 10^16 kg",
+                orbit: "8.70587 days",
+                img: "moons/flatTitania.png"
+            },
+            Oberon:{
+                moons:"N/A",
+                diameter: "1522.8±5.2 ",
+                mass: "301400±7500 x 10^16 kg",
+                orbit: "13.4632 days",
+                img: "moons/flatOberon.png"
+            },
+            Francisco:{
+                moons:"N/A",
+                diameter: "≈ 22 ",
+                mass: "≈ 0.72 x 10^16 kg",
+                orbit: "−267.12 days",
+                img: "moons/flatFrancisco.png"
+            },
+            Caliban:{
+                moons:"N/A",
+                diameter: "42+20/-12 ",
+                mass: "≈ 25 x 10^16 kg",
+                orbit: "−579.26 days",
+                img: "moons/flatCaliban.png"
+            },
+            Stephano:{
+                moons:"N/A",
+                diameter: "≈ 32 ",
+                mass: "≈ 2.2 x 10^16 kg",
+                orbit: "−677.48 days",
+                img: "moons/flatStephano.png"
+            },
+            Trinculo:{
+                moons:"N/A",
+                diameter: "≈ 18",
+                mass: "≈ 0.39 x 10^16 kg",
+                orbit: "−749.29 days",
+                img: "moons/flatTrinculo.png"
+            },
+            Sycorax:{
+                moons:"N/A",
+                diameter: "157+23/-15",
+                mass: "≈ 230 x 10^16 kg",
+                orbit: "−1286.28 days",
+                img: "moons/flatSycorax.png"
+            },
+            Margaret:{
+                moons:"N/A",
+                diameter: "≈ 20 ",
+                mass: "≈ 0.54 x 10^16 kg",
+                orbit: "1654.12 days",
+                img: "moons/flatMargaret.png"
+            },
+            Prospero:{
+                moons:"N/A",
+                diameter: "≈ 50 ",
+                mass: "≈ 8.5 x 10^16 kg",
+                orbit: "−1968.36 days",
+                img: "moons/flatProspero.png"
+            },
+            Setebos:{
+                moons:"N/A",
+                diameter: "≈ 48 ",
+                mass: "≈ 7.5 x 10^16 kg",
+                orbit: "−2219.95 days",
                 img: "moons/flatDeimos.png"
             },
+            Ferdinand:{
+                moons:"N/A",
+                diameter: "≈ 20 ",
+                mass: "≈ 0.54 x 10^16 kg",
+                orbit: "−2795.09 days",
+                img: "moons/flatSetebos.png"
+            },
+
             //neptune moon time
         },
         Neptune:{
