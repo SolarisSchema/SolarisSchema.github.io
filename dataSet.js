@@ -1597,6 +1597,8 @@ var dataSet = {
                 diameter: "40 ± 6",
                 mass: "4.4 x 10^16 kg",
                 orbit: "0.33503 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatCordelia.png"
             },
             Ophelia:{
@@ -1604,6 +1606,8 @@ var dataSet = {
                 diameter: "43 ± 8",
                 mass: "≈ 5.3 x 10 ^ 16 kg",
                 orbit: "0.3764 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatOphilia.png"
             },
             Bianca:{
@@ -1611,6 +1615,8 @@ var dataSet = {
                 diameter: "51 ± 4 ",
                 mass: "≈ 9.2 x 10 ^ 16 kg",
                 orbit: "0.43458 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatBianca.png"
             },
             Cressida:{
@@ -1618,6 +1624,8 @@ var dataSet = {
                 diameter: "80 ± 4 ",
                 mass: "≈ 34 x 10 ^ 16 kg",
                 orbit: "0.46357 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatCressida.png"
             },
             Desdemona:{
@@ -1625,6 +1633,8 @@ var dataSet = {
                 diameter: "64 ± 8 ",
                 mass: "≈ 18 x 10 ^ 16 kg",
                 orbit: "0.47365 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatDesdemona.png"
             },
             Juliet:{
@@ -1632,6 +1642,8 @@ var dataSet = {
                 diameter: "94 ± 8 ",
                 mass: "≈ 56 x 10 ^ 16 kg",
                 orbit: "0.49307 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatJuliet.png"
             },
             Portia:{
@@ -1639,6 +1651,8 @@ var dataSet = {
                 diameter: "135 ± 8 ",
                 mass: "≈ 170 x 10 ^ 16 kg",
                 orbit: "0.5132 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatPortia.png"
             },
             Rosalind:{
@@ -1646,6 +1660,8 @@ var dataSet = {
                 diameter: "72 ± 12 ",
                 mass: "≈ 25 x 10 ^ 16 kg",
                 orbit: "0.55846 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatRosalind.png"
             },
             Cupid:{
@@ -1653,6 +1669,8 @@ var dataSet = {
                 diameter: "≈ 18 ",
                 mass: "≈ 0.38 x 10 ^ 16 kg",
                 orbit: "0.618days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatCupid.png"
             },
             Belinda:{
@@ -1660,6 +1678,8 @@ var dataSet = {
                 diameter: "≈ 49 x 10 ^ 16 ",
                 mass: "≈ 49 x 10 ^ 16 kg",
                 orbit: "0.62353 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatBelinda.png"
             },
             Perdita:{
@@ -1667,6 +1687,8 @@ var dataSet = {
                 diameter: "30 ± 6 ",
                 mass: "≈ 1.8 x 10 ^ 16 kg",
                 orbit: "0.638 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatPerdita.png"
             },
             Puck:{
@@ -1674,6 +1696,8 @@ var dataSet = {
                 diameter: "162 ± 4 ",
                 mass: "≈ 290 x 10 ^ 16 kg",
                 orbit: "0.76183 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatPuck.png"
             },
             Mab:{
@@ -1681,6 +1705,8 @@ var dataSet = {
                 diameter: "≈ 25 6",
                 mass: "≈ 1.0 x 10 ^ 16 kg",
                 orbit: "0.923 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatMab.png"
             },
             Miranda:{
@@ -1688,6 +1714,8 @@ var dataSet = {
                 diameter: "471.6 ± 1.4 ",
                 mass: "6590±750 x 10 ^ 16 kg",
                 orbit: "1.41348 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatMiranda.png"
             },
             Ariel:{
@@ -1695,6 +1723,8 @@ var dataSet = {
                 diameter: "1157.8±1.2 ",
                 mass: "135300±12000 x 10^16 kg",
                 orbit: "2.52038 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatAriel.png"
             },
             Umbriel:{
@@ -1702,6 +1732,8 @@ var dataSet = {
                 diameter: "1169.4±5.6",
                 mass: "117200±13500 x 10^16 kg",
                 orbit: "4.14418 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatUmbriel.png"
             },
             Titania:{
@@ -1709,6 +1741,8 @@ var dataSet = {
                 diameter: "1576.8±1.2 ",
                 mass: "352700±9000 x 10^16 kg",
                 orbit: "8.70587 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatTitania.png"
             },
             Oberon:{
@@ -1716,6 +1750,8 @@ var dataSet = {
                 diameter: "1522.8±5.2 ",
                 mass: "301400±7500 x 10^16 kg",
                 orbit: "13.4632 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatOberon.png"
             },
             Francisco:{
@@ -1723,6 +1759,8 @@ var dataSet = {
                 diameter: "≈ 22 ",
                 mass: "≈ 0.72 x 10^16 kg",
                 orbit: "−267.12 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatFrancisco.png"
             },
             Caliban:{
@@ -1730,6 +1768,8 @@ var dataSet = {
                 diameter: "42+20/-12 ",
                 mass: "≈ 25 x 10^16 kg",
                 orbit: "−579.26 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatCaliban.png"
             },
             Stephano:{
@@ -1737,6 +1777,8 @@ var dataSet = {
                 diameter: "≈ 32 ",
                 mass: "≈ 2.2 x 10^16 kg",
                 orbit: "−677.48 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatStephano.png"
             },
             Trinculo:{
@@ -1744,6 +1786,8 @@ var dataSet = {
                 diameter: "≈ 18",
                 mass: "≈ 0.39 x 10^16 kg",
                 orbit: "−749.29 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatTrinculo.png"
             },
             Sycorax:{
@@ -1751,6 +1795,8 @@ var dataSet = {
                 diameter: "157+23/-15",
                 mass: "≈ 230 x 10^16 kg",
                 orbit: "−1286.28 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatSycorax.png"
             },
             Margaret:{
@@ -1758,6 +1804,8 @@ var dataSet = {
                 diameter: "≈ 20 ",
                 mass: "≈ 0.54 x 10^16 kg",
                 orbit: "1654.12 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatMargaret.png"
             },
             Prospero:{
@@ -1765,6 +1813,8 @@ var dataSet = {
                 diameter: "≈ 50 ",
                 mass: "≈ 8.5 x 10^16 kg",
                 orbit: "−1968.36 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatProspero.png"
             },
             Setebos:{
@@ -1772,6 +1822,8 @@ var dataSet = {
                 diameter: "≈ 48 ",
                 mass: "≈ 7.5 x 10^16 kg",
                 orbit: "−2219.95 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatDeimos.png"
             },
             Ferdinand:{
@@ -1779,6 +1831,8 @@ var dataSet = {
                 diameter: "≈ 20 ",
                 mass: "≈ 0.54 x 10^16 kg",
                 orbit: "−2795.09 days",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatSetebos.png"
             },
 
@@ -1790,6 +1844,8 @@ var dataSet = {
                 diameter: "60.4",
                 mass: "19 x 10^16 kg",
                 orbit: "0.2944",
+                surfaceArea: "",
+                distance: "",
                 img: "moons/flatDeimos.png"
             }
         }
