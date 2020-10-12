@@ -232,9 +232,11 @@ function page1Start() {
 }
 
 function panelZoom() {
+    var zoom = parseInt($('#startingPanels').css('width'));
+    console.log(zoom)
     $('#startingPanels').css({left: "100%"})
     .transition({
-        x: -100}, 500, 'ease'
+        x: -zoom}, 500, 'ease'
     );
 }
 
@@ -365,6 +367,6 @@ function panelDel() {
 
 //call function once page is ready
 $(document).ready(function() {
-    $('<div id="screenMaintain" class="page1" style="z-index:-7; left:0px; top:0px; width:1250px; height:2px;"></div>').appendTo('body');
+    $('<div id="screenMaintain" class="page1" style="z-index:-7; left:0px; top:0px; width:1450px; height:2px;"></div>').appendTo('body');
     page1Start();
 });
