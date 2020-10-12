@@ -1,3 +1,4 @@
+var panelT = 0;
 var Met = 0;
     var Mer = 75;
 var Vt = 0;
@@ -222,16 +223,18 @@ function page1Start() {
     setTimeout(UranusGo, 2875);
     setTimeout(NeptuneGo, 3200);
     setTimeout(function () {
-        $('#startingPanels').fadeIn(700);
-        setTimeout(function () {
-            $('#startingPanels').animate({
-                right: "0%",
-            }, 1, function () {});
-        }, 4200);
+        $('#startingPanels').fadeIn(100);
+        setTimeout(panelZoom, 100);
     }, 3500);
     setTimeout(function () {
         $("#flatSun").prepend('#solarOverview').fadeIn(1000);
     }, 325);
+}
+
+function panelZoom() {
+    $('#startingPanels').transition({
+        x: -100,
+    });
 }
 
 function statPage(body, orbtBody) {
