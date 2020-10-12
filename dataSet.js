@@ -128,7 +128,7 @@ var dataSet = {
                 orbit: "7.1712 hours",
                 surfaceArea: "5800 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatMetis.png",
             },
 	    Adrastea: {
                 moons: "N/A",
@@ -146,7 +146,7 @@ var dataSet = {
                 orbit: "12.0288 hours",
                 surfaceArea: "x km^2",
                 distance: "x km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatAmalthea.png",
             },
 	    Thebe: {
                 moons: "N/A",
@@ -155,7 +155,7 @@ var dataSet = {
                 orbit: "16.2672 hours",
                 surfaceArea: "x km^2",
                 distance: "x km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatThebe.png",
             },
 	    Io: {
                 moons: "N/A",
