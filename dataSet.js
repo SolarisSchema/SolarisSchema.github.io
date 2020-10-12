@@ -801,6 +801,15 @@ var dataSet = {
                 distance: "23,192,000 km",
                 img: "moons/flatS2004S36.png" 
             },
+            "That`s no moon.." : {
+                moons: "N/A",
+                diameter: "160 km",
+                mass: "2.5 x 10^18 kg",
+                orbit: "N/A",
+                surfaceArea: "79748.324 km^2",
+                distance: "N/A",
+                img: "moons/flatDeathStar.png" 
+            },
             Loge :{
                 moons: "N/A",
                 diameter: "≈ 5 km",
@@ -876,17 +885,6 @@ var dataSet = {
                 img: "moons/flatS2004S26.png" 
             },             
         },
-        //"That&#39s no moon..": {
-            //"It&#39s a space station." : {
-                //moons: "N/A",
-                //diameter: "160 km",
-                //mass: "2.5 x 10^18 kg",
-                //orbit: "N/A",
-                //surfaceArea: "79748.324 km^2",
-                //distance: "N/A",
-                //img: "moons/flatDeathStar.png" 
-            //}
-        //},
     },
     dwarfPlanets: {
         Pluto: {
