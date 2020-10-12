@@ -223,7 +223,11 @@ function page1Start() {
     setTimeout(NeptuneGo, 3200);
     setTimeout(function () {
         $('#startingPanels').fadeIn(700);
-        $('#startingPanels').css('right') = '0%';
+        setTimeout(function () {
+            $('#startingPanels').animate({
+                right: "0%",
+            }, 1, function () {});
+        }, 4200);
     }, 3500);
     setTimeout(function () {
         $("#flatSun").prepend('#solarOverview').fadeIn(1000);
