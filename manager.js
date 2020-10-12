@@ -31,7 +31,6 @@ function MercuryGo() {
     Met += 0.01;
     $('#MeRing').fadeIn(1000);
     $('#flatMercury').fadeIn(1000);
-    $('<div id="screenMaintain" class="page1" style="z-index:-7; left:0px; top:0px; width:1250px; height:2px;"></div>')
     var MenewLeft = Math.floor(sunX + (Mer * Math.cos(Met)));
     var MenewTop = Math.floor(sunY + (Mer * Math.sin(Met)));
     $('#flatMercury').animate({
@@ -366,5 +365,6 @@ function panelDel() {
 
 //call function once page is ready
 $(document).ready(function() {
+    $('<div id="screenMaintain" class="page1" style="z-index:-7; left:0px; top:0px; width:1250px; height:2px;"></div>').appendTo('body');
     page1Start();
 });
