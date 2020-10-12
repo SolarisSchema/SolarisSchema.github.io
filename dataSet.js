@@ -874,10 +874,19 @@ var dataSet = {
                 surfaceArea: "23,343.42 km^2",
                 distance: "26,676,000 km",
                 img: "moons/flatS2004S26.png" 
-            },
-            
-             
-        }
+            },             
+        },
+        "That's no moon..": {
+            "That's a space station." : {
+                moons: "N/A",
+                diameter: "160 km",
+                mass: "2.5 x 10^18 kg",
+                orbit: "N/A",
+                surfaceArea: "79748.324 km^2",
+                distance: "N/A",
+                img: "moons/flatDeathStar.png" 
+            }
+        },
     },
     dwarfPlanets: {
         Pluto: {
