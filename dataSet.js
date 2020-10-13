@@ -2034,7 +2034,7 @@ var dataSet = {
             },
         },
         Haumea: {
-            "Hi'iaka": {
+            "Hi`iaka": {
                 moons: "N/A",
                 diameter: "310 km",
                 mass: "17.9±1.1 x 10 ^ 18 kg",
@@ -2144,7 +2144,7 @@ var dataSet = {
             orbit: "111,845 days",
             surfaceArea: "6.42×10 ^ 6 km^2 ",
             distance: "45.43 AU",
-            img: "dwarfPlanets/flatMakemake.png"
+            img: "dwarfPlanets/flatMakeMake.png"
         },
         Ceres: {
             moons: "0",
