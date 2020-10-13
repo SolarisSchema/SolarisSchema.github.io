@@ -376,7 +376,7 @@ function panelGen(topic, host) {
         $('<a class="source dropText" id="dataLink2" href="https://solarsystem.nasa.gov/"></br><b>Additional Data</b></a>').appendTo('#dropDown2');
         $('#dropDown2').hover(function () {}, function () { $('.source').fadeOut(500); setTimeout(function () { $('.source').remove(); }, 600) });
     }
-    if (topic !== 'source') {
+    if (topic !== 'source' && shown == false) {
         $('<div class="page2" id="dropPlace" style="height:15%; display:none; z-index:-1;"></div>').appendTo("#dropDown").fadeIn(750);
         $('<div class="btn" id="closeSub" onclick="panelDel()"></div>').appendTo('body').fadeIn(1000);
         $('<p class="btn btnTxt" id="closeText"><b>&gt CLOSE &lt</b></p>').appendTo('#closeSub').fadeIn(1000);
