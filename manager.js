@@ -285,6 +285,7 @@ function statPage(body, orbtBody) {
         $('<p class="statPage" id="labelText3"><b>MASS:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="labelText4"><b>ORBITAL PERIOD:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="labelText5"><b>SURFACE AREA:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('.btn3').fadeIn(1000);
         if (distFrom.indexOf(' ') >= 0) {
             console.log("true")
             hstSpltChk = orbtBody.split(" ");
@@ -368,15 +369,23 @@ function panelGen(topic, host) {
             console.log(key + '[\'' + currBody + '\']');
         }
     } else if (topic == 'source' && shown == false) {
-        console.log("clicked");
+        //console.log("clicked");
         $('<div class="source" id="dropDown2" style="display:none;"></div>').appendTo("body").fadeIn(500);
-        $('<a class="source dropText" id="kepLink" href="https://www.astronomynotes.com/history/s7.htm"><b>Kepler\'s laws</b></a>').appendTo('#dropDown2');
+        $('<a class="source dropText" id="kepLink" href="https://www.astronomynotes.com/history/s7.htm"><b>Kepler\'s Laws</b></a>').appendTo('#dropDown2');
         $('<a class="source dropText" id="imgLink" href="https://www.nasa.gov/multimedia/imagegallery/index.html"></br><b>NASA Image Bank</b></a>').appendTo('#dropDown2');
         $('<a class="source dropText" id="dataLink1" href="https://www.google.com/books/edition/Fundamentals_of_Astrodynamics/UtJK8cetqGkC?hl=en&gbpv=0"></br><b>Main Planets Data</b></a>').appendTo('#dropDown2');
         $('<a class="source dropText" id="dataLink2" href="https://solarsystem.nasa.gov/"></br><b>Additional Data</b></a>').appendTo('#dropDown2');
         $('#dropDown2').hover(function () {}, function () { $('.source').fadeOut(500); setTimeout(function () { $('.source').remove(); }, 600) });
+    } else if (topic == 'info' && shown == false) {
+        //console.log("clicked");
+        $('<div class="info" id="dropDown2" style="display:none; height:40%;"></div>').appendTo("body").fadeIn(500);
+        $('<p class="info dropText" id="infoTxt1"><b>Distance is equivalent to the semi-major axis of an orbit.</b></p>').appendTo('#dropDown2');
+        $('<a class="info dropText" id="infoTxt2"></br><b>1 AU = 149,598,023 km</b></a>').appendTo('#dropDown2');
+        $('<a class="info dropText" id="infoTxt3"></br><b>1 AU is also the semi-major axis of the Earth\'s orbit.</b></a>').appendTo('#dropDown2');
+        $('<a class="info dropText" id="infoTxt4"></br><b>Many images either are not publically available or had to be slightly altered for better viewing by a developer.</b></a>').appendTo('#dropDown2');
+        $('#dropDown2').hover(function () {}, function () { $('.info').fadeOut(500); setTimeout(function () { $('.source').remove(); }, 600) });
     }
-    if (topic !== 'source' && shown == false) {
+    if (topic !== 'source' && topic !== 'info' && shown == false) {
         $('<div class="page2" id="dropPlace" style="height:15%; display:none; z-index:-1;"></div>').appendTo("#dropDown").fadeIn(750);
         $('<div class="btn" id="closeSub" onclick="panelDel()"></div>').appendTo('body').fadeIn(1000);
         $('<p class="btn btnTxt" id="closeText"><b>&gt CLOSE &lt</b></p>').appendTo('#closeSub').fadeIn(1000);
