@@ -289,8 +289,8 @@ function statPage(body, orbtBody) {
         $('<p class="statPage" id="labelText4"><b>ORBITAL PERIOD:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="labelText5"><b>SURFACE AREA:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('.btn3').fadeIn(1000);
-        $('<div class="btn4" id="factSub" onclick="addFact(' + funFact + ')"></div>').appendTo('body');
-        $('<p class="btn4 btnTxt" id="factText"><b>&gt GENERATE A FACT &lt</b></p>').appendTo('#factSub');
+        //$('<div class="btn4" id="factSub" onclick="addFact(' + funFact + ')"></div>').appendTo('body');
+        //$('<p class="btn4 btnTxt" id="factText"><b>&gt GENERATE A FACT &lt</b></p>').appendTo('#factSub');
         if (distFrom.indexOf(' ') >= 0) {
             console.log("true")
             hstSpltChk = orbtBody.split(" ");
@@ -303,19 +303,19 @@ function statPage(body, orbtBody) {
     }, 1500);
 }
 
-function addFact(list) {
-    console.log(list)
-    if (shown == true) {
-        if (loadFact == true) {
-            $('#fact').remove()
-            loadFact = false;
-        } 
-        var currFact = list[Math.floor(Math.random() * list.length)];
-        $('<p class="statPage" id="fact" style="color: rgb(237, 229, 187); position: absolute; font-family: 'Dosis', sans-serif; left:10%; top:40%; padding:2%;"><b>' + currFact + '</b></p>').appendTo('#statsDiv').fadeIn(1000);
-    } else {
-        return;
-    }
-}
+//function addFact(list) {
+    //console.log(list)
+    //if (shown == true) {
+        //if (loadFact == true) {
+            //$('#fact').remove()
+            //loadFact = false;
+        //} 
+        //var currFact = list[Math.floor(Math.random() * list.length)];
+        //$('<p class="statPage" id="fact" style="color: rgb(237, 229, 187); position: absolute; font-family: 'Dosis', sans-serif; left:10%; top:40%; padding:2%;"><b>' + currFact + '</b></p>').appendTo('#statsDiv').fadeIn(1000);
+    //} else {
+        //return;
+    //}
+//}
 
 function panelGen(topic, host) {
     console.log(topic, host);
