@@ -1966,6 +1966,16 @@ var dataSet = {
                 img : "moons/flatDeimos.png",
             },
         },
+        "50000 Quaoar": {
+            Weywot: {
+                moons: "N/A",
+                diameter: "170 km",
+                mass: "1.40±0.21 × 10^21 kg",
+                orbit: "12.44 days",
+                surfaceArea: "unknown",
+                distance: "14500±800 km",
+            }
+        },
     },
     //dwarf planet time
     dwarfPlanets: {
@@ -2022,15 +2032,6 @@ var dataSet = {
             surfaceArea: "unknwon",
             distance: "484.438 AU",
             img: "dwarfPlanets/flat90377Sedna.png"
-        },
-        "50000 Quaoar": {
-            moons: "1",
-            diameter: "1110±5 km",
-            mass: "(1.40±0.21)×10 ^ 21 kg",
-            orbit: "105,495 days",
-            surfaceArea: "3.83×10 ^ 6 km^2 ",
-            distance: "43.694 AU",
-            img: "dwarfPlanets/flat50000Quaoar.png"
         },
         "50000 Quaoar": {
             moons: "1",

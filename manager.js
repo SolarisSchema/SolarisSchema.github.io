@@ -252,9 +252,10 @@ function statPage(body, orbtBody) {
     var Dist = body.distance;
     var Img = body.img;
     var Hrings = body.Hrings;
-    var distFrom = orbtBody
+    var distFrom = orbtBody;
+    var hstSpltChk = "";
     //debug check
-    //console.log(body);
+    console.log(body + ", " + orbtBody);
     //console.log(Moons + ", " + Dia + ", " + Mass + ", " + Orbit + ", " + SArea + ", " + Dist);
     setTimeout(function () {
         if (Hrings == true ) {
@@ -274,7 +275,13 @@ function statPage(body, orbtBody) {
         $('<p class="statPage" id="labelText3"><b>MASS:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="labelText4"><b>ORBITAL PERIOD:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="labelText5"><b>SURFACE AREA:</b></p>').appendTo("#statsDiv").fadeIn(1000);
-        $('<p class="statPage" id="labelText6"><b>DISTANCE FROM ' + distFrom + ':</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        if (orbtBody.indexOf(' ') >= 0) {
+            console.log("true")
+            hstSpltChk = orbtBody.split(" ");
+            $('<p class="statPage" id="labelText6"><b>DISTANCE FROM ' + hstSpltChk[0] + '</br>' + hstSpltChk[1] + ':</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        } else {
+            $('<p class="statPage" id="labelText6"><b>DISTANCE FROM ' + orbtBody + ':</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        }
         $('<a class="statPage" href="https://solarisschema.github.io" id="returnLink">&gt RETURN TO OVERVIEW &lt</a>').appendTo("#statsDiv").fadeIn(1000);
         $('<div class="statPage" id="textShift"></div>').prependTo("#statsDiv").fadeIn(1000);
     }, 1500);
@@ -310,18 +317,18 @@ function panelGen(topic, host) {
     
         $('<div class="page2" id="dropDown" style="z-index:-1; display:none;"></div>').appendTo("body").fadeIn(500);
         for(let i = 0; i < list.length; i++){ 
-            var currBody = "'" + list[i] + "'";
+            var currBody = list[i];
             listTop += 7 * i;
             //console.log("'" + currBody + ", " + list[i] + "'");
 
-            $('<p class="page2 dropText" id="' + list[i] + '" onclick="panelGen(' + "'moon2'" + ', ' + currBody + ')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
-            $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
+            $('<p class="page2 dropText" id="' + list[i] + '" onclick="panelGen(\'moon2\', \'' + currBody + '\')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $(".dropText").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
         }
     } else if (topic == "moon2") {
         $('.btn').remove();
         $('.page2').remove();
         list = (Object.keys(dataSet.moons[host])).sort();
-        key = 'dataSet.moons.' + host;
+        key = 'dataSet.moons[\'' + host + '\']';
     
         $('<div class="page2" id="dropDown" style="z-index:-1; display:none; overflow-y:auto;"></div>').appendTo("body").fadeIn(500);
         for(let i = 0; i < list.length; i++){ 
@@ -329,9 +336,8 @@ function panelGen(topic, host) {
             var currHost = "'" + host.toUpperCase() + "'";
             listTop += 7 * i;
             //console.log("'" + currBody + ", " + list[i] + "'");
-
             $('<p class="page2 dropText" id="' + host + i + '" onclick="statPage(' + key + '[\'' + currBody + '\'] , ' + currHost + ')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + currBody + '</b></p>').appendTo("#dropDown").fadeIn(750);
-            $("#" + host + i).hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
+            $(".dropText").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
             //console.log(key + '.' + currBody);
         }
     } else if (topic == 'dwarfPlanets') {
