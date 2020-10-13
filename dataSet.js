@@ -896,7 +896,7 @@ var dataSet = {
                 orbit: "0.69433 days",
                 surfaceArea: "unknown",
                 distance: "151,000 km",
-                img: "moons/flatEpiemtheus.png" 
+                img: "moons/flatEpimetheus.png" 
             },
             Janus :{
                 moons: "N/A",
