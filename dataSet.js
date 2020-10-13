@@ -1984,12 +1984,39 @@ var dataSet = {
                     diameter: "2325.98488 km",
                     mass: "1.66 × 10^22  kg",
                     orbit: "203670 days",
-                    surfaceArea: "(1.70±0.02)×107 ",
+                    surfaceArea: "(1.70±0.02)×107 km^2",
                     distance: "67.864 AU",
                     img: "dwarfPlanets/flatEris.png"
                 },
-                
-        },
+                Haumea: {
+                    moons: "2",
+                    diameter: "≈ 1560 km",
+                    mass: "(4.006±0.040)×10 ^ 21 kg",
+                    orbit: "103660 days",
+                    surfaceArea: "≈ 8.14×10 ^ 6 km^2 ",
+                    distance: "43.182 AU",
+                    img: "dwarfPlanets/flatHaumea.png"
+                },
+                Makemake: {
+                    moons: "1",
+                    diameter: "1478±34 km",
+                    mass: "≈3.1×10 ^ 21 kg",
+                    orbit: "111,845 days",
+                    surfaceArea: "6.42×10 ^ 6 km^2 ",
+                    distance: "45.43 AU",
+                    img: "dwarfPlanets/flatMakemake.png"
+                },
+                Ceres: {
+                        moons: "0",
+                        diameter: "939.4±0.2 km",
+                        mass: "(9.3835±0.0001)×10 ^ 20 kg",
+                        orbit: "1681.601 days",
+                        surfaceArea: "2,770,000 km^2 ",
+                        distance: "2.769165155 AU",
+                        img: "dwarfPlanets/flatCeres.png"
+                        
+            },
+        }
         
     }
 
