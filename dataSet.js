@@ -1978,20 +1978,20 @@ var dataSet = {
             distance: "49.305 AU",
             img: "dwarfPlanets/flatPluto.png"
         },
-            dwarfPlanets: {
-                Pluto: {
-                    moons: "5",
-                    diameter: "2376.6 ± 1.6 km",
-                    mass: "(1.303±0.003) × 10^22 kg",
-                    orbit: "90,560 days",
-                    surfaceArea: "1.779 × 10^7 km^2",
-                    distance: "49.305 AU",
-                    img: "dwarfPlanets/flatPluto.png"
+
+                Eris: {
+                    moons: "1",
+                    diameter: "2325.98488 km",
+                    mass: "1.66 × 10^22  kg",
+                    orbit: "203670 days",
+                    surfaceArea: "(1.70±0.02)×107 ",
+                    distance: "67.864 AU",
+                    img: "dwarfPlanets/flatEris.png"
                 },
                 
         },
         
     }
-}
+
 
 
