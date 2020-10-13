@@ -2117,7 +2117,7 @@ var dataSet = {
             orbit: "6.38723 days",
             surfaceArea: "4.6 × 10^6 km^2",
             distance: "14500±800 km",
-            img: "moons/flatCharon.png"
+            img: "dwarfPlanets/flatCharon.png"
         },
         Eris: {
             moons: "1",
