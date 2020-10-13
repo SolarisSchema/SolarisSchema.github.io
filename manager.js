@@ -1,4 +1,6 @@
 var panelT = 0;
+var shown = false;
+var load = false;
 var Met = 0;
     var Mer = 75;
 var Vt = 0;
@@ -211,7 +213,8 @@ function mouseLeaveBtn1() {
 
 function page1Start() {
     $("#sunPanel").hover(mouseOverBtn1, mouseLeaveBtn1);
-
+    shown = false;
+    load = false;
     $('#flatSun').fadeIn(1000);
     setTimeout(MercuryGo, 500);
     setTimeout(VenusGo, 825);
@@ -241,10 +244,16 @@ function panelZoom() {
 }
 
 function statPage(body, orbtBody) {
-    $('.page1').fadeOut(1000);
-    $('.page2').fadeOut(1000);
-    $('.btn').remove();
-    $('.btn2').remove();
+    if (shown == false && load == false) {
+        $('.page1').fadeOut(1000);
+        $('.page2').fadeOut(1000);
+        $('.btn').remove();
+        $('.btn2').remove();
+        shown = true;
+        load = true;
+    } else {
+        return;
+    }
     var Moons = body.moons;
     var Dia = body.diameter;
     var Mass = body.mass;
