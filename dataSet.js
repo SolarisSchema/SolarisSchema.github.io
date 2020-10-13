@@ -1975,7 +1975,81 @@ var dataSet = {
                 img: "moons/flatWeywot.png"
             }
         },
-    },
+    
+Pluto: {
+    Charon: {
+        moons: "N/A",
+        diameter: "1,212±1 km",
+        mass: "158.7±1.5 x 10 ^ 19 kg",
+        orbit: "6.38723 days",
+        surfaceArea: "4.6 × 10^6 km^2",
+        distance: "14500±800 km",
+        img: "moons/flatCharon.png"
+      },
+    
+      Hydra: {
+        moons: "N/A",
+        diameter: "50.9 × 36.1 × 30.9 km",
+        mass: "0.005 ± 0.004 x 10 ^ 19 kg",
+        orbit: "38.20177 days",
+        surfaceArea: "unknown",
+        distance: "unknown",
+        img: "moons/flatHydra.png"
+      },
+      Kerberos: {
+            moons: "N/A",
+            diameter: "19 × 10 × 9 km",
+            mass: "0.0016 ± 0.0009 x 10 ^ 19 kg",
+            orbit: "32.16756 days",
+            surfaceArea: "unknown",
+            distance: "unknown",
+            img: "moons/flatKerberos.png"
+        },
+        Nix: {
+              moons: "N/A",
+              diameter: "49.8 × 33.2 × 31.1 km",
+              mass: "0.005 ± 0.004 x 10 ^ 19 kg",
+              orbit: "24.85463 days",
+              surfaceArea: "unknown",
+              distance: "unknown",
+              img: "moons/flatNix.png"
+            },
+            Styx: {
+                  moons: "N/A",
+                  diameter: "16 × 9 × 8 km",
+                  mass: "0.00075 x 10 ^ 19 kg",
+                  orbit: "20.16155 days",
+                  surfaceArea: "unknown",
+                  distance: "unknown",
+                  img: "moons/flatStyx.png"
+                },
+            },
+            Eris: {
+                Dysnomia: {
+                    moons: "N/A",
+                    diameter: "1,212±1 km",
+                    mass: "unknown",
+                    orbit: "15.79 days",
+                    surfaceArea: "unknown",
+                    distance: "unknown km",
+                    img: "moons/flatDysnomia.png"
+                },
+            },
+            Haumea: {
+                "Hi'iaka": {
+                    moons: "N/A",
+                    diameter: "310 km",
+                    mass: "17.9±1.1 x 10 ^ 18 kg",
+                    orbit: "49.46 days",
+                    surfaceArea: "unknown",
+                    distance: "unknown",
+                    img: "moons/flatHiiaka.png"
+                }
+            },
+            
+        },
+    
+    
     dwarfPlanets: {
         Pluto: {
             moons: "5",
