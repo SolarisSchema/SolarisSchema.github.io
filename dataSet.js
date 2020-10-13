@@ -2018,7 +2018,7 @@ var dataSet = {
                 mass: "(1.303±0.003) × 10^22 kg",
                 orbit: "90,560 days",
                 surfaceArea: "1.779 × 10^7 km^2",
-                distance: "49.305 AU",
+                distance: "14500±800 km",
                 img: "dwarfPlanets/flatPluto.png"
             },
         },
@@ -2111,12 +2111,12 @@ var dataSet = {
             img: "dwarfPlanets/flatPluto.png"
         },
         Charon: {
-            moons: "N/A",
+            moons: "1",
             diameter: "1,212±1 km",
             mass: "158.7±1.5 x 10 ^ 19 kg",
             orbit: "6.38723 days",
             surfaceArea: "4.6 × 10^6 km^2",
-            distance: "14500±800 km",
+            distance: "49.305 AU",
             img: "dwarfPlanets/flatCharon.png"
         },
         Eris: {
