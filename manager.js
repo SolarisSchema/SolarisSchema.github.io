@@ -359,11 +359,11 @@ function panelGen(topic, host) {
         }
     } else if (topic == 'source') {
         console.log("clicked");
-        $('<div class="source" id="dropDown" style="z-index:8; display:none; height:50%; width:25% left:2%; bottom:2%; border-radius: 25px;"></div>').appendTo("body").fadeIn(500);
-        $('<a class="source" id="kepLink" href="https://www.astronomynotes.com/history/s7.htm"><b>Kepler\'s laws</b></a>').appendTo('#dropDown');
-        $('<a class="source" id="imgLink" href="https://www.nasa.gov/multimedia/imagegallery/index.html"><b>NASA Image Bank</b></a>').appendTo('#dropDown');
-        $('<a class="source" id="dataLink1" href="https://www.google.com/books/edition/Fundamentals_of_Astrodynamics/UtJK8cetqGkC?hl=en&gbpv=0"><b>Main Planets Data</b></a>').appendTo('#dropDown');
-        $('<a class="source" id="dataLink2" href="https://solarsystem.nasa.gov/"><b>Additional Data</b></a>').appendTo('#dropDown');
+        $('<div class="source" id="dropDown2" style="display:none;"></div>').appendTo("body").fadeIn(500);
+        $('<a class="source dropText" id="kepLink" href="https://www.astronomynotes.com/history/s7.htm"><b>Kepler\'s laws</b></a>').appendTo('#dropDown2');
+        $('<a class="source dropText" id="imgLink" href="https://www.nasa.gov/multimedia/imagegallery/index.html"></br><b>NASA Image Bank</b></a>').appendTo('#dropDown2');
+        $('<a class="source dropText" id="dataLink1" href="https://www.google.com/books/edition/Fundamentals_of_Astrodynamics/UtJK8cetqGkC?hl=en&gbpv=0"></br><b>Main Planets Data</b></a>').appendTo('#dropDown2');
+        $('<a class="source dropText" id="dataLink2" href="https://solarsystem.nasa.gov/"></br><b>Additional Data</b></a>').appendTo('#dropDown2');
     }
     if (topic !== 'source') {
         $('<div class="page2" id="dropPlace" style="height:15%; display:none; z-index:-1;"></div>').appendTo("#dropDown").fadeIn(750);
