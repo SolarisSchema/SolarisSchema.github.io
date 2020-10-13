@@ -2044,8 +2044,51 @@ Pluto: {
                     surfaceArea: "unknown",
                     distance: "unknown",
                     img: "moons/flatHiiaka.png"
+                },
+                Namaka: {
+                        moons: "N/A",
+                        diameter: "≈ 170 km",
+                        mass: "1.79±1.48 x 10 ^ 18 kg",
+                        orbit: "18.28 days",
+                        surfaceArea: "unknown",
+                        distance: "unknown",
+                        img: "moons/flatNamaka.png"
                 }
             },
+            Makemake: {
+                MK2: {
+                    moons: "N/A",
+                    diameter: "175 km",
+                    mass: "unknown",
+                    orbit: ">12.4 days",
+                    surfaceArea: "unknown",
+                    distance: "unknown km",
+                    img: "moons/flatMK2.png"
+                }
+            },
+            "90482 Orcus": {
+                Vanth: {
+                    moons: "N/A",
+                    diameter: "442.5 km",
+                    mass: "(3.6–6.8) × 10 ^ 19 kg",
+                    orbit: "9.54 days",
+                    surfaceArea: "unknown",
+                    distance: "unknown km",
+                    img: "moons/flatVanth.png"
+                }
+            },
+            "225088 Gonggong": {
+                Xiangliu: {
+                    moons: "N/A",
+                    diameter: "< 100  km",
+                    mass: "unknown",
+                    orbit: "25.22 days",
+                    surfaceArea: "unknown",
+                    distance: "unknown km",
+                    img: "moons/flatXiangliu.png"
+                }
+            },
+        
             
         },
     
