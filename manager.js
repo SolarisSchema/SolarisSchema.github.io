@@ -385,6 +385,6 @@ function panelDel() {
 //call function once page is ready
 $(document).ready(function() {
     $('<div class="btn2" id="sourceSub" onclick="panelGen(\'source\')"></div>').appendTo('body').fadeIn(1000);
-    $('<p class="btn btnTxt" id="sourceText"><b>&gt SOURCES &lt</b></p>').appendTo('#sourceSub').fadeIn(1000);
+    $('<p class="btn2 btnTxt" id="sourceText"><b>&gt SOURCES &lt</b></p>').appendTo('#sourceSub').fadeIn(1000);
     page1Start();
 });
