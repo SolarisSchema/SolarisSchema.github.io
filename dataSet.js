@@ -2014,11 +2014,78 @@ var dataSet = {
                         surfaceArea: "2,770,000 km^2 ",
                         distance: "2.769165155 AU",
                         img: "dwarfPlanets/flatCeres.png"
-                        
-            },
-        }
+                    },
+                    "90377 Sedna": {
+                            moons: "0",
+                            diameter: "unknown",
+                            mass: "unknown",
+                            orbit: "4161000 days",
+                            surfaceArea: "unknwon",
+                            distance: "484.438 AU",
+                            img: "dwarfPlanets/flat90377Sedna.png"
+
+                        },
+                        "50000 Quaoar": {
+                                moons: "1",
+                                diameter: "1110±5 km",
+                                mass: "(1.40±0.21)×10 ^ 21 kg",
+                                orbit: "105,495 days",
+                                surfaceArea: "3.83×10 ^ 6 km^2 ",
+                                distance: "43.694 AU",
+                                img: "dwarfPlanets/flat50000Quaoar.png"
+                            },
+                            "50000 Quaoar": {
+                                    moons: "1",
+                                    diameter: "1110±5 km",
+                                    mass: "(1.40±0.21)×10 ^ 21 kg",
+                                    orbit: "105,495 days",
+                                    surfaceArea: "3.83×10 ^ 6 km^2 ",
+                                    distance: "43.694 AU",
+                                    img: "dwarfPlanets/flat50000Quaoar.png"
+                                },
+                                "90482 Orcus": {
+                                        moons: "1",
+                                        diameter: "917±25 km",
+                                        mass: "(6.348±0.019)×10 ^ 20 kg",
+                                        orbit: "89,557 days",
+                                        surfaceArea: "unknown",
+                                        distance: "39.174 AU",
+                                        img: "dwarfPlanets/flat90482Orcus.png"
+                                    },
+                                    "225088 Gonggong": {
+                                            moons: "1",
+                                            diameter: "1230±50 km",
+                                            mass: "(1.75±0.07)×10 ^ 21 kg",
+                                            orbit: "202,003 days",
+                                            surfaceArea: "202,003 km^2 ",
+                                            distance: "67.471 AU",
+                                            img: "dwarfPlanets/flat225088Gonggong.png"
+                                        },
+                                        "2060 Chiron": {
+                                                moons: "0",
+                                                diameter: "215.6±9.9 km",
+                                                mass: "unknown",
+                                                orbit: "18,417 days",
+                                                surfaceArea: "unknwon",
+                                                distance: "13.648 AU",
+                                                img: "dwarfPlanets/flat2060Chiron.png"
+                                            },
+                                            "704 Interamnia": {
+                                                    moons: "0",
+                                                    diameter: "332±6 km",
+                                                    mass: "(3.79±1.28)×10 ^ 19 kg",
+                                                    orbit: "1952.8 days",
+                                                    surfaceArea: "unknwon",
+                                                    distance: "3.0575 AU",
+                                                    img: "dwarfPlanets/flat704Interamnia.png"
+                    },
+                            
+                }
+            }
         
-    }
+
+        
+    
 
 
 
