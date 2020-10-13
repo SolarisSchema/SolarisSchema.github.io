@@ -357,14 +357,15 @@ function panelGen(topic, host) {
             $(".dropText").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
             console.log(key + '[\'' + currBody + '\']');
         }
-    } else if (topic == "source") {
+    } else if (topic == 'source') {
+        console.log("clicked");
         $('<div class="source" id="dropDown" style="z-index:8; display:none; height:50%; width:25% left:2%; bottom:2%; border-radius: 25px;"></div>').appendTo("body").fadeIn(500);
         $('<a class="source" id="kepLink" href="https://www.astronomynotes.com/history/s7.htm"><b>Kepler\'s laws</b></a>').appendTo('#dropDown');
         $('<a class="source" id="imgLink" href="https://www.nasa.gov/multimedia/imagegallery/index.html"><b>NASA Image Bank</b></a>').appendTo('#dropDown');
         $('<a class="source" id="dataLink1" href="https://www.google.com/books/edition/Fundamentals_of_Astrodynamics/UtJK8cetqGkC?hl=en&gbpv=0"><b>Main Planets Data</b></a>').appendTo('#dropDown');
         $('<a class="source" id="dataLink2" href="https://solarsystem.nasa.gov/"><b>Additional Data</b></a>').appendTo('#dropDown');
     }
-    if (topic !== "source") {
+    if (topic !== 'source') {
         $('<div class="page2" id="dropPlace" style="height:15%; display:none; z-index:-1;"></div>').appendTo("#dropDown").fadeIn(750);
         $('<div class="btn" id="closeSub" onclick="panelDel()"></div>').appendTo('body').fadeIn(1000);
         $('<p class="btn btnTxt" id="closeText"><b>&gt CLOSE &lt</b></p>').appendTo('#closeSub').fadeIn(1000);
@@ -381,7 +382,6 @@ function panelDel() {
 
 //call function once page is ready
 $(document).ready(function() {
-    $('<div id="screenMaintain" class="page1" style="z-index:-7; left:0px; top:0px; width:1450px; height:2px;"></div>').appendTo('body');
     $('<div class="btn" id="sourceSub" onclick="panelGen(\'source\')"></div>').appendTo('body').fadeIn(1000);
     $('<p class="btn btnTxt" id="sourceText"><b>&gt SOURCES &lt</b></p>').appendTo('#sourceSub').fadeIn(1000);
     page1Start();
