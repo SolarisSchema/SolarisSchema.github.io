@@ -1978,114 +1978,112 @@ var dataSet = {
             distance: "49.305 AU",
             img: "dwarfPlanets/flatPluto.png"
         },
+        Eris: {
+            moons: "1",
+            diameter: "2325.98488 km",
+            mass: "1.66 × 10^22  kg",
+            orbit: "203670 days",
+            surfaceArea: "(1.70±0.02)×107 km^2",
+            distance: "67.864 AU",
+            img: "dwarfPlanets/flatEris.png"
+        },
+        Haumea: {
+            moons: "2",
+            diameter: "≈ 1560 km",
+            mass: "(4.006±0.040)×10 ^ 21 kg",
+            orbit: "103660 days",
+            surfaceArea: "≈ 8.14×10 ^ 6 km^2 ",
+            distance: "43.182 AU",
+            img: "dwarfPlanets/flatHaumea.png"
+        },
+        Makemake: {
+            moons: "1",
+            diameter: "1478±34 km",
+            mass: "≈3.1×10 ^ 21 kg",
+            orbit: "111,845 days",
+            surfaceArea: "6.42×10 ^ 6 km^2 ",
+            distance: "45.43 AU",
+            img: "dwarfPlanets/flatMakemake.png"
+        },
+        Ceres: {
+            moons: "0",
+            diameter: "939.4±0.2 km",
+            mass: "(9.3835±0.0001)×10 ^ 20 kg",
+            orbit: "1681.601 days",
+            surfaceArea: "2,770,000 km^2 ",
+            distance: "2.769165155 AU",
+            img: "dwarfPlanets/flatCeres.png"
+        },
+        "90377 Sedna": {
+            moons: "0",
+            diameter: "unknown",
+            mass: "unknown",
+            orbit: "4161000 days",
+            surfaceArea: "unknwon",
+            distance: "484.438 AU",
+            img: "dwarfPlanets/flat90377Sedna.png"
+        },
+        "50000 Quaoar": {
+            moons: "1",
+            diameter: "1110±5 km",
+            mass: "(1.40±0.21)×10 ^ 21 kg",
+            orbit: "105,495 days",
+            surfaceArea: "3.83×10 ^ 6 km^2 ",
+            distance: "43.694 AU",
+            img: "dwarfPlanets/flat50000Quaoar.png"
+        },
+        "50000 Quaoar": {
+            moons: "1",
+            diameter: "1110±5 km",
+            mass: "(1.40±0.21)×10 ^ 21 kg",
+            orbit: "105,495 days",
+            surfaceArea: "3.83×10 ^ 6 km^2 ",
+            distance: "43.694 AU",
+            img: "dwarfPlanets/flat50000Quaoar.png"
+        },
+        "90482 Orcus": {
+            moons: "1",
+            diameter: "917±25 km",
+            mass: "(6.348±0.019)×10 ^ 20 kg",
+            orbit: "89,557 days",
+            surfaceArea: "unknown",
+            distance: "39.174 AU",
+            img: "dwarfPlanets/flat90482Orcus.png"
+        },
+        "225088 Gonggong": {
+            moons: "1",
+            diameter: "1230±50 km",
+            mass: "(1.75±0.07)×10 ^ 21 kg",
+            orbit: "202,003 days",
+            surfaceArea: "202,003 km^2 ",
+            distance: "67.471 AU",
+            img: "dwarfPlanets/flat225088Gonggong.png"
+        },
+        "2060 Chiron": {
+            moons: "0",
+            diameter: "215.6±9.9 km",
+            mass: "unknown",
+            orbit: "18,417 days",
+            surfaceArea: "unknwon",
+            distance: "13.648 AU",
+            img: "dwarfPlanets/flat2060Chiron.png"
+        },
+        "704 Interamnia": {
+            moons: "0",
+            diameter: "332±6 km",
+            mass: "(3.79±1.28)×10 ^ 19 kg",
+            orbit: "1952.8 days",
+            surfaceArea: "unknwon",
+            distance: "3.0575 AU",
+            img: "dwarfPlanets/flat704Interamnia.png"
+        },
+                
+    }
+}
 
-                Eris: {
-                    moons: "1",
-                    diameter: "2325.98488 km",
-                    mass: "1.66 × 10^22  kg",
-                    orbit: "203670 days",
-                    surfaceArea: "(1.70±0.02)×107 km^2",
-                    distance: "67.864 AU",
-                    img: "dwarfPlanets/flatEris.png"
-                },
-                Haumea: {
-                    moons: "2",
-                    diameter: "≈ 1560 km",
-                    mass: "(4.006±0.040)×10 ^ 21 kg",
-                    orbit: "103660 days",
-                    surfaceArea: "≈ 8.14×10 ^ 6 km^2 ",
-                    distance: "43.182 AU",
-                    img: "dwarfPlanets/flatHaumea.png"
-                },
-                Makemake: {
-                    moons: "1",
-                    diameter: "1478±34 km",
-                    mass: "≈3.1×10 ^ 21 kg",
-                    orbit: "111,845 days",
-                    surfaceArea: "6.42×10 ^ 6 km^2 ",
-                    distance: "45.43 AU",
-                    img: "dwarfPlanets/flatMakemake.png"
-                },
-                Ceres: {
-                        moons: "0",
-                        diameter: "939.4±0.2 km",
-                        mass: "(9.3835±0.0001)×10 ^ 20 kg",
-                        orbit: "1681.601 days",
-                        surfaceArea: "2,770,000 km^2 ",
-                        distance: "2.769165155 AU",
-                        img: "dwarfPlanets/flatCeres.png"
-                    },
-                    "90377 Sedna": {
-                            moons: "0",
-                            diameter: "unknown",
-                            mass: "unknown",
-                            orbit: "4161000 days",
-                            surfaceArea: "unknwon",
-                            distance: "484.438 AU",
-                            img: "dwarfPlanets/flat90377Sedna.png"
 
-                        },
-                        "50000 Quaoar": {
-                                moons: "1",
-                                diameter: "1110±5 km",
-                                mass: "(1.40±0.21)×10 ^ 21 kg",
-                                orbit: "105,495 days",
-                                surfaceArea: "3.83×10 ^ 6 km^2 ",
-                                distance: "43.694 AU",
-                                img: "dwarfPlanets/flat50000Quaoar.png"
-                            },
-                            "50000 Quaoar": {
-                                    moons: "1",
-                                    diameter: "1110±5 km",
-                                    mass: "(1.40±0.21)×10 ^ 21 kg",
-                                    orbit: "105,495 days",
-                                    surfaceArea: "3.83×10 ^ 6 km^2 ",
-                                    distance: "43.694 AU",
-                                    img: "dwarfPlanets/flat50000Quaoar.png"
-                                },
-                                "90482 Orcus": {
-                                        moons: "1",
-                                        diameter: "917±25 km",
-                                        mass: "(6.348±0.019)×10 ^ 20 kg",
-                                        orbit: "89,557 days",
-                                        surfaceArea: "unknown",
-                                        distance: "39.174 AU",
-                                        img: "dwarfPlanets/flat90482Orcus.png"
-                                    },
-                                    "225088 Gonggong": {
-                                            moons: "1",
-                                            diameter: "1230±50 km",
-                                            mass: "(1.75±0.07)×10 ^ 21 kg",
-                                            orbit: "202,003 days",
-                                            surfaceArea: "202,003 km^2 ",
-                                            distance: "67.471 AU",
-                                            img: "dwarfPlanets/flat225088Gonggong.png"
-                                        },
-                                        "2060 Chiron": {
-                                                moons: "0",
-                                                diameter: "215.6±9.9 km",
-                                                mass: "unknown",
-                                                orbit: "18,417 days",
-                                                surfaceArea: "unknwon",
-                                                distance: "13.648 AU",
-                                                img: "dwarfPlanets/flat2060Chiron.png"
-                                            },
-                                            "704 Interamnia": {
-                                                    moons: "0",
-                                                    diameter: "332±6 km",
-                                                    mass: "(3.79±1.28)×10 ^ 19 kg",
-                                                    orbit: "1952.8 days",
-                                                    surfaceArea: "unknwon",
-                                                    distance: "3.0575 AU",
-                                                    img: "dwarfPlanets/flat704Interamnia.png"
-                    },
-                            
-                }
-            }
-        
 
-        
-    
+
 
 
 

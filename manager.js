@@ -343,12 +343,13 @@ function panelGen(topic, host) {
         $('<div class="page2" id="dropDown" style="z-index:-1; display:none;"></div>').appendTo("body").fadeIn(500);
         for(let i = 0; i < list.length; i++){ 
             var currBody = list[i];
+            var currHost = "'SUN'"
             listTop += 7 * i;
             //console.log("'" + currBody + ", " + list[i] + "'");
 
-            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
-            $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
-            console.log(key + '.' + currBody);
+            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '[\'' + currBody + '\'], ' + currHost + ')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $(".dropText").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
+            console.log(key + '[\'' + currBody + '\']');
         }
     }
     
