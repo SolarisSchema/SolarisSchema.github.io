@@ -379,12 +379,12 @@ function panelGen(topic, host) {
         $('#dropDown2').hover(function () {}, function () { $('.source').fadeOut(500); setTimeout(function () { $('.source').remove(); }, 600) });
     } else if (topic == 'info' && shown == true) {
         //console.log("clicked");
-        $('<div class="info" id="dropDown2" style="display:none; height:40%;"></div>').appendTo("body").fadeIn(500);
+        $('<div class="info" id="dropDown2" style="display:none; height:50%; width:22%"></div>').appendTo("body").fadeIn(500);
         $('<p class="info dropText" id="infoTxt1"><b>Distance is equivalent to the semi-major axis of an orbit.</b></p>').appendTo('#dropDown2');
         $('<a class="info dropText" id="infoTxt2"></br><b>1 AU = 149,598,023 km</b></a>').appendTo('#dropDown2');
         $('<a class="info dropText" id="infoTxt3"></br><b>1 AU is also the semi-major axis of the Earth\'s orbit.</b></a>').appendTo('#dropDown2');
         $('<a class="info dropText" id="infoTxt4"></br><b>Many images either are not publically available or had to be slightly altered for better viewing by a developer.</b></a>').appendTo('#dropDown2');
-        $('#dropDown2').hover(function () {}, function () { $('.info').fadeOut(500); setTimeout(function () { $('.source').remove(); }, 600) });
+        $('#dropDown2').hover(function () {}, function () { $('.info').fadeOut(500); setTimeout(function () { $('.info').remove(); }, 600) });
     }
     if (topic !== 'source' && topic !== 'info' && shown == false) {
         $('<div class="page2" id="dropPlace" style="height:15%; display:none; z-index:-1;"></div>').appendTo("#dropDown").fadeIn(750);
