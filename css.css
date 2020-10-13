@@ -541,8 +541,8 @@ a:hover {
     bottom: 2%;
     right: 2.5%;
     display: none;
-    width: 10%;
-    height: 5%;
+    width: 15%;
+    height: 7%;
     z-index: 4;
 }
 
@@ -555,7 +555,7 @@ a:hover {
     bottom: 2%;
     left: 2%;
     width: 10%;
-    height: 5%;
+    height: 7%;
     z-index: 10;
 }
 
