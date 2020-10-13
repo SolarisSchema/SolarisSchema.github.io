@@ -250,7 +250,6 @@ function statPage(body, orbtBody) {
         $('.btn').remove();
         $('.btn2').remove();
         shown = true;
-        load = true;
     } else {
         return;
     }
@@ -378,7 +377,7 @@ function panelGen(topic, host) {
         $('<a class="source dropText" id="dataLink1" href="https://www.google.com/books/edition/Fundamentals_of_Astrodynamics/UtJK8cetqGkC?hl=en&gbpv=0"></br><b>Main Planets Data</b></a>').appendTo('#dropDown2');
         $('<a class="source dropText" id="dataLink2" href="https://solarsystem.nasa.gov/"></br><b>Additional Data</b></a>').appendTo('#dropDown2');
         $('#dropDown2').hover(function () {}, function () { $('.source').fadeOut(500); setTimeout(function () { $('.source').remove(); }, 600) });
-    } else if (topic == 'info' && shown == false) {
+    } else if (topic == 'info' && shown == true) {
         //console.log("clicked");
         $('<div class="info" id="dropDown2" style="display:none; height:40%;"></div>').appendTo("body").fadeIn(500);
         $('<p class="info dropText" id="infoTxt1"><b>Distance is equivalent to the semi-major axis of an orbit.</b></p>').appendTo('#dropDown2');
