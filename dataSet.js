@@ -1964,6 +1964,106 @@ var dataSet = {
                 img : "moons/flatNeso.png",
             },
         },
+        Pluto: {
+            Charon: {
+                moons: "N/A",
+                diameter: "1,212±1 km",
+                mass: "158.7±1.5 x 10 ^ 19 kg",
+                orbit: "6.38723 days",
+                surfaceArea: "4.6 × 10^6 km^2",
+                distance: "14500±800 km",
+                img: "moons/flatCharon.png"
+            },
+            Hydra: {
+                moons: "N/A",
+                diameter: "50.9 × 36.1 × 30.9 km",
+                mass: "0.005 ± 0.004 x 10 ^ 19 kg",
+                orbit: "38.20177 days",
+                surfaceArea: "unknown",
+                distance: "unknown",
+                img: "moons/flatHydra.png"
+            },
+            Kerberos: {
+                    moons: "N/A",
+                    diameter: "19 × 10 × 9 km",
+                    mass: "0.0016 ± 0.0009 x 10 ^ 19 kg",
+                    orbit: "32.16756 days",
+                    surfaceArea: "unknown",
+                    distance: "unknown",
+                    img: "moons/flatKerberos.png"
+            },
+            Nix: {
+                moons: "N/A",
+                diameter: "49.8 × 33.2 × 31.1 km",
+                mass: "0.005 ± 0.004 x 10 ^ 19 kg",
+                orbit: "24.85463 days",
+                surfaceArea: "unknown",
+                distance: "unknown",
+                img: "moons/flatNix.png"
+            },
+            Styx: {
+                moons: "N/A",
+                diameter: "16 × 9 × 8 km",
+                mass: "0.00075 x 10 ^ 19 kg",
+                orbit: "20.16155 days",
+                surfaceArea: "unknown",
+                distance: "unknown",
+                img: "moons/flatStyx.png"
+            },
+        },
+        Charon: {
+            Pluto: {
+                moons: "5",
+                diameter: "2376.6 ± 1.6 km",
+                mass: "(1.303±0.003) × 10^22 kg",
+                orbit: "90,560 days",
+                surfaceArea: "1.779 × 10^7 km^2",
+                distance: "49.305 AU",
+                img: "dwarfPlanets/flatPluto.png"
+            },
+        },
+        Eris: {
+            Dysnomia: {
+                moons: "N/A",
+                diameter: "1,212±1 km",
+                mass: "unknown",
+                orbit: "15.79 days",
+                surfaceArea: "unknown",
+                distance: "unknown km",
+                img: "moons/flatDysnomia.png"
+            },
+        },
+        Haumea: {
+            "Hi'iaka": {
+                moons: "N/A",
+                diameter: "310 km",
+                mass: "17.9±1.1 x 10 ^ 18 kg",
+                orbit: "49.46 days",
+                surfaceArea: "unknown",
+                distance: "unknown",
+                img: "moons/flatHiiaka.png"
+            },
+            Namaka: {
+                    moons: "N/A",
+                    diameter: "≈ 170 km",
+                    mass: "1.79±1.48 x 10 ^ 18 kg",
+                    orbit: "18.28 days",
+                    surfaceArea: "unknown",
+                    distance: "unknown",
+                    img: "moons/flatNamaka.png"
+            }
+        },
+        Makemake: {
+            MK2: {
+                moons: "N/A",
+                diameter: "175 km",
+                mass: "unknown",
+                orbit: ">12.4 days",
+                surfaceArea: "unknown",
+                distance: "unknown km",
+                img: "moons/flatMK2.png"
+            }
+        },
         "50000 Quaoar": {
             Weywot: {
                 moons: "N/A",
@@ -1975,124 +2075,31 @@ var dataSet = {
                 img: "moons/flatWeywot.png"
             }
         },
-    
-Pluto: {
-    Charon: {
-        moons: "N/A",
-        diameter: "1,212±1 km",
-        mass: "158.7±1.5 x 10 ^ 19 kg",
-        orbit: "6.38723 days",
-        surfaceArea: "4.6 × 10^6 km^2",
-        distance: "14500±800 km",
-        img: "moons/flatCharon.png"
-      },
-    
-      Hydra: {
-        moons: "N/A",
-        diameter: "50.9 × 36.1 × 30.9 km",
-        mass: "0.005 ± 0.004 x 10 ^ 19 kg",
-        orbit: "38.20177 days",
-        surfaceArea: "unknown",
-        distance: "unknown",
-        img: "moons/flatHydra.png"
-      },
-      Kerberos: {
-            moons: "N/A",
-            diameter: "19 × 10 × 9 km",
-            mass: "0.0016 ± 0.0009 x 10 ^ 19 kg",
-            orbit: "32.16756 days",
-            surfaceArea: "unknown",
-            distance: "unknown",
-            img: "moons/flatKerberos.png"
+        "90482 Orcus": {
+            Vanth: {
+                moons: "N/A",
+                diameter: "442.5 km",
+                mass: "(3.6–6.8) × 10 ^ 19 kg",
+                orbit: "9.54 days",
+                surfaceArea: "unknown",
+                distance: "unknown km",
+                img: "moons/flatVanth.png"
+            }
         },
-        Nix: {
-              moons: "N/A",
-              diameter: "49.8 × 33.2 × 31.1 km",
-              mass: "0.005 ± 0.004 x 10 ^ 19 kg",
-              orbit: "24.85463 days",
-              surfaceArea: "unknown",
-              distance: "unknown",
-              img: "moons/flatNix.png"
-            },
-            Styx: {
-                  moons: "N/A",
-                  diameter: "16 × 9 × 8 km",
-                  mass: "0.00075 x 10 ^ 19 kg",
-                  orbit: "20.16155 days",
-                  surfaceArea: "unknown",
-                  distance: "unknown",
-                  img: "moons/flatStyx.png"
-                },
-            },
-            Eris: {
-                Dysnomia: {
-                    moons: "N/A",
-                    diameter: "1,212±1 km",
-                    mass: "unknown",
-                    orbit: "15.79 days",
-                    surfaceArea: "unknown",
-                    distance: "unknown km",
-                    img: "moons/flatDysnomia.png"
-                },
-            },
-            Haumea: {
-                "Hi'iaka": {
-                    moons: "N/A",
-                    diameter: "310 km",
-                    mass: "17.9±1.1 x 10 ^ 18 kg",
-                    orbit: "49.46 days",
-                    surfaceArea: "unknown",
-                    distance: "unknown",
-                    img: "moons/flatHiiaka.png"
-                },
-                Namaka: {
-                        moons: "N/A",
-                        diameter: "≈ 170 km",
-                        mass: "1.79±1.48 x 10 ^ 18 kg",
-                        orbit: "18.28 days",
-                        surfaceArea: "unknown",
-                        distance: "unknown",
-                        img: "moons/flatNamaka.png"
-                }
-            },
-            Makemake: {
-                MK2: {
-                    moons: "N/A",
-                    diameter: "175 km",
-                    mass: "unknown",
-                    orbit: ">12.4 days",
-                    surfaceArea: "unknown",
-                    distance: "unknown km",
-                    img: "moons/flatMK2.png"
-                }
-            },
-            "90482 Orcus": {
-                Vanth: {
-                    moons: "N/A",
-                    diameter: "442.5 km",
-                    mass: "(3.6–6.8) × 10 ^ 19 kg",
-                    orbit: "9.54 days",
-                    surfaceArea: "unknown",
-                    distance: "unknown km",
-                    img: "moons/flatVanth.png"
-                }
-            },
-            "225088 Gonggong": {
-                Xiangliu: {
-                    moons: "N/A",
-                    diameter: "< 100  km",
-                    mass: "unknown",
-                    orbit: "25.22 days",
-                    surfaceArea: "unknown",
-                    distance: "unknown km",
-                    img: "moons/flatXiangliu.png"
-                }
-            },
+        "225088 Gonggong": {
+            Xiangliu: {
+                moons: "N/A",
+                diameter: "< 100  km",
+                mass: "unknown",
+                orbit: "25.22 days",
+                surfaceArea: "unknown",
+                distance: "unknown km",
+                img: "moons/flatXiangliu.png"
+            }
+        },
         
             
-        },
-    
-    
+        },  
     dwarfPlanets: {
         Pluto: {
             moons: "5",
@@ -2102,6 +2109,15 @@ Pluto: {
             surfaceArea: "1.779 × 10^7 km^2",
             distance: "49.305 AU",
             img: "dwarfPlanets/flatPluto.png"
+        },
+        Charon: {
+            moons: "N/A",
+            diameter: "1,212±1 km",
+            mass: "158.7±1.5 x 10 ^ 19 kg",
+            orbit: "6.38723 days",
+            surfaceArea: "4.6 × 10^6 km^2",
+            distance: "14500±800 km",
+            img: "moons/flatCharon.png"
         },
         Eris: {
             moons: "1",
