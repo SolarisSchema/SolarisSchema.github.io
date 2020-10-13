@@ -558,12 +558,28 @@ a:hover {
     height: 7%;
     z-index: 10;
 }
+#infoSub {
+    background-color: rgb(237, 229, 187);
+    border-radius: 25px;
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    bottom: 2%;
+    left: 2%;
+    width: 10%;
+    height: 7%;
+    z-index: 10;
+}
 
 #closeSub:hover {
     background-color: rgb(147, 207, 225);
 }
 
 #sourceSub:hover {
+    background-color: rgb(147, 207, 225);
+}
+
+#infoSub:hover {
     background-color: rgb(147, 207, 225);
 }
 
@@ -583,6 +599,16 @@ a:hover {
 }
 
 #sourceSub.btnTxt {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    display: none;
+    top: 0%;
+    z-index: 5;
+}
+
+#infoSub.btnTxt {
     color: rgb(0, 0, 0);
     position: absolute;
     font-family: 'Dosis', sans-serif;
