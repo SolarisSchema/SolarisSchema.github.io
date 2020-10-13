@@ -244,6 +244,7 @@ function statPage(body, orbtBody) {
     $('.page1').fadeOut(1000);
     $('.page2').fadeOut(1000);
     $('.btn').remove();
+    $('.btn2').remove();
     var Moons = body.moons;
     var Dia = body.diameter;
     var Mass = body.mass;
@@ -383,7 +384,7 @@ function panelDel() {
 
 //call function once page is ready
 $(document).ready(function() {
-    $('<div class="btn" id="sourceSub" onclick="panelGen(\'source\')"></div>').appendTo('body').fadeIn(1000);
+    $('<div class="btn2" id="sourceSub" onclick="panelGen(\'source\')"></div>').appendTo('body').fadeIn(1000);
     $('<p class="btn btnTxt" id="sourceText"><b>&gt SOURCES &lt</b></p>').appendTo('#sourceSub').fadeIn(1000);
     page1Start();
 });
