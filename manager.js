@@ -275,12 +275,12 @@ function statPage(body, orbtBody) {
         $('<p class="statPage" id="labelText3"><b>MASS:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="labelText4"><b>ORBITAL PERIOD:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="labelText5"><b>SURFACE AREA:</b></p>').appendTo("#statsDiv").fadeIn(1000);
-        if (orbtBody.indexOf(' ') >= 0) {
+        if (distFrom.indexOf(' ') >= 0) {
             console.log("true")
             hstSpltChk = orbtBody.split(" ");
             $('<p class="statPage" id="labelText6"><b>DISTANCE FROM ' + hstSpltChk[0] + '</br>' + hstSpltChk[1] + ':</b></p>').appendTo("#statsDiv").fadeIn(1000);
         } else {
-            $('<p class="statPage" id="labelText6"><b>DISTANCE FROM ' + orbtBody + ':</b></p>').appendTo("#statsDiv").fadeIn(1000);
+            $('<p class="statPage" id="labelText6"><b>DISTANCE FROM ' + distFrom + ':</b></p>').appendTo("#statsDiv").fadeIn(1000);
         }
         $('<a class="statPage" href="https://solarisschema.github.io" id="returnLink">&gt RETURN TO OVERVIEW &lt</a>').appendTo("#statsDiv").fadeIn(1000);
         $('<div class="statPage" id="textShift"></div>').prependTo("#statsDiv").fadeIn(1000);

@@ -20,43 +20,43 @@
 
 <!--create div for overview imgs-->
 <div id="solarOverview" class="page1">
-    <img src="images/flatSun.png" type="image/png" class="page1" id="flatSun" onclick="statPage(dataSet.sun.sun)">
+    <img src="images/flatSun.png" type="image/png" class="page1" id="flatSun" onclick="statPage(dataSet.sun.sun, 'SUN')">
 
     <!--Mercury image and orbit-->
-    <img src="images/planets/flatMercury.png" type="image/png" class="page1" id="flatMercury" onclick="statPage(dataSet.planets.Mercury)">
+    <img src="images/planets/flatMercury.png" type="image/png" class="page1" id="flatMercury" onclick="statPage(dataSet.planets.Mercury, 'SUN')">
         <img src="images/orbitRing.png" type="image/png" class="page1" id="MeRing">
 
     <!--Venus image and orbit-->
-    <img src="images/planets/flatVenus.png" type="image/png" class="page1" id="flatVenus" onclick="statPage(dataSet.planets.Venus)">
+    <img src="images/planets/flatVenus.png" type="image/png" class="page1" id="flatVenus" onclick="statPage(dataSet.planets.Venus, 'SUN')">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="VRing">
 
     <!--Earth image and orbit-->
-    <img src="images/planets/flatEarth.png" type="image/png" class="page1" id="flatEarth" onclick="statPage(dataSet.planets.Earth)">
+    <img src="images/planets/flatEarth.png" type="image/png" class="page1" id="flatEarth" onclick="statPage(dataSet.planets.Earth, 'SUN')">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="ERing">
             <!--Moon image-->
             <img src="images/moons/flatMoon.png" type="image/png" class="page1" id="flatMoon">
     
     <!--Mars image and orbit-->
-    <img src="images/planets/flatMars.png" type="image/png" class="page1" id="flatMars" onclick="statPage(dataSet.planets.Mars)">
+    <img src="images/planets/flatMars.png" type="image/png" class="page1" id="flatMars" onclick="statPage(dataSet.planets.Mars, 'SUN')">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="MaRing">
     
     <!--asteroid belt image and orbit-->    
     <img src="images/flatAsteroidB.png" type="image/png" class="page1" id="astBelt">
 
     <!--Jupiter image and orbit-->
-    <img src="images/planets/flatJupiter.png" type="image/png" class="page1" id="flatJupiter" onclick="statPage(dataSet.planets.Jupiter)">
+    <img src="images/planets/flatJupiter.png" type="image/png" class="page1" id="flatJupiter" onclick="statPage(dataSet.planets.Jupiter, 'SUN')">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="JRing">
 
     <!--Saturn image and orbit-->
-    <img src="images/planets/flatSaturn.png" type="image/png" class="page1" id="flatSaturn" onclick="statPage(dataSet.planets.Saturn)">
+    <img src="images/planets/flatSaturn.png" type="image/png" class="page1" id="flatSaturn" onclick="statPage(dataSet.planets.Saturn, 'SUN')">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="SRing">
 
     <!--Uranus image and orbit-->
-    <img src="images/planets/flatUranus.png" type="image/png" class="page1" id="flatUranus" onclick="statPage(dataSet.planets.Uranus)">
+    <img src="images/planets/flatUranus.png" type="image/png" class="page1" id="flatUranus" onclick="statPage(dataSet.planets.Uranus, 'SUN')">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="URing"> 
     
     <!--Neptune image and orbit-->
-    <img src="images/planets/flatNeptune.png" type="image/png" class="page1" id="flatNeptune" onclick="statPage(dataSet.planets.Neptune)">
+    <img src="images/planets/flatNeptune.png" type="image/png" class="page1" id="flatNeptune" onclick="statPage(dataSet.planets.Neptune, 'SUN')">
         <img src="images/orbitRingL.png" type="image/png" class="page1" id="NRing"> 
 
     <!--in case elements need to be inserted later-->
@@ -65,7 +65,7 @@
 
 <!--create div for initial button panels-->
 <div id="startingPanels" class="page1">
-    <div id="sunPanel" class="page1" onclick="statPage(dataSet.sun.sun)">
+    <div id="sunPanel" class="page1" onclick="statPage(dataSet.sun.sun, 'SUN')">
         <img src="images/flatSun.png" type="image/png" class="page1" id="panelSun">
         <p id="sunPanelText" class="page1"><b>SUN</b></p>
     </div>
