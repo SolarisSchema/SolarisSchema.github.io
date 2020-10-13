@@ -254,6 +254,8 @@ function statPage(body, orbtBody) {
     } else {
         return;
     }
+    $('<div class="btn3" id="infoSub" onclick="panelGen(\'info\')"></div>').appendTo('body');
+    $('<p class="btn3 btnTxt" id="infoText"><b>&gt INFO &lt</b></p>').appendTo('#sourceSub');
     var Moons = body.moons;
     var Dia = body.diameter;
     var Mass = body.mass;
@@ -404,7 +406,5 @@ function panelDel() {
 $(document).ready(function() {
     $('<div class="btn2" id="sourceSub" onclick="panelGen(\'source\')"></div>').appendTo('body').fadeIn(1000);
     $('<p class="btn2 btnTxt" id="sourceText"><b>&gt SOURCES &lt</b></p>').appendTo('#sourceSub').fadeIn(1000);
-    $('<div class="btn3" id="infoSub" onclick="panelGen(\'info\')"></div>').appendTo('body');
-    $('<p class="btn3 btnTxt" id="infoText"><b>&gt INFO &lt</b></p>').appendTo('#sourceSub');
     page1Start();
 });
