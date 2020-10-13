@@ -137,7 +137,7 @@ var dataSet = {
                 orbit: "0.3023 days",
                 surfaceArea: "N/A",
                 distance: "x km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatAdrastea.png",
             },
 	    Amalthea: {
                 moons: "N/A",
@@ -164,7 +164,7 @@ var dataSet = {
                 orbit: "1.7691 days",
                 surfaceArea: "41910000 km^2",
                 distance: "x km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatIo.png",
             },
 	    Europa: {
                 moons: "N/A",
@@ -173,7 +173,7 @@ var dataSet = {
                 orbit: "3.5512 days",
                 surfaceArea: "3.09 x 10^7 km^2",
                 distance: "x km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatEuropa.png",
             },
 	    Ganymede: {
                 moons: "N/A",
@@ -182,7 +182,7 @@ var dataSet = {
                 orbit: "7.1546",
                 surfaceArea: "8.72 × 10^7 km^2",
                 distance: "x km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatGanymede.png",
             },
 	    Callisto: {
                 moons: "N/A",
@@ -191,7 +191,7 @@ var dataSet = {
                 orbit: "16.689",
                 surfaceArea: "7.30 × 10^7 km^2",
                 distance: "x km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatCallisto.png",
             },
 	    Themisto: {
                 moons: "N/A",
@@ -200,7 +200,7 @@ var dataSet = {
                 orbit: "129.95",
                 surfaceArea: "≈ 290 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatThemisto.png",
             },
 	    Leda: {
                 moons: "N/A",
@@ -209,7 +209,7 @@ var dataSet = {
                 orbit: "241.33 days",
                 surfaceArea: "1250 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatLeda.png",
             },
 	    Himalia: {
                 moons: "N/A",
@@ -218,7 +218,7 @@ var dataSet = {
                 orbit: "248.47 days",
                 surfaceArea: "91000 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatHimalia.png",
             },
 	    Ersa: {
                 moons: "N/A",
@@ -227,7 +227,7 @@ var dataSet = {
                 orbit: "250.4 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatErsa.png",
             },
 	    Pandia: {
                 moons: "N/A",
@@ -236,7 +236,7 @@ var dataSet = {
                 orbit: "251.77 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatPandia.png",
             },
 	    Elara: {
                 moons: "N/A",
@@ -245,7 +245,7 @@ var dataSet = {
                 orbit: "258.58 days",
                 surfaceArea: "23,235.22 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatElara.png",
             },
 	    Lysithea: {
                 moons: "N/A",
@@ -254,7 +254,7 @@ var dataSet = {
                 orbit: "258.58 days",
                 surfaceArea: "4,071.50 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatLysithea.png",
             },
 	    Dia: {
                 moons: "N/A",
@@ -263,7 +263,7 @@ var dataSet = {
                 orbit: "276 days",
                 surfaceArea: "50.27 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatDia.png",
             },
 	    Carpo: {
                 moons: "N/A",
@@ -272,7 +272,7 @@ var dataSet = {
                 orbit: "440.91 days",
                 surfaceArea: "28.27 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatCarpo.png",
             },
 	    "S/2003 J 12": {
                 moons: "N/A",
@@ -281,7 +281,7 @@ var dataSet = {
                 orbit: "−482.69 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2008J12.png",
             },
 	    Valetudo: {
                 moons: "N/A",
@@ -290,7 +290,7 @@ var dataSet = {
                 orbit: "532.01 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moon/flatValetudo.png",
             },
 	    Euporire: {
                 moons: "N/A",
@@ -299,7 +299,7 @@ var dataSet = {
                 orbit: "−542.65 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatEuropire.png",
             },
 	    "S/2003 J 18": {
                 moons: "N/A",
@@ -308,7 +308,7 @@ var dataSet = {
                 orbit: "−587.38 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2003J18.png",
             },
 	    Harpalyke: {
                 moons: "N/A",
@@ -317,7 +317,7 @@ var dataSet = {
                 orbit: "−596.56 days",
                 surfaceArea: "60.82 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatHarpalyke.png",
             },
 	    Hermippe: {
                 moons: "N/A",
@@ -326,7 +326,7 @@ var dataSet = {
                 orbit: "−602.48 days",
                 surfaceArea: "50.27 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatHermippe.png",
             },
 	    "S/2017 J 18": {
                 moons: "N/A",
@@ -335,7 +335,7 @@ var dataSet = {
                 orbit: "−602.77 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2017J18.png",
             },
 	    Euanthe: {
                 moons: "N/A",
@@ -344,7 +344,7 @@ var dataSet = {
                 orbit: "−602.81 days",
                 surfaceArea: "28.27 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatEuanthe.png",
             },
 	    Thyone: {
                 moons: "N/A",
@@ -353,7 +353,7 @@ var dataSet = {
                 orbit: "−603.58 days",
                 surfaceArea: "50.27 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatThyone.png",
             },
 	    "S/2016 J 1": {
                 moons: "N/A",
@@ -362,7 +362,7 @@ var dataSet = {
                 orbit: "−603.81 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2016J1.png",
             },
 	    Mneme: {
                 moons: "N/A",
@@ -371,7 +371,7 @@ var dataSet = {
                 orbit: "−603.95 days",
                 surfaceArea: "12.57 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatMneme.png",
             },
 	    "S/2017 J 3": {
                 moons: "N/A",
@@ -380,7 +380,7 @@ var dataSet = {
                 orbit: "−605.76 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2017J3.png",
             },
 	    Iocaste: {
                 moons: "N/A",
@@ -389,7 +389,7 @@ var dataSet = {
                 orbit: "−605.96 days",
                 surfaceArea: "84.95 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatIocaste.png",
             },
 	    Praxidike: {
                 moons: "N/A",
@@ -398,7 +398,7 @@ var dataSet = {
                 orbit: "−609.25 days",
                 surfaceArea: "145.27 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatPraxidike.png",
             },
 	    Anake: {
                 moons: "N/A",
@@ -407,7 +407,7 @@ var dataSet = {
                 orbit: "−610.22 days",
                 surfaceArea: "2,463.01 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatAnake.png",
             },
 	    "S/2003 J 16": {
                 moons: "N/A",
@@ -416,7 +416,7 @@ var dataSet = {
                 orbit: "−610.36 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2003J16.png",
             },
 	    Thelxinoe: {
                 moons: "N/A",
@@ -425,7 +425,7 @@ var dataSet = {
                 orbit: "−621.90 days",
                 surfaceArea: "12.57 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatThelxinoe.png",
             },
 	    Orthosie: {
                 moons: "N/A",
@@ -434,7 +434,7 @@ var dataSet = {
                 orbit: "−625.07 days",
                 surfaceArea: "12.57 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatOrthosie.png",
             },
 	    Helike: {
                 moons: "N/A",
@@ -443,7 +443,7 @@ var dataSet = {
                 orbit: "−626.33 days",
                 surfaceArea: "50.27 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatHelike.png",
             },
 	    Eupheme: {
                 moons: "N/A",
@@ -452,7 +452,7 @@ var dataSet = {
                 orbit: "−628.06 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatEupheme.png",
             },
 	    "S/2010 J 2": {
                 moons: "N/A",
@@ -461,7 +461,7 @@ var dataSet = {
                 orbit: "−630.39 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2010J2.png",
             },
 	    "S/2017 J 9": {
                 moons: "N/A",
@@ -470,7 +470,7 @@ var dataSet = {
                 orbit: "−640.90 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2017J9.png",
             },
 	    "S/2017 J 6": {
                 moons: "N/A",
@@ -479,9 +479,8 @@ var dataSet = {
                 orbit: "−684.66 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2017J6.png",
             },
-
         "S/2011 J 1": {
                 moons: "N/A",
                 diameter: "2 km",
@@ -489,7 +488,7 @@ var dataSet = {
                 orbit: "−684.98 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2011J1.png",
             },
 	    Kale: {
                 moons: "N/A",
@@ -498,7 +497,7 @@ var dataSet = {
                 orbit: "−685.07 days",
                 surfaceArea: "12.57 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatKale.png",
             },
 	    Chaldene: {
                 moons: "N/A",
@@ -507,7 +506,7 @@ var dataSet = {
                 orbit: "−691.25 days",
                 surfaceArea: "45.36 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatChaldene.png",
             },
 	    Taygete: {
                 moons: "N/A",
@@ -516,7 +515,7 @@ var dataSet = {
                 orbit: "−691.62 days",
                 surfaceArea: "78.54 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatTaygete.png",
             },
 	    Herse: {
                 moons: "N/A",
@@ -525,7 +524,7 @@ var dataSet = {
                 orbit: "−692.16 days",
                 surfaceArea: "12.57 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatHerse.png",
             },
 	    Kallichore: {
                 moons: "N/A",
@@ -534,7 +533,7 @@ var dataSet = {
                 orbit: "−695.01 days",
                 surfaceArea: "12.57 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatKallichore.png",
             },
 	    Kalyke: {
                 moons: "N/A",
@@ -543,7 +542,7 @@ var dataSet = {
                 orbit: "−697.41 days",
                 surfaceArea: "84.95 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatKalyke.png",
             },
 	    "S/2003 J 19": {
                 moons: "N/A",
@@ -552,7 +551,7 @@ var dataSet = {
                 orbit: "−698.56 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2003J19.png",
             },
 	    Pasithee: {
                 moons: "N/A",
@@ -561,7 +560,7 @@ var dataSet = {
                 orbit: "−699.28 days",
                 surfaceArea: "12.57 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatPasithee.png",
             },
 	    "S/2003 J 10": {
                 moons: "N/A",
@@ -570,7 +569,7 @@ var dataSet = {
                 orbit: "−700.13 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2003J10.png",
             },
 	    "S/2003 J 23": {
                 moons: "N/A",
@@ -579,7 +578,7 @@ var dataSet = {
                 orbit: "−700.54 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2003J23.png",
             },
 	    Philophrosyne: {
                 moons: "N/A",
@@ -588,7 +587,7 @@ var dataSet = {
                 orbit: "−701.42 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatPhilophrosyne.png",
             },
 	    Cyllene: {
                 moons: "N/A",
@@ -597,7 +596,7 @@ var dataSet = {
                 orbit: "−703.93 days",
                 surfaceArea: "12.57 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatCyllene.png",
             },
 	    "S/2010 J 1": {
                 moons: "N/A",
@@ -606,7 +605,7 @@ var dataSet = {
                 orbit: "−707.61 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2010J1.png",
             },
 	    Autonoe: {
                 moons: "N/A",
@@ -615,7 +614,7 @@ var dataSet = {
                 orbit: "−711.10 days",
                 surfaceArea: "50.27 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatAutonoe.png",
             },
 	    Megaclite: {
                 moons: "N/A",
@@ -624,7 +623,7 @@ var dataSet = {
                 orbit: "−717.14 days",
                 surfaceArea: "591.61 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatMegaclite.png",
             },
 	    Eurydome: {
                 moons: "N/A",
@@ -633,7 +632,7 @@ var dataSet = {
                 orbit: "−719.53 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatEurydome.png",
             },
 	    "S/2017 J 5": {
                 moons: "N/A",
@@ -642,7 +641,7 @@ var dataSet = {
                 orbit: "−720.49 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2017J5.png",
             },
 	    "S/2017 J 8": {
                 moons: "N/A",
@@ -651,7 +650,7 @@ var dataSet = {
                 orbit: "−720.73 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2017J8.png",
             },
 	    Pasiphae: {
                 moons: "N/A",
@@ -660,7 +659,7 @@ var dataSet = {
                 orbit: "−722.34 days",
                 surfaceArea: "11,309.73 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatPasiphae.png",
             },
 	    Callirrhoe: {
                 moons: "N/A",
@@ -669,7 +668,7 @@ var dataSet = {
                 orbit: "−722.53 days",
                 surfaceArea: "232.35 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatCallirrhoe.png",
             },
 	    "S/2011 J 2": {
                 moons: "N/A",
@@ -678,7 +677,7 @@ var dataSet = {
                 orbit: "−722.55 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2011J2.png",
             },
 	    "S/2017 J 2": {
                 moons: "N/A",
@@ -687,7 +686,7 @@ var dataSet = {
                 orbit: "−723.83 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2017J2.png",
             },
 	    Isonoe: {
                 moons: "N/A",
@@ -696,7 +695,7 @@ var dataSet = {
                 orbit: "−727.65 days",
                 surfaceArea: "45.36 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatIsonoe.png",
             },
 	    Aitne: {
                 moons: "N/A",
@@ -705,7 +704,7 @@ var dataSet = {
                 orbit: "−727.95 days",
                 surfaceArea: "28.27 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatAltne.png",
             },
 	    Hegemone: {
                 moons: "N/A",
@@ -714,7 +713,7 @@ var dataSet = {
                 orbit: "−733.24 days",
                 surfaceArea: "28.27 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatHegemone.png",
             },
 	    Sponde: {
                 moons: "N/A",
@@ -723,7 +722,7 @@ var dataSet = {
                 orbit: "−734.89 days",
                 surfaceArea: "12.57 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatSponde.png",
             },
 	    Eukelade: {
                 moons: "N/A",
@@ -732,7 +731,7 @@ var dataSet = {
                 orbit: "−735.03 days",
                 surfaceArea: "50.27 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatEukelade.png",
             },
 	    "S/2003 J 4": {
                 moons: "N/A",
@@ -741,7 +740,7 @@ var dataSet = {
                 orbit: "−739.29 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2003J4.png",
             },
 	    Erinome: {
                 moons: "N/A",
@@ -750,7 +749,7 @@ var dataSet = {
                 orbit: "−739.53 days",
                 surfaceArea: "32.17 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatErinome.png",
             },
 	    Archae: {
                 moons: "N/A",
@@ -759,7 +758,7 @@ var dataSet = {
                 orbit: "−743.00 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatArchae.png",
             },
 	    Eirene: {
                 moons: "N/A",
@@ -768,7 +767,7 @@ var dataSet = {
                 orbit: "−743.88 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatEirene.png",
             },
 	    "S/2003 J 9": {
                 moons: "N/A",
@@ -777,7 +776,7 @@ var dataSet = {
                 orbit: "−752.84 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2003J9.png",
             },
 	    Carme: {
                 moons: "N/A",
@@ -786,7 +785,7 @@ var dataSet = {
                 orbit: "−756.09 days",
                 surfaceArea: "6,647.61 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatCarme.png",
             },
 	    Aoede: {
                 moons: "N/A",
@@ -795,7 +794,7 @@ var dataSet = {
                 orbit: "−760.14 days",
                 surfaceArea: "50.27 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatAoede.png",
             },
 	    Kore: {
                 moons: "N/A",
@@ -804,7 +803,7 @@ var dataSet = {
                 orbit: "−776.02 days",
                 surfaceArea: "12.57 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatKore.png",
             },
 	    Sinope: {
                 moons: "N/A",
@@ -813,7 +812,7 @@ var dataSet = {
                 orbit: "−777.29 days",
                 surfaceArea: "4,536.46 km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatSinope.png",
             },
 	    "S/2017 J 1": {
                 moons: "N/A",
@@ -822,7 +821,7 @@ var dataSet = {
                 orbit: "−780.63 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2017J1.png",
             },
 	    "S/2003 J 2": {
                 moons: "N/A",
@@ -831,10 +830,9 @@ var dataSet = {
                 orbit: "−1077.02 days",
                 surfaceArea: "N/A km^2",
                 distance: "23,463.2 km",
-                img: "moons/flatDeimos.png",
+                img: "moons/flatS2003J2.png",
             },
-            },
-    //saturn moon time    
+        },
         Saturn:{
             "S/2009 S 1":{
                 moons: "N/A",
@@ -1824,7 +1822,7 @@ var dataSet = {
                 orbit: "−2219.95 days",
                 surfaceArea: "unknown",
                 distance: "17543900",
-                img: "moons/flatDeimos.png"
+                img: "moons/flatSetebos.png"
             },
             Ferdinand:{
                 moons:"N/A",
@@ -1833,7 +1831,7 @@ var dataSet = {
                 orbit: "−2795.09 days",
                 surfaceArea: "unknown",
                 distance: "20456300",
-                img: "moons/flatSetebos.png"
+                img: "moons/flatFerdinand.png"
             },
 
             //neptune moon time
@@ -1978,7 +1976,6 @@ var dataSet = {
             }
         },
     },
-    //dwarf planet time
     dwarfPlanets: {
         Pluto: {
             moons: "5",
