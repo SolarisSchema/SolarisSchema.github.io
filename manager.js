@@ -244,7 +244,7 @@ function panelZoom() {
 }
 
 function statPage(body, orbtBody) {
-    if (shown == false && load == false) {
+    if (shown == false) {
         $('.page1').fadeOut(1000);
         $('.page2').fadeOut(1000);
         $('.btn').remove();
@@ -302,7 +302,7 @@ function panelGen(topic, host) {
     var list = 0;
     var listTop = 5;
     var key = '';
-    if (topic == 'planet') {
+    if (topic == 'planet' && shown == false) {
         $('.btn').remove();
         $('.page2').remove();
         list = Object.keys(dataSet.planets);
@@ -319,7 +319,7 @@ function panelGen(topic, host) {
             $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
             console.log(key + '.' + currBody);
         }
-    } else if (topic == 'moon') {
+    } else if (topic == 'moon' && shown == false) {
         $('.btn').remove();
         $('.page2').remove();
         list = Object.keys(dataSet.moons);
@@ -334,7 +334,7 @@ function panelGen(topic, host) {
             $('<p class="page2 dropText" id="' + list[i] + '" onclick="panelGen(\'moon2\', \'' + currBody + '\')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
             $(".dropText").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
         }
-    } else if (topic == "moon2") {
+    } else if (topic == "moon2" && shown == false) {
         $('.btn').remove();
         $('.page2').remove();
         list = (Object.keys(dataSet.moons[host])).sort();
@@ -350,7 +350,7 @@ function panelGen(topic, host) {
             $(".dropText").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
             //console.log(key + '.' + currBody);
         }
-    } else if (topic == 'dwarfPlanets') {
+    } else if (topic == 'dwarfPlanets' && shown == false) {
         $('.btn').remove();
         $('.page2').remove();
         list = Object.keys(dataSet.dwarfPlanets);
@@ -367,7 +367,7 @@ function panelGen(topic, host) {
             $(".dropText").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
             console.log(key + '[\'' + currBody + '\']');
         }
-    } else if (topic == 'source') {
+    } else if (topic == 'source' && shown == false) {
         console.log("clicked");
         $('<div class="source" id="dropDown2" style="display:none;"></div>').appendTo("body").fadeIn(500);
         $('<a class="source dropText" id="kepLink" href="https://www.astronomynotes.com/history/s7.htm"><b>Kepler\'s laws</b></a>').appendTo('#dropDown2');
