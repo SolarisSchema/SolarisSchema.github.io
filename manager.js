@@ -256,7 +256,7 @@ function statPage(body, orbtBody, label) {
     }
     $('<div class="btn3" id="infoSub" onclick="panelGen(\'info\')"></div>').appendTo('body');
     $('<p class="btn3 btnTxt" id="infoText"><b>&gt INFO &lt</b></p>').appendTo('#infoSub');
-    var label = label;
+    var label = label.toString();
     var Moons = body.moons;
     var Dia = body.diameter;
     var Mass = body.mass;
