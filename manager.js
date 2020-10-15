@@ -256,8 +256,9 @@ function statPage(body, orbtBody) {
     }
     $('<div class="btn3" id="infoSub" onclick="panelGen(\'info\')"></div>').appendTo('body');
     $('<p class="btn3 btnTxt" id="infoText"><b>&gt INFO &lt</b></p>').appendTo('#infoSub');
-    var splt = body.lastIndexOf(".", (body.length - 1));
-    var label = body.substr((splt + 1), (body.length));
+    var labelStart = body.toString();
+    var splt = labelStart.lastIndexOf(".", (labelStart.length - 1));
+    var label = labelStart.substr((splt + 1), (labelStart.length));
     var labelFull = label.toUpperCase();
     var Moons = body.moons;
     var Dia = body.diameter;
