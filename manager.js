@@ -256,7 +256,7 @@ function statPage(body, orbtBody, label) {
     }
     $('<div class="btn3" id="infoSub" onclick="panelGen(\'info\')"></div>').appendTo('body');
     $('<p class="btn3 btnTxt" id="infoText"><b>&gt INFO &lt</b></p>').appendTo('#infoSub');
-    var label = label.toString();
+    var label = label.toUpperCase();
     var Moons = body.moons;
     var Dia = body.diameter;
     var Mass = body.mass;
@@ -335,9 +335,10 @@ function panelGen(topic, host) {
             var currBody = list[i];
             var currHost = "'SUN'"
             listTop += 7 * i;
+            console.log(list[i]);
             //console.log("'" + currBody + ", " + list[i] + "'");
 
-            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ', ' + currHost + ', ' + list[i] + ')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ', ' + currHost + ', \'' + list[i] + '\')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
             $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
             console.log(key + '.' + currBody);
         }
@@ -368,7 +369,7 @@ function panelGen(topic, host) {
             var currHost = "'" + host.toUpperCase() + "'";
             listTop += 7 * i;
             //console.log("'" + currBody + ", " + list[i] + "'");
-            $('<p class="page2 dropText" id="' + host + i + '" onclick="statPage(' + key + '[\'' + currBody + '\'] , ' + currHost + ', ' + list[i] + ')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + currBody + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $('<p class="page2 dropText" id="' + host + i + '" onclick="statPage(' + key + '[\'' + currBody + '\'] , ' + currHost + ', \'' + list[i] + '\')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + currBody + '</b></p>').appendTo("#dropDown").fadeIn(750);
             $(".dropText").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
             //console.log(key + '.' + currBody);
         }
@@ -385,7 +386,7 @@ function panelGen(topic, host) {
             listTop += 7 * i;
             //console.log("'" + currBody + ", " + list[i] + "'");
 
-            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '[\'' + currBody + '\'], ' + currHost + ', ' + list[i] + ')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '[\'' + currBody + '\'], ' + currHost + ', \'' + list[i] + '\')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
             $(".dropText").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
             console.log(key + '[\'' + currBody + '\']');
         }
