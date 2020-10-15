@@ -361,6 +361,7 @@ body {
     width: 30%;
     right: 0px;
     top: 0px;
+    text-align: center;
     border-radius: 25px;
     border-style: outset;
     border-color: rgb(237, 229, 187);
