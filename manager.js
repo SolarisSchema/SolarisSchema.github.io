@@ -278,8 +278,7 @@ function statPage(body, orbtBody, label) {
             $('<img class="statPage" src="images/' + Img + '" type="image/png" onError="this.onerror=null;this.src=\'images/notAvail.png\';" id="bodyImage" style="left:15%; height:80%; top:10%">').appendTo("body").fadeIn(1000);
         }
         $('<div class="statPage" id="statsDiv"></div>').appendTo("body").fadeIn(1000);
-        $('<div class="statPage" id="labelDiv"></div>').appendTo("#statsDiv").fadeIn(1000);
-        $('<p class="statPage label" id="labelTxt"><b>' + label + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<p class="statPage dropText" id="labelTxt"><b>' + label + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="inputStats1"><b>' + Moons + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="inputStats2"><b>' + Dia + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="inputStats3"><b>' + Mass + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
