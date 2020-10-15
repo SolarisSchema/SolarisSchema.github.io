@@ -256,10 +256,9 @@ function statPage(body, orbtBody) {
     }
     $('<div class="btn3" id="infoSub" onclick="panelGen(\'info\')"></div>').appendTo('body');
     $('<p class="btn3 btnTxt" id="infoText"><b>&gt INFO &lt</b></p>').appendTo('#infoSub');
-    var label = function () { 
-        var splt = body.lastIndexOf(".", (body.length - 1));
-        return body.substr((splt + 1), (body.length));
-    };
+    var splt = body.lastIndexOf(".", (body.length - 1));
+    var label = body.substr((splt + 1), (body.length));
+    var labelFull = label.toUpperCase();
     var Moons = body.moons;
     var Dia = body.diameter;
     var Mass = body.mass;
@@ -281,7 +280,7 @@ function statPage(body, orbtBody) {
             $('<img class="statPage" src="images/' + Img + '" type="image/png" onError="this.onerror=null;this.src=\'images/notAvail.png\';" id="bodyImage" style="left:15%; height:80%; top:10%">').appendTo("body").fadeIn(1000);
         }
         $('<div class="statPage" id="statsDiv"></div>').appendTo("body").fadeIn(1000);
-        $('<p class="statPage" id="labelTxt"><b>' + label.toUpperCase() + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<p class="statPage" id="labelTxt"><b>' + label + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="inputStats1"><b>' + Moons + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="inputStats2"><b>' + Dia + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="inputStats3"><b>' + Mass + '</b></p>').appendTo("#statsDiv").fadeIn(1000);
