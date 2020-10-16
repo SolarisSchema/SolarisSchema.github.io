@@ -31,6 +31,7 @@ var dataSet = {
             surfaceArea: "4.6023 × 10^8 km^2",
             distance: "0.723332 AU",
             img: "planets/flatVenus.png",
+            Facts: ["AAAAAA","The posion type planet."]
         },
         Earth: {
             moons: "1",

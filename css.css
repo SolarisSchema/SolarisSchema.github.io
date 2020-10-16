@@ -583,6 +583,20 @@ a:hover {
     height: 7%;
     z-index: 10;
 }
+
+#factSub {
+    background-color: rgb(237, 229, 187);
+    border-radius: 25px;
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    top: 50%;
+    left: 10%;
+    width: 60%;
+    height: 7%;
+    z-index: 10;
+}
+
 #infoSub {
     background-color: rgb(237, 229, 187);
     border-radius: 25px;
@@ -608,11 +622,14 @@ a:hover {
     background-color: rgb(147, 207, 225);
 }
 
+#factSub:hover {
+    background-color: rgb(147, 207, 225);
+}
+
 .btnTxt {
     color: rgb(0, 0, 0);
     top: 0%;
 }
-
 #closeSub.btnTxt {
     color: rgb(0, 0, 0);
     position: absolute;
@@ -622,7 +639,6 @@ a:hover {
     top: 0%;
     z-index: 5;
 }
-
 #sourceSub.btnTxt {
     color: rgb(0, 0, 0);
     position: absolute;
@@ -632,7 +648,6 @@ a:hover {
     top: 0%;
     z-index: 5;
 }
-
 #infoSub.btnTxt {
     color: rgb(0, 0, 0);
     position: absolute;
@@ -642,4 +657,10 @@ a:hover {
     top: 0%;
     z-index: 5;
 }
-
+#currFact {
+    color: rgb(237, 229, 187);
+    position: absolute;
+    font-family: 'Dosis', sans-serif;
+    padding: 10%;
+    top: 50%;
+}

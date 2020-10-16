@@ -2,6 +2,7 @@ var panelT = 0;
 var shown = false;
 var load = false;
 var loadFact = false
+var totalFacts = "";
 var Met = 0;
     var Mer = 75;
 var Vt = 0;
@@ -244,7 +245,7 @@ function panelZoom() {
     );
 }
 
-function statPage(body, orbtBody, label) {
+function statPage(body, orbtBody, label, pass) {
     if (shown == false) {
         $('.page1').fadeOut(1000);
         $('.page2').fadeOut(1000);
@@ -254,7 +255,7 @@ function statPage(body, orbtBody, label) {
     } else {
         return;
     }
-    $('<div class="btn3" id="infoSub" onclick="panelGen(\'info\')"></div>').appendTo('body');
+    $('<div class="btn3" id="infoSub" onclick="panelGen(\'info\')" style="user-select:none;"></div>').appendTo('body');
     $('<p class="btn3 btnTxt" id="infoText"><b>&gt INFO &lt</b></p>').appendTo('#infoSub');
     var label = label.toUpperCase();
     var Moons = body.moons;
@@ -267,7 +268,8 @@ function statPage(body, orbtBody, label) {
     var Hrings = body.Hrings;
     var distFrom = orbtBody;
     var hstSpltChk = "";
-    var funFact = body.FunFact;
+    totalFacts = body.Facts
+    console.log(totalFacts);
     //debug check
     console.log(body + ", " + orbtBody);
     //console.log(Moons + ", " + Dia + ", " + Mass + ", " + Orbit + ", " + SArea + ", " + Dist);
@@ -291,9 +293,20 @@ function statPage(body, orbtBody, label) {
         $('<p class="statPage" id="labelText3"><b>MASS:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="labelText4"><b>ORBITAL PERIOD:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="labelText5"><b>SURFACE AREA:</b></p>').appendTo("#statsDiv").fadeIn(1000);
+        $('<div class="btn4" id="factSub"></div>').appendTo('#statsDiv');
+        $('<p class="btn4 btnTxt" id="factText" style="user-select:none;"><b>&gt FUN FACT &lt</b></p>').appendTo('#factSub');
         $('.btn3').fadeIn(1000);
-        //$('<div class="btn4" id="factSub" onclick="addFact(' + funFact + ')"></div>').appendTo('body');
-        //$('<p class="btn4 btnTxt" id="factText"><b>&gt GENERATE A FACT &lt</b></p>').appendTo('#factSub');
+        $('.btn4').fadeIn(1000);
+        $('#factSub').click(function () { 
+            $("#currFact").remove();
+            if (totalFacts == null) {
+                var currFact = "No facts found, but we're still on the hunt!"
+            } else {
+                var currFact = totalFacts[Math.floor(Math.random() * totalFacts.length)];
+                console.log(currFact);
+            }
+            $('<p id="currFact"><b>' + currFact + '</b></p>').appendTo('#statsDiv').fadeIn(1000);
+        });
         if (distFrom.indexOf(' ') >= 0) {
             console.log("true")
             hstSpltChk = orbtBody.split(" ");
@@ -305,20 +318,6 @@ function statPage(body, orbtBody, label) {
         $('<div class="statPage" id="textShift"></div>').prependTo("#statsDiv").fadeIn(1000);
     }, 1500);
 }
-
-//function addFact(list) {
-    //console.log(list)
-    //if (shown == true) {
-        //if (loadFact == true) {
-            //$('#fact').remove()
-            //loadFact = false;
-        //} 
-        //var currFact = list[Math.floor(Math.random() * list.length)];
-        //$('<p class="statPage" id="fact" style="color: rgb(237, 229, 187); position: absolute; font-family: 'Dosis', sans-serif; left:10%; top:40%; padding:2%;"><b>' + currFact + '</b></p>').appendTo('#statsDiv').fadeIn(1000);
-    //} else {
-        //return;
-    //}
-//}
 
 function panelGen(topic, host) {
     console.log(topic, host);
@@ -339,7 +338,7 @@ function panelGen(topic, host) {
             console.log(list[i]);
             //console.log("'" + currBody + ", " + list[i] + "'");
 
-            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ', ' + currHost + ', \'' + list[i] + '\')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
+            $('<p class="page2 dropText" id="' + list[i] + '" onclick="statPage(' + key + '.' + currBody + ', ' + currHost + ', \'' + list[i] + '\', \'' + key + '.' + currBody + '\')" style="z-index:-1; display:none; top:' + listTop + '%"><b>' + list[i] + '</b></p>').appendTo("#dropDown").fadeIn(750);
             $("#" + list[i] + "").hover(function() {$(this).css({color:'rgb(147, 207, 225)'});},function() {$(this).css({color:'rgb(237, 229, 187)'});});
             console.log(key + '.' + currBody);
         }
@@ -393,7 +392,7 @@ function panelGen(topic, host) {
         }
     } else if (topic == 'source' && shown == false) {
         //console.log("clicked");
-        $('<div class="source" id="dropDown2" style="display:none;"></div>').appendTo("body").fadeIn(500);
+        $('<div class="source" id="dropDown2" style="display:none; user-select:none;"></div>').appendTo("body").fadeIn(500);
         $('<a class="source dropText" id="kepLink" href="https://www.astronomynotes.com/history/s7.htm"><b>Kepler\'s Laws</b></a>').appendTo('#dropDown2');
         $('<a class="source dropText" id="imgLink" href="https://www.nasa.gov/multimedia/imagegallery/index.html"></br><b>NASA Image Bank</b></a>').appendTo('#dropDown2');
         $('<a class="source dropText" id="dataLink1" href="https://www.google.com/books/edition/Fundamentals_of_Astrodynamics/UtJK8cetqGkC?hl=en&gbpv=0"></br><b>Main Planets Data</b></a>').appendTo('#dropDown2');
@@ -401,7 +400,7 @@ function panelGen(topic, host) {
         $('#dropDown2').hover(function () {}, function () { $('.source').fadeOut(500); setTimeout(function () { $('.source').remove(); }, 600) });
     } else if (topic == 'info' && shown == true) {
         //console.log("clicked");
-        $('<div class="info" id="dropDown2" style="display:none; height:50%; width:20%; line-Height:2;"></div>').appendTo("body").fadeIn(500);
+        $('<div class="info" id="dropDown2" style="user-select:none; display:none; height:50%; width:20%; line-Height:2;"></div>').appendTo("body").fadeIn(500);
         $('<a class="info dropText" id="infoTxt1"><b>Distance is equivalent to the semi-major axis of an orbit.</b></a>').appendTo('#dropDown2');
         $('<a class="info dropText" id="infoTxt2"></br><b>1 AU = 149,598,023 km</b></a>').appendTo('#dropDown2');
         $('<a class="info dropText" id="infoTxt3"></br><b>1 AU is also the semi-major axis of the Earth\'s orbit.</b></a>').appendTo('#dropDown2');
@@ -425,7 +424,8 @@ function panelDel() {
 
 //call function once page is ready
 $(document).ready(function() {
-    $('<div class="btn2" id="sourceSub" onclick="panelGen(\'source\')"></div>').appendTo('body').fadeIn(1000);
+    $('<div class="btn2" id="sourceSub" onclick="panelGen(\'source\')" style="user-select:none;"></div>').appendTo('body').fadeIn(1000);
     $('<p class="btn2 btnTxt" id="sourceText"><b>&gt SOURCES &lt</b></p>').appendTo('#sourceSub').fadeIn(1000);
+    console.log(dataSet.planets.Venus.Facts);
     page1Start();
 });
