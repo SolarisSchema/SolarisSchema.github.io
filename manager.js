@@ -245,6 +245,25 @@ function panelZoom() {
     );
 }
 
+function credits() {
+    if (shown == false) {
+        $('.page1').fadeOut(1000);
+        $('.page2').fadeOut(1000);
+        $('.btn').remove();
+        $('.btn2').remove();
+        shown = true;
+    } else {
+        return;
+    }
+    $('<div class="credits" id="avatarSlot1" style="top:5%; left:5%; height:150px; width:90%; border-color:rgb(237, 229, 187); border-style:double; border-width:1%;"></div>').appendTo("body").fadeIn(1000);
+    $('<img src="images/avatars/TR.png" type="image/png" class="credits" id="TAvatar" style="display:none; height:150px; width:150px; border-color:rgb(237, 229, 187); border-style:dotted; border-width:1%;">').appendTo("#avatarSlot1").fadeIn(1000);
+    $('<div class="credits" id="avatarSlot2" style="top:40%; left:5%; height:150px; width:90%; border-color:rgb(237, 229, 187); border-style:double; border-width:1%;"></div>').appendTo("body").fadeIn(1000);
+    $('<img src="images/avatars/SW.png" type="image/png" class="credits" id="SAvatar" style="display:none; top:35%; left:5%; height:150px; width:150px; border-color:rgb(237, 229, 187); border-style:dotted; border-width:1%;">').appendTo("#avatarSlot2").fadeIn(1000);
+    $('<div class="credits" id="avatarSlot3" style="top:40%; left:5%; height:150px; width:90%; border-color:rgb(237, 229, 187); border-style:double; border-width:1%;"></div>').appendTo("body").fadeIn(1000);
+    $('<img src="images/avatars/RM.png" type="image/png" class="credits" id="RAvatar" style="display:none; top:65%; left:5%; height:150px; width:150px; border-color:rgb(237, 229, 187); border-style:dotted; border-width:1%;">').appendTo("#avatarSlot3").fadeIn(1000);
+    $().appendTo("body").fadeIn(1000);
+}
+
 function statPage(body, orbtBody, label, pass) {
     if (shown == false) {
         $('.page1').fadeOut(1000);
