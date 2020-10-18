@@ -41,6 +41,7 @@ var dataSet = {
             surfaceArea: "510072000 km^2",
             distance: "1 AU",
             img: "planets/flatEarth.png",
+            Facts: ["The Earth’s rotation is gradually slowing.", "Earth is the only planet not named after a god.", "The Earth is the densest planet in the Solar System.", "Earth has 2 co-orbital asteroids that are incredibly distant.", "Each winter there are about 1 septillion snow crystals that drop from the sky.", "The water/grass planet."]
         },
         Mars: {
             moons: "2",
