@@ -256,12 +256,15 @@ function credits() {
         return;
     }
     $('<div class="credits" id="avatarSlot1" style="top:5%; left:5%; height:150px; width:90%; border-color:rgb(237, 229, 187); border-style:double; border-width:1%;"></div>').appendTo("body").fadeIn(1000);
-    $('<img src="images/avatars/TR.png" type="image/png" class="credits" id="TAvatar" style="display:none; height:150px; width:150px; border-color:rgb(237, 229, 187); border-style:dotted; border-width:1%;">').appendTo("#avatarSlot1").fadeIn(1000);
+    $('<img src="images/avatars/TR.png" type="image/png" class="credits" id="TAvatar" style="display:none; height:144px; width:144px; border-color:rgb(237, 229, 187); border-style:dotted; border-width:1%;">').appendTo("#avatarSlot1").fadeIn(1000);
+    $('<p class="credits" id="Ttext" style="display:none; font-size:150%; font-family:\'Dosis\',sans-serif; color:rgb(237, 229, 187); position:absolute; left:200px; top:5px;"><b>Tony Rito</b></br> Studied Astrodynamics at Rice U. - Certified in basic JS. </br> Website contributions: Artwork / Photo editing - Complex JavaScript - Creative input</p>').appendTo("#avatarSlot1").fadeIn(1000);
     $('<div class="credits" id="avatarSlot2" style="top:40%; left:5%; height:150px; width:90%; border-color:rgb(237, 229, 187); border-style:double; border-width:1%;"></div>').appendTo("body").fadeIn(1000);
-    $('<img src="images/avatars/SW.png" type="image/png" class="credits" id="SAvatar" style="display:none; top:35%; left:5%; height:150px; width:150px; border-color:rgb(237, 229, 187); border-style:dotted; border-width:1%;">').appendTo("#avatarSlot2").fadeIn(1000);
+    $('<img src="images/avatars/SW.png" type="image/png" class="credits" id="SAvatar" style="display:none; top:35%; left:5%; height:144px; width:144px; border-color:rgb(237, 229, 187); border-style:dotted; border-width:1%;">').appendTo("#avatarSlot2").fadeIn(1000);
+    $('<p class="credits" id="Stext" style="display:none; font-size:150%; color:rgb(237, 229, 187); font-family:\'Dosis\',sans-serif; position:absolute; left:200px; top:159px;"><b>Sheen Wood</b></br> Created a VR world viewer for those who can\'t leave home. </br> Website contributions: CSS cleaning - Mass data inputting - Creative input </p>').appendTo("#avatarSlot2").fadeIn(1000);
     $('<div class="credits" id="avatarSlot3" style="top:40%; left:5%; height:150px; width:90%; border-color:rgb(237, 229, 187); border-style:double; border-width:1%;"></div>').appendTo("body").fadeIn(1000);
-    $('<img src="images/avatars/RM.png" type="image/png" class="credits" id="RAvatar" style="display:none; top:65%; left:5%; height:150px; width:150px; border-color:rgb(237, 229, 187); border-style:dotted; border-width:1%;">').appendTo("#avatarSlot3").fadeIn(1000);
-    $().appendTo("body").fadeIn(1000);
+    $('<img src="images/avatars/RM.png" type="image/png" class="credits" id="RAvatar" style="display:none; top:65%; left:5%; height:144px; width:144px; border-color:rgb(237, 229, 187); border-style:dotted; border-width:1%;">').appendTo("#avatarSlot3").fadeIn(1000);
+    $('<p class="credits" id="Stext" style="display:none; font-size:150%; color:rgb(237, 229, 187); font-family:\'Dosis\',sans-serif; position:absolute; left:200px; top:313px;"><b>Ryan Mulkey</b></br> Rising Programmer </br> Website contributions: Mass data input - Data gathering - Video editing - Creative input </p>').appendTo("#avatarSlot2").fadeIn(1000);
+    //$().appendTo("body").fadeIn(1000);
 }
 
 function statPage(body, orbtBody, label, pass) {
@@ -313,7 +316,7 @@ function statPage(body, orbtBody, label, pass) {
         $('<p class="statPage" id="labelText4"><b>ORBITAL PERIOD:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<p class="statPage" id="labelText5"><b>SURFACE AREA:</b></p>').appendTo("#statsDiv").fadeIn(1000);
         $('<div class="btn4" id="factSub"></div>').appendTo('#statsDiv');
-        $('<p class="btn4 btnTxt" id="factText" style="user-select:none;"><b>&gt FUN FACT &lt</b></p>').appendTo('#factSub');
+        $('<p class="btn4 btnTxt" id="factText" style="user-select:none; bottom:0%;"><b>&gt FUN FACT &lt</b></p>').appendTo('#factSub');
         $('.btn3').fadeIn(1000);
         $('.btn4').fadeIn(1000);
         $('#factSub').click(function () { 
@@ -416,6 +419,7 @@ function panelGen(topic, host) {
         $('<a class="source dropText" id="imgLink" href="https://www.nasa.gov/multimedia/imagegallery/index.html"></br><b>NASA Image Bank</b></a>').appendTo('#dropDown2');
         $('<a class="source dropText" id="dataLink1" href="https://www.google.com/books/edition/Fundamentals_of_Astrodynamics/UtJK8cetqGkC?hl=en&gbpv=0"></br><b>Main Planets Data</b></a>').appendTo('#dropDown2');
         $('<a class="source dropText" id="dataLink2" href="https://solarsystem.nasa.gov/"></br><b>Additional Data</b></a>').appendTo('#dropDown2');
+        $('<a class="source dropText" id="dataLink2" onclick="credits()"></br><b>About Us</b></a>').appendTo('#dropDown2');
         $('#dropDown2').hover(function () {}, function () { $('.source').fadeOut(500); setTimeout(function () { $('.source').remove(); }, 600) });
     } else if (topic == 'info' && shown == true) {
         //console.log("clicked");
