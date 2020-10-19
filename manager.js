@@ -251,7 +251,7 @@ function credits() {
         $('.page2').fadeOut(1000);
         $('.btn').remove();
         $('.btn2').remove();
-        $('.#startingPanels').fadeOut(1000);
+        $('#startingPanels').fadeOut(1000);
         shown = true;
     } else {
         return;
