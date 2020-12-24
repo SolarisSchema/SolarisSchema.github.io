@@ -14,3 +14,5 @@ So please, feel free to leave comments on the repository, I'm sure my peers agre
 That's pretty much it
 I don't know, I think that's alright
 Thank you for visiting, and I hope you appreciate our work :)
+
+https://solarisschema.github.io
